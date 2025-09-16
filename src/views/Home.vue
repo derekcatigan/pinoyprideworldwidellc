@@ -255,10 +255,33 @@ const newsList = [
     </section>
 
     <!-- News Section -->
-    <section class="py-10 bg-gray-100">
-        <div class="max-w-7xl mx-auto px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <NewsCard v-for="(news, index) in newsList" :key="index" :title="news.title" :date="news.date"
-                :description="news.description" :link="news.link" :image="news.image" v-fade-slide-up="index * 100" />
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-5">
+            <!-- Section Heading -->
+            <div class="text-center mb-10">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800">
+                    Latest News
+                </h2>
+                <p class="mt-2 text-gray-600 sm:text-lg">
+                    Stay updated with the latest from <span class="font-semibold text-red-700">Pinoy Pride
+                        Worldwide</span>
+                </p>
+            </div>
+
+            <!-- News Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <NewsCard v-for="(news, index) in newsList" :key="index" :title="news.title" :date="news.date"
+                    :description="news.description" :link="news.link" :image="news.image"
+                    v-fade-slide-up="index * 100" />
+            </div>
+
+            <!-- More News Link -->
+            <div class="mt-10 text-center">
+                <a href="#"
+                    class="inline-block px-6 py-2 bg-red-700 text-white font-medium rounded-lg shadow hover:bg-red-800 transition">
+                    More News
+                </a>
+            </div>
         </div>
     </section>
 
