@@ -67,7 +67,7 @@ const teamMembers = [
     {
         img: TeamPicJean,
         name: "Jean H. Suarez",
-        position: "Jean H. Suarez",
+        position: "IT Consultant and Web Host",
         description:
             `Jean is working as a software engineer for HIPAA-compliant software applications. He received a Master of Science degree in Software Engineering from Maryville University in the United States and a Bachelor of Arts in Anthropology from the University of San Carlos Philippines.
 
