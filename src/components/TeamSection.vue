@@ -1,0 +1,153 @@
+<script setup>
+// Team Images
+import TeamPicEdgar from '@/assets/images/teamPic/TeamPicEdgar.png';
+import TeamPicJimmy from '@/assets/images/teamPic/TeamPicJimmy.png';
+import TeamPicWilson from '@/assets/images/teamPic/TeamPicWilson.png';
+import TeamPicDexter from '@/assets/images/teamPic/TeamPicDexter.png';
+import TeamPicJean from '@/assets/images/teamPic/TeamPicJean.png';
+import TeamPicJoshua from '@/assets/images/teamPic/TeamPicJoshua.png';
+import TeamPicLeonila from '@/assets/images/teamPic/TeamPicLeonila.png';
+
+// Team data array
+const teamMembers = [
+    {
+        img: TeamPicEdgar,
+        name: "Edgar Ocampo",
+        position: "President / CEO / Founder",
+        intro: `Edgar plays a critical role in the organization. He provides vision and directions 
+        for business growth and expansion across the country. He serves as the liaison to the 
+        forwarders, logistics, and shipping partners in the USA, Canada, Europe, and Asian countries, 
+        to establish sound business relationships ensuring smooth accommodation, and safe and timely 
+        door-to-door delivery of balikbayan boxes to families in the Philippines. Aside from having a 
+        Mechanical Engineer license (1982), Edgar is also a visionary and an entrepreneur. 
+        Below is a list of Edgar’s engagements in the past years:`,
+        experiences: [
+            "1984-2000: Owner/Operator of seven (7) Hardware stores. Supplier of hardware, electrical, and bicycle parts of one hardware store in one town or city, in the island of Leyte, and parts of Mindanao.",
+            "1995-1996: President, Association of Business Hardware",
+            "1996-1997: President, Hauler Association",
+            "1996-1998: Distributor of Grant Cement",
+            "2004-2012: Owner/Operator of Janitorial Cleaning business in Washington, USA.",
+            "2016-2019: Former agent of Star Cargo of ABS-CBN, Blue Box Cargo Express, and Cargo Plus.",
+            "2020-present: Operating Pinoy Pride LLC across the country."
+        ]
+    },
+    {
+        img: TeamPicJimmy,
+        name: "Jimmy Locsin",
+        position: "General Manager and VP of Operations",
+        description:
+            `Jimmy has been connecting Filipino families in the homeland and the United State of America through the balikbayan boxes. He considers the balikbayan box as a symbol of affection for his family and friends. He loves to see the excitement in the face of kababayan (countrymen) every time they send balikbayan boxes. Jimmy joins Pinoy Pride LLC as the overall general manager to represent all Pinoy Pride outlets across the United States.
+            
+            He is adept in helping people develop and be productive in their tasks ensuring profitability. He is a thoughtful leader and a confident decision-maker. As a general manager, he is responsible for formulating overall strategy, managing people, and establishing policies.
+
+            He is a former naval officer in the Philippine Navy, AFP, and a member of the Naval Officer’s Qualification Charlie (NOQC) ’83 Class Matyag. He had a biology degree before migrating to the United States in 1995. He worked at Kirshenbaun Bond and Partners for 5 years as Supervisor of the Office Services Department before moving to Mount Sinai Hospital – Brooklyn, New York where he is currently employed. Jimmy loves to see the excitement of every kababayan (countrymen) when they send their balikbayan boxes to their loved ones.
+            `,
+    },
+    {
+        img: TeamPicWilson,
+        name: "Wilson Reyes",
+        position: `Marketing Director 
+        (Mid-Pacific and Middle East Region)`,
+        description:
+            `Wilson O. Cinco graduated with a Bachelor of Science in Accounting. He has 35 years of experience in reputable companies such as Mid-Pacific Solutions, LLC (CEP). He is the founder of Mid-Pacific Solutions, LLC (US Consultancy Firm), and is the founder and president of Friends of Earth Foundation (FOE). He was a Board of Director at the Filipino Association in the Marshall Islands (FAMI) in 2020.
+
+            In the Philippines, Wilson also worked at San Miguel Corporations, Faxcable Phiippines, and Asian Institute of Management International. His expertise is a win-win for Pinoy Pride Worldwide.
+            `,
+    },
+    {
+        img: TeamPicDexter,
+        name: "Dexter Fulache",
+        position: "Accountant and Consultant",
+        description:
+            `Dexter received his Bachelor’s degree in Accountancy from the University of San Carlos in Cebu City, Philippines, and successfully completed the CPA Licensure Examination.
+
+            Currently based in Canada, Dexter has 15 years of accounting experience in various organizations and industries with an extensive background in corporate accounting, focusing specifically on cost control and value for investment-based decision making and the development of financial knowledge in operation.
+            `,
+    },
+    {
+        img: TeamPicJean,
+        name: "Jean H. Suarez",
+        position: "Jean H. Suarez",
+        description:
+            `Jean is working as a software engineer for HIPAA-compliant software applications. He received a Master of Science degree in Software Engineering from Maryville University in the United States and a Bachelor of Arts in Anthropology from the University of San Carlos Philippines.
+
+            He is currently living in New York City and an active member of various Filipino community groups in New York and Pennsylvania. He used to work as a community development advocate for more than ten years in the Philippines.
+            `,
+    },
+    {
+        img: TeamPicJoshua,
+        name: "Derek Joshua Catigan",
+        position: "Junior Software Developer",
+        description:
+            `
+                A Full-Stack Software Developer focused on building secure, scalable, and user-friendly web applications. He values clean and minimalist design principles, ensuring every project is functional, intuitive, and visually refined.
+
+                Originally from Sogod, Southern Leyte, and now based in Mandaue City, Cebu, he is passionate about continuous learning, developing innovative solutions, and leveraging technology to create meaningful impact.
+            `,
+    },
+    {
+        img: TeamPicLeonila,
+        name: "Leonila Buenafe Dichoso",
+        position: "Customer Service Representative",
+        description:
+            `
+                Graduated Bachelor of Science in Social Work and had been connected at the Local Government Unit for 33 years. Retired as Municipal Social Welfare and Development Officer. Attended various training in the field of socio-economic development. Board of Director of Philippines Red Cross, Hilongos Chapter from 2010 to present. A lifetime member of the International Marketing Group since 2015 up to the present.
+            `,
+    },
+];
+</script>
+
+<template>
+    <div class="max-w-6xl mx-auto px-6">
+        <!-- Title -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+                Our Team
+            </h2>
+            <div class="mt-2 w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+        </div>
+
+
+        <!-- Team Grid -->
+        <div class="space-y-8">
+            <div v-fade-slide-up="100" v-for="(member, index) in teamMembers" :key="index"
+                class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                <div class="flex flex-col sm:flex-row items-stretch">
+                    <!-- Image + Name + Position -->
+                    <div class="sm:w-1/3 w-full flex flex-col items-center text-center p-4">
+                        <img :src="member.img" :alt="member.name" class="w-full object-cover" />
+
+                        <h3 class="text-xl font-semibold text-gray-900">
+                            {{ member.name }}
+                        </h3>
+                        <p class="text-indigo-600 font-medium whitespace-pre-line">
+                            {{ member.position }}
+                        </p>
+                    </div>
+
+                    <!-- Info -->
+                    <div class="sm:w-2/3 w-full p-6 flex flex-col justify-center">
+                        <!-- Paragraph (if exists) -->
+                        <p v-if="member.intro" class="text-gray-600 text-sm leading-relaxed mb-4">
+                            {{ member.intro }}
+                        </p>
+
+                        <!-- Bullet list (if exists) -->
+                        <ul v-if="member.experiences"
+                            class="list-disc pl-5 text-gray-600 text-sm leading-relaxed space-y-2">
+                            <li v-for="(item, i) in member.experiences" :key="i">
+                                {{ item }}
+                            </li>
+                        </ul>
+
+                        <!-- Else fallback if only description is plain text -->
+                        <p v-else-if="member.description"
+                            class="text-gray-600 text-sm leading-relaxed whitespace-pre-line">
+                            {{ member.description }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

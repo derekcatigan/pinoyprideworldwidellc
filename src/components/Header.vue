@@ -4,7 +4,7 @@ import PinoyPrideLogo from "@/assets/logos/PinoyPrideLogo.png";
 
 const navLinks = [
     { to: "/", name: "Home" },
-    { to: "/about-us", name: "About" },
+    { to: "/about-us", name: "About Us" },
     { to: "/news", name: "News" },
     { to: "/track", name: "Track" },
     { to: "/contact", name: "Contact" },
@@ -15,7 +15,7 @@ const route = useRoute();
 </script>
 
 <template>
-    <header class="border-b border-b-gray-300 h-[80px] sticky z-[9999] shadow-md">
+    <header class="border-b border-b-gray-300 h-[80px] sticky top-0 z-[9999] bg-white shadow-md">
         <div class="drawer">
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content">
