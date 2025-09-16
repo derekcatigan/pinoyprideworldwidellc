@@ -65,5 +65,9 @@ onBeforeUnmount(() => {
                 </div>
             </div>
         </div>
+        <div class="flex justify-center mt-6 gap-2">
+            <button v-for="(dot, i) in slides.length" :key="i" @click="currentSlide = i"
+                class="w-3 h-3 rounded-full transition" :class="currentSlide === i ? 'bg-gray-800' : 'bg-gray-400'" />
+        </div>
     </div>
 </template>
