@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
 import HomeImage01 from '@/assets/images/HomeImage01.png';
 
-// Testimonials data
+// Testimonials
 const testimonials = ref([
     { name: "Jane Doe", position: "Entrepreneur", message: "Pinoy Pride Worldwide made shipping so easy and reliable!", avatar: HomeImage01 },
     { name: "John Smith", position: "Teacher", message: "Excellent service and my packages always arrive on time!", avatar: HomeImage01 },
@@ -10,11 +10,19 @@ const testimonials = ref([
     { name: "Mark Wilson", position: "Business Owner", message: "Professional and reliable shipping services.", avatar: HomeImage01 }
 ]);
 
-// Split testimonials into groups of 2 per slide
+// Track window width
+const windowWidth = ref(window.innerWidth);
+
+const updateWidth = () => {
+    windowWidth.value = window.innerWidth;
+};
+
+// Group testimonials (1 per slide on mobile, 2 on md+)
 const slides = computed(() => {
+    const chunkSize = windowWidth.value < 768 ? 1 : 2;
     const result = [];
-    for (let i = 0; i < testimonials.value.length; i += 2) {
-        result.push(testimonials.value.slice(i, i + 2));
+    for (let i = 0; i < testimonials.value.length; i += chunkSize) {
+        result.push(testimonials.value.slice(i, i + chunkSize));
     }
     return result;
 });
@@ -24,12 +32,15 @@ const currentSlide = ref(0);
 let intervalId = null;
 
 onMounted(() => {
+    window.addEventListener("resize", updateWidth);
+
     intervalId = setInterval(() => {
         currentSlide.value = (currentSlide.value + 1) % slides.value.length;
     }, 5000);
 });
 
 onBeforeUnmount(() => {
+    window.removeEventListener("resize", updateWidth);
     clearInterval(intervalId);
 });
 </script>
@@ -41,12 +52,16 @@ onBeforeUnmount(() => {
             <div v-for="(group, index) in slides" :key="index"
                 class="flex-shrink-0 w-full flex justify-center gap-4 px-2">
                 <div v-for="(testimonial, i) in group" :key="i"
-                    class="w-full sm:w-1/2 lg:w-1/3 p-6 bg-white border border-gray-300 rounded-xl shadow-xl hover:shadow-lg transition flex flex-col items-center text-center">
+                    class="w-full max-w-sm sm:max-w-md p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition flex flex-col items-center text-center">
                     <img v-if="testimonial.avatar" :src="testimonial.avatar" alt="Customer photo"
                         class="w-16 h-16 rounded-full mb-4 object-cover" />
-                    <p class="text-gray-700 text-sm sm:text-base italic">"{{ testimonial.message }}"</p>
+                    <p class="text-gray-700 text-sm sm:text-base italic">
+                        "{{ testimonial.message }}"
+                    </p>
                     <p class="font-semibold mt-3">{{ testimonial.name }}</p>
-                    <p v-if="testimonial.position" class="text-gray-500 text-sm">{{ testimonial.position }}</p>
+                    <p v-if="testimonial.position" class="text-gray-500 text-sm">
+                        {{ testimonial.position }}
+                    </p>
                 </div>
             </div>
         </div>
