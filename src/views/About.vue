@@ -18,20 +18,20 @@ import FowarderImage10 from '@/assets/images/FowarderImage10.png';
 import PPWLicensedLogo from '@/assets/logos/PPWLicensedLogo.png';
 import PenshinImage00 from '@/assets/images/PenshinImage00.jpg';
 import PenshinImage01 from '@/assets/images/PenshinImage01.jpg';
-// import PenshinImage02 from '@/assets/images/PenshinImage02.png';
-import PenshinImage03 from '@/assets/images/PenshinImage03.png';
-import PenshinImage04 from '@/assets/images/PenshinImage04.png';
-import PenshinImage05 from '@/assets/images/PenshinImage05.png';
-import PenshinImage06 from '@/assets/images/PenshinImage06.png';
-import PenshinImage07 from '@/assets/images/PenshinImage07.png';
-import PenshinImage08 from '@/assets/images/PenshinImage08.png';
-import PenshinImage09 from '@/assets/images/PenshinImage09.png';
-import PenshinImage10 from '@/assets/images/PenshinImage10.png';
-import PenshinImage11 from '@/assets/images/PenshinImage11.png';
-import PenshinImage12 from '@/assets/images/PenshinImage12.png';
-import PenshinImage13 from '@/assets/images/PenshinImage13.png';
-import PenshinImage14 from '@/assets/images/PenshinImage14.png';
-import PenshinImage15 from '@/assets/images/PenshinImage15.png';
+import PenshinImage02 from '@/assets/images/PenshinImage02.PNG';
+import PenshinImage03 from '@/assets/images/PenshinImage03.PNG';
+import PenshinImage04 from '@/assets/images/PenshinImage04.PNG';
+import PenshinImage05 from '@/assets/images/PenshinImage05.PNG';
+import PenshinImage06 from '@/assets/images/PenshinImage06.PNG';
+import PenshinImage07 from '@/assets/images/PenshinImage07.PNG';
+import PenshinImage08 from '@/assets/images/PenshinImage08.PNG';
+import PenshinImage09 from '@/assets/images/PenshinImage09.PNG';
+import PenshinImage10 from '@/assets/images/PenshinImage10.PNG';
+import PenshinImage11 from '@/assets/images/PenshinImage11.PNG';
+import PenshinImage12 from '@/assets/images/PenshinImage12.PNG';
+import PenshinImage13 from '@/assets/images/PenshinImage13.PNG';
+import PenshinImage14 from '@/assets/images/PenshinImage14.PNG';
+import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
 </script>
 <template>
     <section
@@ -184,6 +184,7 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.png';
             <ImageInfoCard :images="[
                 PenshinImage00,
                 PenshinImage01,
+                PenshinImage02,
                 PenshinImage03,
                 PenshinImage04,
                 PenshinImage05,
