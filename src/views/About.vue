@@ -18,7 +18,7 @@ import FowarderImage10 from '@/assets/images/FowarderImage10.png';
 import PPWLicensedLogo from '@/assets/logos/PPWLicensedLogo.png';
 import PenshinImage00 from '@/assets/images/PenshinImage00.jpg';
 import PenshinImage01 from '@/assets/images/PenshinImage01.jpg';
-import PenshinImage02 from '@/assets/images/PenshinImage02.png';
+// import PenshinImage02 from '@/assets/images/PenshinImage02.png';
 import PenshinImage03 from '@/assets/images/PenshinImage03.png';
 import PenshinImage04 from '@/assets/images/PenshinImage04.png';
 import PenshinImage05 from '@/assets/images/PenshinImage05.png';
@@ -184,7 +184,6 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.png';
             <ImageInfoCard :images="[
                 PenshinImage00,
                 PenshinImage01,
-                PenshinImage02,
                 PenshinImage03,
                 PenshinImage04,
                 PenshinImage05,
