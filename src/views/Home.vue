@@ -152,24 +152,15 @@ const newsList = [
         </div>
     </section>
 
-    <!-- Card Counter -->
-    <section class="py-16 px-10 bg-gray-100">
-        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-12">
-
-            <CounterCard label="Happy Clients" :target="1430" bgColor="bg-red-600" num-color="text-white"
-                label-color="text-white" />
-
-            <CounterCard label="Completed Shipments" :target="1730" bgColor="bg-red-600" num-color="text-white"
-                label-color="text-white" />
-
-            <CounterCard label="Trusted Logistic Branches (Philippines)" :target="59" bgColor="bg-red-600"
-                num-color="text-white" label-color="text-white" />
-
-            <CounterCard label="State Branches" :target="5" bgColor="bg-red-600" num-color="text-white"
-                label-color="text-white" />
-
-            <CounterCard label="Smiles Delivered" :target="1496" bgColor="bg-red-600" num-color="text-white"
-                label-color="text-white" />
+    <!-- Card Counter Section -->
+    <section class="py-16 bg-gray-100">
+        <div
+            class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-12 justify-items-center">
+            <CounterCard label="Happy Clients" :target="1430" />
+            <CounterCard label="Completed Shipments" :target="1730" />
+            <CounterCard label="Trusted Logistic Branches (Philippines)" :target="59" />
+            <CounterCard label="State Branches" :target="5" />
+            <CounterCard label="Smiles Delivered" :target="1496" />
         </div>
     </section>
 

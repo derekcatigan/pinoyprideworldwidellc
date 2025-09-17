@@ -61,18 +61,17 @@ const formatted = computed(() => current.value.toLocaleString());
 </script>
 
 <template>
-    <div ref="el" :class="`w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg 
-            p-6 sm:p-8 shadow-lg rounded-md flex flex-col items-center ${props.bgColor}`">
+    <div ref="el" class="w-full p-6 sm:p-8 border-t-4 rounded-md flex flex-col items-center bg-white shadow-sm"
+        :style="{ borderTopColor: '#cf1026' }">
         <!-- Number -->
         <p :class="`text-2xl sm:text-3xl md:text-4xl font-bold ${props.numColor}`">
             {{ formatted }}
         </p>
 
         <!-- Label + Icon -->
-        <p :class="`mt-2 text-xs sm:text-base md:text-sm font-medium flex items-center gap-2 ${props.labelColor}`">
+        <p :class="`mt-2 text-sm sm:text-base font-medium flex items-center gap-2 ${props.labelColor}`">
             <slot name="icon" />
             {{ label }}
         </p>
     </div>
-
 </template>
