@@ -82,7 +82,11 @@ const teamMembers = [
             `
                 A Full-Stack Software Developer focused on building secure, scalable, and user-friendly web applications. He values clean and minimalist design principles, ensuring every project is functional, intuitive, and visually refined.
 
-                Originally from Sogod, Southern Leyte, and now based in Mandaue City, Cebu, he is passionate about continuous learning, developing innovative solutions, and leveraging technology to create meaningful impact.
+                He earned his Bachelor of Science in Information Technology, major in Programming, from Southern Leyte State University, where he also served as an IT department officer.
+
+                In October 2023, he represented his region as a participant in the Eastern Visayas – Regional Pitching Competition of the Philippine Startup Challenge 8. Collaborating with a team, he helped design and pitch a web-based platform that connects new homeowners with skilled blue-collar workers. The project aimed to improve livelihood opportunities and make home service hiring easier, safer, and more accessible for communities.
+
+                Originally from Sogod, Southern Leyte and now based in Mandaue City, Cebu, he is passionate about continuous learning, developing innovative solutions, and leveraging technology to create meaningful impact.
             `,
     },
     {
