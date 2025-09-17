@@ -88,7 +88,7 @@ const newsList = [
 
                 <p class="text-xs sm:text-sm text-gray-700 italic">
                     "Dahil premira uno ka...
-                    <span class="font-semibold text-blue-800">Cargo mo, Carga namin</span>"
+                    <span class="font-semibold text-blue-800">Kargo mo, Kargo namin</span>"
                 </p>
                 <p class="text-xs sm:text-sm text-gray-600">
                     Know where your box is – anytime, anywhere.
