@@ -1,3 +1,6 @@
+<script setup>
+import ComingSoon from '@/components/ComingSoon.vue';
+</script>
 <template>
-    <h1>News View</h1>
+    <ComingSoon page="News" />
 </template>

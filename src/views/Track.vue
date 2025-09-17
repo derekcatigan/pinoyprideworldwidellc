@@ -1,3 +1,6 @@
+<script setup>
+import ComingSoon from '@/components/ComingSoon.vue';
+</script>
 <template>
-    <h1>Track View</h1>
+    <ComingSoon page="Track" />
 </template>
