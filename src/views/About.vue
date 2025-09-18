@@ -57,9 +57,11 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
     <section class="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <!-- Headline -->
-            <h2 v-fade-slide-up="100" class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+            <h2 v-fade-slide-up="100" class="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text
+           bg-gradient-to-r from-red-800 via-pink-600 to-indigo-600 mb-4">
                 OUR STORY
             </h2>
+
 
             <!-- Decorative underline -->
             <div class="w-20 h-1 bg-yellow-400 mx-auto mb-8 rounded"></div>
@@ -133,7 +135,8 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
         <div class="max-w-6xl mx-auto">
             <!-- Headline -->
             <div class="text-center mb-10">
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
+               bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
                     Pinoy Pride Worldwide LLC
                 </h2>
                 <p class="mt-2 text-lg text-gray-600">

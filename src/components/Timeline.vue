@@ -98,9 +98,11 @@ onBeforeUnmount(() => {
 <template>
     <div class="max-w-6xl mx-auto px-6">
         <!-- Title -->
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-gray-900 mb-12">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-center text-transparent 
+           bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-600 mb-12">
             Our Journey
         </h2>
+
 
         <!-- Timeline -->
         <div class="space-y-16">

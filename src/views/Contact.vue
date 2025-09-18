@@ -30,7 +30,8 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Headline -->
             <div class="text-center mb-8">
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
+               bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
                     Pinoy Pride Worldwide LLC
                 </h2>
                 <p class="mt-2 text-gray-600 text-base sm:text-lg">
@@ -38,6 +39,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                     reliable logistics, expert service, and fast support.
                 </p>
             </div>
+
 
             <!-- Branches Cards -->
             <div class="mt-6">
@@ -49,13 +51,20 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 
     <section class="py-12 px-6 max-w-6xl mx-auto">
         <!-- Headline -->
-        <div class="mb-8">
-            <h2 class="text-3xl font-extrabold text-gray-800 border-l-4 border-blue-600 pl-4">
-                Contact Us
-            </h2>
-            <p class="mt-2 text-gray-600 text-base sm:text-lg">
-                Reach out to our branches across the U.S. We are ready to assist you!
-            </p>
+        <div class="mb-8 flex items-center gap-3">
+            <!-- Left highlight line -->
+            <div class="w-1 h-10 bg-blue-600 rounded"></div>
+
+            <!-- Text content -->
+            <div>
+                <h2 class="text-3xl font-extrabold text-transparent 
+                   bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
+                    Contact Us
+                </h2>
+                <p class="mt-2 text-gray-600 text-base sm:text-lg">
+                    Reach out to our branches across the U.S. We are ready to assist you!
+                </p>
+            </div>
         </div>
 
         <div class="flex flex-col gap-3">
@@ -93,7 +102,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 
             <!-- Virginia -->
             <ContactCard v-fade-slide-up="100" branchName="Virginia"
-                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.121522276005!2d-76.73742563286876!3d37.28430852985731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b08bd85ade2b8b%3A0x4a15d3305024c992!2s4391%20Ironbound%20Rd%2C%20Williamsburg%2C%20VA%2023188%2C%20USA!5e1!3m2!1sen!2sph!4v1758188924867!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Larry/Richelle Dizon', title: 'Franchisee/Owners', store: '37North - Asian Market in the `Burg', phone: '(757)-332-5935; (757)-739-0416' }
                 ]" />

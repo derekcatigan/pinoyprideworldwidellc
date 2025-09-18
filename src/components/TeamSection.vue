@@ -104,11 +104,12 @@ const teamMembers = [
 <template>
     <div class="max-w-6xl mx-auto px-6">
         <!-- Title -->
-        <div class="text-center mb-12">
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+        <div class="text-center mb-12 relative">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
+           bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
                 Our Team
             </h2>
-            <div class="mt-2 w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+            <div class="mt-3 w-24 h-1 bg-indigo-600 mx-auto rounded-full shadow-md"></div>
         </div>
 
 
