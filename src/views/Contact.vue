@@ -2,6 +2,7 @@
 // Component
 import BranchesCard from '@/components/BranchesCard.vue';
 import ContactCard from '@/components/ContactCard.vue';
+
 // Images
 import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 </script>
@@ -98,7 +99,4 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 ]" />
         </div>
     </section>
-
-
-
 </template>
