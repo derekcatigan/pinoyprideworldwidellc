@@ -14,20 +14,20 @@ const year = new Date().getFullYear();
             <!-- Services -->
             <nav>
                 <h6 class="text-lg font-semibold mb-3">Services</h6>
-                <RouterLink to="/" class="block hover:underline">Branding</RouterLink>
-                <RouterLink to="/" class="block hover:underline">Design</RouterLink>
-                <RouterLink to="/" class="block hover:underline">Marketing</RouterLink>
-                <RouterLink to="/" class="block hover:underline">Advertisement</RouterLink>
+                <RouterLink to="/services" class="block hover:underline">What we Offer</RouterLink>
+                <RouterLink to="/services" class="block hover:underline">Prohibited Items to send</RouterLink>
             </nav>
 
-            <!-- Company -->
+            <!-- Quick Links -->
             <nav>
-                <h6 class="text-lg font-semibold mb-3">Company</h6>
+                <h6 class="text-lg font-semibold mb-3">Quick Links</h6>
                 <RouterLink to="/" class="block hover:underline">Home</RouterLink>
-                <RouterLink to="/" class="block hover:underline">About Us</RouterLink>
-                <RouterLink to="/" class="block hover:underline">Track</RouterLink>
-                <RouterLink to="/" class="block hover:underline">Contact</RouterLink>
-                <RouterLink to="/" class="block hover:underline">Careers</RouterLink>
+                <RouterLink to="/about-us" class="block hover:underline">About Us</RouterLink>
+                <RouterLink to="/news" class="block hover:underline">News</RouterLink>
+                <RouterLink to="/track" class="block hover:underline">Track</RouterLink>
+                <RouterLink to="/contact" class="block hover:underline">Contact</RouterLink>
+                <RouterLink to="/services" class="block hover:underline">Services</RouterLink>
+                <RouterLink to="/careers" class="block hover:underline">Careers</RouterLink>
             </nav>
 
             <!-- Legal -->
