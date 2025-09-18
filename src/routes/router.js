@@ -5,6 +5,7 @@ import NewsView from '@/views/News.vue';
 import TrackView from '@/views/Track.vue';
 import ContactView from '@/views/Contact.vue';
 import CareersView from '@/views/Careers.vue';
+import Services from "@/views/Services.vue";
 const routes = [
     {
         path: '/', name: 'Home', component: HomeView
@@ -20,6 +21,9 @@ const routes = [
     },
     {
         path: '/contact', name: 'Contact', component: ContactView
+    },
+    {
+        path: '/services', name: 'Services', component: Services
     },
     {
         path: '/careers', name: 'Careers', component: CareersView

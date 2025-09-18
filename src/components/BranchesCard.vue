@@ -3,10 +3,10 @@
 import { MapPinIcon } from '@heroicons/vue/24/outline';
 
 const branchNames = [
-    { branch: "Seattle" },
     { branch: "New York/New Jersey" },
-    { branch: "Virginia" },
+    { branch: "Seattle" },
     { branch: "Texas" },
+    { branch: "Virginia" },
 ];
 </script>
 

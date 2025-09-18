@@ -65,12 +65,12 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
             <div class="w-20 h-1 bg-yellow-400 mx-auto mb-8 rounded"></div>
 
             <!-- Paragraph -->
-            <p v-fade-slide-up="200" class="text-gray-700 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-                Pinoy Pride Worldwide is a company that consolidates Balikbayan boxes from the United States
-                to the Philippines. The leadership team has more than 10 years of combined experience in
-                Balikbayan box cargo handling and shipping from different companies in the US. They bring
-                together an array of valuable experiences to the company in ensuring excellent service to its customers.
-            </p>
+            <pre v-fade-slide-up="200"
+                class="text-gray-700 text-base sm:text-lg leading-relaxed text-justify max-w-2xl mx-auto whitespace-pre-line">
+                <span class="text-blue-800 font-bold">Pinoy Pride Worldwide </span><span class="text-red-600 font-bold">LLC</span> is a bonded and insured freight forwarding company, licensed under FMC-OTI-NVOCC #033592N, specializing in consolidating <span class="font-semibold">Balikbayan boxes</span> and <span class="font-semibold">moving household goods of Filipinos to be loaded into containers</span>, shipped, and delivered directly to the consignee’s address anywhere in the Philippines.
+
+                The leadership team has over 10 years of combined experience in handling and shipping Balikbayan box cargo and <span class="font-semibold">household goods</span> <span class="font-semibold">(via containers)</span> from various locations in the US. They bring this wealth of valuable experience to the company to ensure the highest quality of service for its customers.
+            </pre>
         </div>
     </section>
 
@@ -85,12 +85,14 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
 
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">OUR MISSION</h3>
                 <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
-                    At Pinoy Pride Worldwide, our mission is to revolutionize the experience of sending and receiving
-                    Balikbayan Boxes, embodying the essence of Filipino pride while fostering global connections and
-                    empowering communities. We are committed to providing an unparalleled service that combines
-                    efficiency,
-                    reliability, and cultural appreciation, ensuring that every box we handle becomes a symbol of love,
-                    connection, and shared heritage.
+                    At <span class="font-semibold">Pinoy Pride Worldwide LLC</span>, our mission is to serve the
+                    Filipino community with dedication by
+                    making the process of sending goods through balikbayan boxes more convenient, reliable, and
+                    meaningful. Beyond this, we extend our commitment to Filipinos abroad who dream of retiring in the
+                    Philippines, by providing seamless and trustworthy shipping solutions for their <span
+                        class="font-semibold">household goods through container shipments</span>. We aim to ease their
+                    transition back home, ensuring every box and container we deliver not only belongings but also love,
+                    memories, and a lasting connection to the homeland.
                 </p>
             </div>
 
@@ -101,22 +103,16 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
 
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">OUR VISION</h3>
                 <p class="text-gray-700 leading-relaxed text-sm sm:text-base">
-                    Our vision at Pinoy Pride Worldwide is to redefine the narrative of Balikbayan Box consolidation,
-                    transcending mere logistics to become a symbol of cultural celebration, global unity, and
-                    empowerment.
-                    We envision a world where every Balikbayan Box represents a profound connection between the
-                    Philippines
-                    and its global diaspora, embodying the shared values of family, heritage, and resilience. Through
-                    our
-                    innovative approach, unwavering commitment to excellence, and passion for cultural preservation, we
-                    aspire
-                    to inspire a new generation of Filipinos to embrace their roots, celebrate their identity, and
-                    contribute
-                    to a more interconnected and vibrant global community. Together, we envision a future where Pinoy
-                    Pride
-                    knows no borders, and every Balikbayan Box becomes a testament to the enduring spirit of Filipino
-                    pride,
-                    resilience, and solidarity.
+                    Our vision at <span class="font-semibold">Pinoy Pride Worldwide LLC</span> is to redefine the
+                    narrative of Balikbayan Box
+                    consolidation, transcending mere logistics to become a symbol of cultural celebration, global unity,
+                    and empowerment. We envision a world where every Balikbayan Box represents a profound connection
+                    between the Philippines and its global diaspora, embodying the shared values of family, heritage,
+                    and resilience. Through our innovative approach, unwavering commitment to excellence, and passion
+                    for cultural preservation, we aspire to inspire a new generation of Filipinos to embrace their
+                    roots, celebrate their identity, and contribute to a more interconnected and vibrant global
+                    community. Together, we envision a future where Pinoy Pride knows no borders, and every Balikbayan
+                    Box becomes a testament to the enduring spirit of Filipino pride, resilience, and solidarity.
                 </p>
             </div>
         </div>

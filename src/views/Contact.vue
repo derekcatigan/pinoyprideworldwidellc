@@ -59,44 +59,45 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
         </div>
 
         <div class="flex flex-col gap-3">
-            <ContactCard
+            <ContactCard v-fade-slide-up="100"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Edgar S. Ocampo', title: 'President / CEO / Founder', phone: '+01 (253) 282 - 9628', email: 'pinoyprideworldwide@gmail.com' },
-                    { name: 'Ed / Jimmy / Leonila', title: 'Customer Service - USA', phone: '(253)-238-8864' },
+                    { name: 'Ed / Jimmy / Indai', title: 'Customer Service - USA', phone: '(253)-238-8864' },
                     { name: 'Michelle', title: 'Customer Service - Philippines', phone: '(0917)-126-1246' },
                     { name: 'Melanie', title: 'Customer Service - Philippines', phone: '(0917)-126-1276' },
                     { name: 'Leonila', title: 'Customer Service - Philippines', phone: '(0997)-541-1886' },
                 ]" />
 
-            <!-- Seattle Branch -->
-            <ContactCard branchName="Seattle"
-                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
-                :contacts="[
-                    { name: 'Seattle Manila Oriental Store & Cafe 1257 A St. NE Auburn, WA 98002', title: 'Authorized Partner', phone: '(206)-492-9123 Ext. 531-9008', email: 'pinoyprideworldwide@gmail.com' }
-                ]" />
-
             <!-- New York/New Jersey Branch -->
-            <ContactCard branchName="New York/New Jersey"
+            <ContactCard v-fade-slide-up="100" branchName="New York/New Jersey"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Jimmy Locsin', title: 'General Manager & VP of Operations', phone: '(917)-855-6757', email: 'pinoyprideny1129@gmail.com' },
                     { name: 'Lorenzo Dugangay', title: 'Authorized Partner', phone: '(929)-521-2605' },
                 ]" />
 
+            <!-- Seattle Branch -->
+            <ContactCard v-fade-slide-up="100" branchName="Seattle"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
+                :contacts="[
+                    { name: 'Seattle Manila Oriental Store & Cafe 1257 A St. NE Auburn, WA 98002', title: 'Authorized Partner', phone: '(206)-492-9123 Ext. 531-9008', email: 'pinoyprideworldwide@gmail.com' }
+                ]" />
+
+            <!-- Texas -->
+            <ContactCard v-fade-slide-up="100" branchName="Texas"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
+                :contacts="[
+                    { name: 'Kyle Tentativa', title: 'Business Partner', phone: '(408)-368-4396' }
+                ]" />
+
             <!-- Virginia -->
-            <ContactCard branchName="Virginia"
+            <ContactCard v-fade-slide-up="100" branchName="Virginia"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Larry/Richelle Dizon', title: 'Franchisee/Owners', store: '37North - Asian Market in the `Burg', phone: '(757)-332-5935; (757)-739-0416' }
                 ]" />
 
-            <!-- Texas -->
-            <ContactCard branchName="Texas"
-                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
-                :contacts="[
-                    { name: 'Kyle Tentativa', title: 'Business Partner', phone: '(408)-368-4396' }
-                ]" />
         </div>
     </section>
 </template>

@@ -114,7 +114,7 @@ const teamMembers = [
 
         <!-- Team Grid -->
         <div class="space-y-8">
-            <div v-fade-slide-up="100" v-for="(member, index) in teamMembers" :key="index"
+            <div v-fade-slide-up="50" v-for="(member, index) in teamMembers" :key="index"
                 class="bg-white border border-gray-300 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
                 <div class="flex flex-col sm:flex-row items-stretch">
                     <!-- Image + Name + Position -->

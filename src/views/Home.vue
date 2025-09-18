@@ -41,31 +41,6 @@ const steps = [
         isImage: false,
     },
 ]
-
-// News Data
-const newsList = [
-    {
-        title: "Pinoy Pride Launches New Service",
-        date: "Sep 10, 2025",
-        description: "We are excited to announce our new express delivery service...",
-        link: "/news/1",
-        image: HomeImage01
-    },
-    {
-        title: "Holiday Shipping Schedule",
-        date: "Aug 25, 2025",
-        description: "Please note our schedule for the upcoming holidays...",
-        link: "/news/2",
-        image: HomeImage01
-    },
-    {
-        title: "Shipping Announcement",
-        date: "Jul 15, 2025",
-        description: "We are taking extra precautions to ensure the safety of your shipments...",
-        link: "/news/3",
-        image: HomeImage01
-    },
-];
 </script>
 <template>
     <section>
@@ -260,11 +235,7 @@ const newsList = [
             </div>
 
             <!-- News Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <NewsCard v-for="(news, index) in newsList" :key="index" :title="news.title" :date="news.date"
-                    :description="news.description" :link="news.link" :image="news.image"
-                    v-fade-slide-up="index * 100" />
-            </div>
+            <NewsCard />
 
             <!-- More News Link -->
             <div class="mt-10 text-center">

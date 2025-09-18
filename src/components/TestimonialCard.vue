@@ -4,10 +4,10 @@ import HomeImage01 from '@/assets/images/HomeImage01.png';
 
 // Testimonials
 const testimonials = ref([
-    { name: "Jane Doe", position: "Entrepreneur", message: "Pinoy Pride Worldwide made shipping so easy and reliable!", avatar: HomeImage01 },
-    { name: "John Smith", position: "Teacher", message: "Excellent service and my packages always arrive on time!", avatar: HomeImage01 },
-    { name: "Maria Lopez", message: "Very satisfied with their customer support and delivery.", avatar: HomeImage01 },
-    { name: "Mark Wilson", position: "Business Owner", message: "Professional and reliable shipping services.", avatar: HomeImage01 }
+    { name: "Christopher Jaime Collado Bicknell", position: "", message: "Rising contributor Thank you for taking care of my parents with their move! Happy to have come across your posts and for those looking to do the same please make sure you contact! Maraming Salamat po!", avatar: "" },
+    { name: "John Smith", position: "Teacher", message: "Excellent service and my packages always arrive on time!", avatar: "" },
+    { name: "Maria Lopez", message: "Very satisfied with their customer support and delivery.", avatar: "" },
+    { name: "Mark Wilson", position: "Business Owner", message: "Professional and reliable shipping services.", avatar: "" }
 ]);
 
 // Track window width
