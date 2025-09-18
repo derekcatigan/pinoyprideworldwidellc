@@ -62,6 +62,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Edgar S. Ocampo', title: 'President / CEO / Founder', phone: '+01 (253) 282 - 9628', email: 'pinoyprideworldwide@gmail.com' },
+                    { name: 'Ed / Jimmy / Leonila', title: 'Customer Service - USA', phone: '(253)-238-8864' },
                     { name: 'Michelle', title: 'Customer Service - Philippines', phone: '(0917)-126-1246' },
                     { name: 'Melanie', title: 'Customer Service - Philippines', phone: '(0917)-126-1276' },
                     { name: 'Leonila', title: 'Customer Service - Philippines', phone: '(0997)-541-1886' },
