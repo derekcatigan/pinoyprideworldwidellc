@@ -4,7 +4,7 @@ import { ref, onMounted, onBeforeUnmount } from "vue";
 const props = defineProps({
     images: { type: Array, required: true },
     title: { type: String, default: "" },
-    description: { type: String, required: true },
+    description: { type: String, default: "" },
     logo: { type: String, default: null },
     interval: { type: Number, default: 3000 },
     logoSize: { type: String, default: "w-28 h-28" },
