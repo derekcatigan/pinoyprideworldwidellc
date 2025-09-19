@@ -69,7 +69,7 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
             <!-- Paragraph -->
             <pre v-fade-slide-up="200"
                 class="text-gray-700 text-base sm:text-lg leading-relaxed text-justify max-w-2xl mx-auto whitespace-pre-line">
-                <span class="text-blue-800 font-bold">Pinoy Pride Worldwide </span><span class="text-red-600 font-bold">LLC</span> is a bonded and insured freight forwarding company, licensed under FMC-OTI-NVOCC #033592N, specializing in consolidating <span class="font-semibold">Balikbayan boxes</span> and <span class="font-semibold">moving household goods of Filipinos to be loaded into containers</span>, shipped, and delivered directly to the consignee’s address anywhere in the Philippines.
+                <span class="text-blue-800 font-bold">Pinoy Pride Worldwide LLC</span> is a bonded and insured freight forwarding company, licensed under <span class="font-semibold">FMC-OTI-NVOCC #033592N</span>, specializing in consolidating <span class="font-semibold">Balikbayan boxes</span> and <span class="font-semibold">moving household goods of Filipinos to be loaded into containers</span>, shipped, and delivered directly to the consignee’s address anywhere in the Philippines.
 
                 The leadership team has over 10 years of combined experience in handling and shipping Balikbayan box cargo and <span class="font-semibold">household goods</span> <span class="font-semibold">(via containers)</span> from various locations in the US. They bring this wealth of valuable experience to the company to ensure the highest quality of service for its customers.
             </pre>
@@ -156,16 +156,17 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
                 FowarderImage08,
                 FowarderImage09,
                 FowarderImage10
-            ]" description="
-                Pinoy Pride Worldwide, LLC is renowned as a Balikbayan Box Cargo Consolidators for many years which offers door-to-door logistic service. It is steadfast to conform the highest standard in shipping cargo with Superior, Trustworthy, Reliable, Efficiency, and Safe (STRES) delivery for customers loved ones in the Philippines.
+            ]" :logo="PPWLicensedLogo" logoSize="w-56 h-56">
+                Pinoy Pride Worldwide, LLC is renowned as a Balikbayan Box Cargo Consolidators for many years which
+                offers door-to-door logistic service. It is steadfast to conform the highest standard in shipping cargo
+                with Superior, Trustworthy, Reliable, Efficiency, and Safe (STRES) delivery for customers loved ones in
+                the Philippines.
 
-                Customers are always our top priority. We take pride and ensure Balikbayan Box is packed with love and precision. Our 24/7 support, in-house tracking, trace portal and customer service assure peace of mind for our valued customers. For this principal reason, they make Pinoy Pride Worldwide, LLC their preferred choice for Cargo Forwarder and subsequently, referred us to their family members, relatives and friends.
-
-                The company has widened its horizons and now accepting services (Cars, Jet Ski, Heavy Equipments, Furnitures… etc) for Returning Residents , Commercial Goods (Import/Export), Shipper own Container (SOC), Less than Container Load (LCL) and Interstate relocation for US residents.
-
-                Pinoy Pride Worldwide, LLC envision to enhance its operational capability from Consolidator to Forwarder in pursuit of exceeding customers expectation and satisfaction. In addition, to fully Bonded and Insured, it has earned a Certificate of Licensure from Federal Maritime Commission. A license was awarded to Pinoy Pride Worldwide, LLC under FMC-OTI-NVOCC # 033592N after complying all the requirements.
-                " :logo="PPWLicensedLogo" logoSize="w-56 h-56">
-
+                Customers are always our top priority. We take pride and ensure Balikbayan Box is packed with love and
+                precision. Our 24/7 support, in-house tracking, trace portal and customer service assure peace of mind
+                for our valued customers. For this principal reason, they make Pinoy Pride Worldwide, LLC their
+                preferred choice for Cargo Forwarder and subsequently, referred us to their family members, relatives
+                and friends.
             </ImageInfoCard>
         </div>
     </section>
@@ -197,9 +198,15 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
                 PenshinImage13,
                 PenshinImage14,
                 PenshinImage15,
-            ]" description="
-                Established in 1998 from Singapore, Penanshin has had a long and illustrious history as an integrated one-stop freight forwarding services company. From our humble beginnings as a neutral NVOCC company, Penanshin has grown to be a profitable major player in freight forwarding services in the Asia Pacific region with strategic footprints in 10 countries, from Singapore, Brunei, Cambodia, Malaysia, India, Indonesia, Pakistan, Philippines, Thailand to Vietnam. Along the way, we have fostered many lasting business relationships with our partners and customers, of which bear testimony of our success in building a first-class air, sea and ground handling company known for its quality service.
-                " />
+            ]">
+                Established in 1998 from Singapore, Penanshin has had a long and illustrious history as an integrated
+                one-stop freight forwarding services company. From our humble beginnings as a neutral NVOCC company,
+                Penanshin has grown to be a profitable major player in freight forwarding services in the Asia Pacific
+                region with strategic footprints in 10 countries, from Singapore, Brunei, Cambodia, Malaysia, India,
+                Indonesia, Pakistan, Philippines, Thailand to Vietnam. Along the way, we have fostered many lasting
+                business relationships with our partners and customers, of which bear testimony of our success in
+                building a first-class air, sea and ground handling company known for its quality service.
+            </ImageInfoCard>
         </div>
     </section>
 

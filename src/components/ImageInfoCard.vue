@@ -38,8 +38,8 @@ onBeforeUnmount(() => {
         <!-- Info Section -->
         <div class="w-full md:w-1/2 p-6 flex flex-col justify-center text-center md:text-left">
             <!-- Logo & Title -->
-            <div class="flex flex-col items-center md:items-start gap-3 mb-4"
-                :class="{ 'items-center': !props.title || !props.logo }">
+            <div class="flex flex-col gap-3 mb-4"
+                :class="props.title ? 'items-center md:items-start' : 'items-center justify-center'">
                 <img v-if="props.logo" :src="props.logo" alt="logo" :class="`${props.logoSize} object-contain`" />
 
                 <h2 v-if="props.title" class="text-2xl md:text-3xl font-bold text-gray-800">
@@ -48,12 +48,12 @@ onBeforeUnmount(() => {
             </div>
 
             <!-- Description -->
-            <p class="text-gray-600 leading-relaxed max-w-prose mx-auto md:mx-0">
+            <p class="text-gray-600 whitespace-pre-wrap text-justify leading-relaxed max-w-prose mx-auto md:mx-0 ">
                 {{ props.description }}
             </p>
 
             <!-- Slot -->
-            <div class="mt-4">
+            <div class="mt-4 whitespace-pre-wrap text-justify">
                 <slot />
             </div>
         </div>
