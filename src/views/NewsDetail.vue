@@ -79,7 +79,7 @@ const toggleFullscreen = () => {
         </div>
 
         <!-- Fullscreen Overlay -->
-        <div v-if="isFullscreen" class="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center z-50">
+        <div v-if="isFullscreen" class="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center z-[9999]">
             <div class="relative w-full h-full flex items-center justify-center">
                 <div v-for="(m, i) in newsItem.media" :key="i" v-show="i === currentIndex"
                     class="w-full h-full flex justify-center items-center">
