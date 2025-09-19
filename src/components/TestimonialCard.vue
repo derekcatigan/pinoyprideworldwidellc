@@ -6,7 +6,7 @@ import HomeImage01 from '@/assets/images/HomeImage01.png';
 const testimonials = ref([
     { name: "Christopher Jaime Collado Bicknell", position: "Facebook", message: "Rising contributor Thank you for taking care of my parents with their move! Happy to have come across your posts and for those looking to do the same please make sure you contact! Maraming Salamat po!", avatar: "" },
     { name: "Jun Leyva", position: "Facebook", message: "Pinoy pride Worldwide. The Best ka talaga!", avatar: "" },
-    { name: "Enpy Ty", position: "Facebook", message: "Wow. Pinoy Pride Worldwide, you made it happened. You nailed it. A job well done!", avatar: "" },
+    { name: "Enpi Ty", position: "Facebook", message: "Wow. Pinoy Pride Worldwide, you made it happened. You nailed it. A job well done!", avatar: "" },
     { name: "Mentor Bobby", position: "Facebook", message: "Congratulations Pinoy Pride Worldwide.", avatar: "" }
 ]);
 
