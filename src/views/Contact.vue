@@ -106,7 +106,6 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 :contacts="[
                     { name: 'Larry/Richelle Dizon', title: 'Franchisee/Owners', store: '37North - Asian Market in the `Burg', phone: '(757)-332-5935; (757)-739-0416' }
                 ]" />
-
         </div>
     </section>
 </template>
