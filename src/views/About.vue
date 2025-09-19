@@ -44,15 +44,18 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
             class="absolute inset-0 max-h-full w-auto object-contain mx-auto" />
 
         <!-- Dark overlay -->
-        <div class="absolute inset-0 bg-black/50 z-20"></div>
+        <!-- <div class="absolute inset-0 bg-black/50 z-20"></div> -->
 
         <!-- Centered text -->
-        <h2
+        <!-- <h2
             class="relative z-30 px-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white text-center leading-tight">
             ABOUT US
-        </h2>
+        </h2> -->
     </section>
-
+    <h2 v-fade-slide-up="100"
+        class="px-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-yellow-600 to-indigo-600 mb-4 text-center leading-tight mt-5">
+        ABOUT US
+    </h2>
 
     <section class="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div class="max-w-4xl mx-auto px-6 text-center">

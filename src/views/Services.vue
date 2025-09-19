@@ -113,7 +113,7 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
                 <ul>
                     <li>
                         <span class="font-bold">Single Owner Shipping:</span> Get a dedicated container exclusively for
-                        your bran-new or used products perfect for entrepreneur or individuals ready to start or expand
+                        your brand-new or used products perfect for entrepreneur or individuals ready to start or expand
                         their business.
                     </li>
                 </ul>
@@ -191,7 +191,7 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
         <!-- Headline -->
         <div class="text-center mb-8">
             <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
-               bg-clip-text bg-gradient-to-r from-red-600 via-yellow-400 to-blue-600">
+               bg-clip-text bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-600">
                 Prohibited Items to Send
             </h2>
             <p class="mt-2 text-gray-200 text-base sm:text-lg max-w-2xl mx-auto">
@@ -295,14 +295,16 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
             </ul>
         </div>
     </section>
-    <section class="py-16 bg-gray-100">
+
+    <!-- Allowed Goods -->
+    <section class="py-16 bg-blue-950">
         <!-- Headline -->
         <div class="text-center mb-8">
             <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
-           bg-clip-text bg-gradient-to-r from-yellow-300 via-green-400 to-green-600">
+           bg-clip-text bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-600">
                 Allowed Goods
             </h2>
-            <p class="mt-2 text-gray-800 text-base sm:text-lg max-w-2xl mx-auto">
+            <p class="mt-2 px-3 text-gray-200 text-base sm:text-lg max-w-2xl mx-auto">
                 The following items are generally permitted for shipment,
                 provided they comply with customs and shipping regulations.
             </p>
@@ -311,7 +313,7 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
         <!-- Content -->
         <div class="max-w-5xl mx-auto px-6">
             <ul
-                class="list-disc list-inside space-y-3 text-gray-900 leading-relaxed marker:text-yellow-300 columns-2 md:columns-3 gap-6">
+                class="list-disc list-inside space-y-3 text-gray-200 leading-relaxed marker:text-yellow-300 columns-2 md:columns-3 gap-6">
                 <li>Accessories</li>
                 <li>Album</li>
                 <li>Aluminum foil</li>
@@ -402,11 +404,11 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
 
             <!-- PDF Notice -->
             <div class="mt-10 text-center">
-                <p class="text-gray-900 sm:text-lg mb-4">
+                <p class="text-gray-100 sm:text-lg mb-4">
                     For the full details of the law, you can view the official document here:
                 </p>
                 <a :href="PPWProhibited" target="_blank"
-                    class="inline-block bg-yellow-400 text-white font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-yellow-500 transition">
+                    class="inline-block bg-yellow-400 text-blue-950 font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-yellow-500 transition">
                     📄 View Republic Act No. 4653 (PDF)
                 </a>
             </div>

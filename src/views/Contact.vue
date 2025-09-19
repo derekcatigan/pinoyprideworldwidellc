@@ -17,24 +17,29 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
             class="absolute inset-0 max-h-full w-auto object-contain mx-auto" />
 
         <!-- Dark overlay -->
-        <div class="absolute inset-0 bg-black/50 z-20"></div>
+        <!-- <div class="absolute inset-0 bg-black/50 z-20"></div> -->
 
         <!-- Centered text -->
-        <h2
+        <!-- <h2
             class="relative z-30 px-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white text-center leading-tight">
             Branches
-        </h2>
+        </h2> -->
     </section>
+
+    <h2 v-fade-slide-up="100"
+        class="px-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-yellow-600 to-indigo-600 mb-4 text-center leading-tight mt-5">
+        Branches
+    </h2>
 
     <section class="py-12 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Headline -->
             <div class="text-center mb-8">
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
+                <h2 v-fade-slide-up="100" class="text-3xl sm:text-4xl font-extrabold text-transparent 
                bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
                     Pinoy Pride Worldwide LLC
                 </h2>
-                <p class="mt-2 text-gray-600 text-base sm:text-lg">
+                <p v-fade-slide-up="200" class="mt-2 text-gray-600 text-base sm:text-lg">
                     We’re closer than you think. Find a Pinoy Pride Worldwide LLC branch near you and experience
                     reliable logistics, expert service, and fast support.
                 </p>
@@ -42,9 +47,9 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 
 
             <!-- Branches Cards -->
-            <div class="mt-6">
+            <di v-fade-slide-up="100" class="mt-6">
                 <BranchesCard />
-            </div>
+            </di>
         </div>
     </section>
 
