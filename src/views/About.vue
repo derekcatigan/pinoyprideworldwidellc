@@ -69,7 +69,7 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
             <!-- Paragraph -->
             <pre v-fade-slide-up="200"
                 class="text-gray-700 text-base sm:text-lg leading-relaxed text-justify max-w-2xl mx-auto whitespace-pre-line">
-                <span class="text-blue-800 font-bold">Pinoy Pride Worldwide LLC</span> is a bonded and insured freight forwarding company, licensed under <span class="font-semibold">FMC-OTI-NVOCC #033592N</span>, specializing in consolidating <span class="font-semibold">Balikbayan boxes</span> and <span class="font-semibold">moving household goods of Filipinos to be loaded into containers</span>, shipped, and delivered directly to the consignee’s address anywhere in the Philippines.
+                <span class="text-blue-800 font-bold">Pinoy Pride Worldwide LLC</span> is a bonded and insured freight forwarding company, licensed under <span class="font-semibold text-blue-800">FMC-OTI-NVOCC #033592N</span>, specializing in consolidating <span class="font-semibold">Balikbayan boxes</span> and <span class="font-semibold">moving household goods of Filipinos to be loaded into containers</span>, shipped, and delivered directly to the consignee’s address anywhere in the Philippines.
 
                 The leadership team has over 10 years of combined experience in handling and shipping Balikbayan box cargo and <span class="font-semibold">household goods</span> <span class="font-semibold">(via containers)</span> from various locations in the US. They bring this wealth of valuable experience to the company to ensure the highest quality of service for its customers.
             </pre>

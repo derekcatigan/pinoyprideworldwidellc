@@ -87,7 +87,7 @@ onMounted(() => {
             const max = timelineItems.value[i].images.length;
             return (idx + 1) % max;
         });
-    }, 3000);
+    }, 5000);
 });
 
 onBeforeUnmount(() => {
