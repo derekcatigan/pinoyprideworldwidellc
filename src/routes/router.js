@@ -1,3 +1,4 @@
+// src\routes\router.js
 import { createWebHistory, createRouter } from "vue-router";
 import HomeView from '@/views/Home.vue';
 import AboutView from '@/views/About.vue';
@@ -15,6 +16,12 @@ const routes = [
     },
     {
         path: '/news', name: 'News', component: NewsView
+    },
+    {
+        path: '/news/:id',
+        name: 'NewsDetail',
+        component: () => import('@/views/NewsDetail.vue'),
+        props: true
     },
     {
         path: '/track', name: 'Track', component: TrackView

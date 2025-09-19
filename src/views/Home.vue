@@ -1,9 +1,10 @@
 <script setup>
+// Data
+import { newsList } from '@/data/newsData.js'
 // Components
-import HomeCarousel from '@/components/HomeCarousel.vue';
-import CounterCard from '@/components/CounterCard.vue';
-import NewsCard from '@/components/NewsCard.vue';
-import TestimonialCard from '@/components/TestimonialCard.vue';
+import HomeCarousel from '@/components/homeComponents/HomeCarousel.vue';
+import TestimonialCard from '@/components/homeComponents/TestimonialCard.vue';
+import CounterCard from '@/components/homeComponents/CounterCard.vue';
 // Images
 import DeliveryManIcon from '@/assets/logos/DeliveryManIcon.png';
 import HomeImage01 from '@/assets/images/HomeImage01.png';
@@ -41,6 +42,9 @@ const steps = [
         isImage: false,
     },
 ]
+
+// Sort by date (latest first) and take the top 3
+const latestNews = [...newsList].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3)
 </script>
 <template>
     <section>
@@ -235,14 +239,36 @@ const steps = [
             </div>
 
             <!-- News Grid -->
-            <NewsCard />
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-6">
+                <div v-for="news in latestNews" :key="news.id" class="p-5 bg-white rounded-xl shadow">
+                    <!-- Show only the first media -->
+                    <div v-if="news.media && news.media.length">
+                        <!-- Image -->
+                        <img v-if="news.media[0].type === 'image'" :src="news.media[0].src"
+                            class="w-full h-96 object-contain rounded-lg mb-4 bg-black" />
+
+                        <!-- Video -->
+                        <div v-else-if="news.media[0].type === 'video'" class="aspect-w-16 aspect-h-9 mb-4">
+                            <iframe class="w-full h-96 rounded-lg shadow" :src="news.media[0].src" frameborder="0"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400">{{ news.date }}</p>
+                    <h3 class="text-lg font-semibold">{{ news.title }}</h3>
+                    <router-link :to="`/news/${news.id}`"
+                        class="text-blue-600 mt-3 text-sm font-medium hover:underline">
+                        Read more →
+                    </router-link>
+                </div>
+            </div>
 
             <!-- More News Link -->
             <div class="mt-10 text-center">
-                <a href="#"
+                <router-link to="/news" href="#"
                     class="inline-block px-6 py-2 bg-red-700 text-white font-medium rounded-lg shadow hover:bg-red-800 transition">
                     More News
-                </a>
+                </router-link>
             </div>
         </div>
     </section>

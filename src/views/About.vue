@@ -1,8 +1,8 @@
 <script setup>
 // Components
-import Timeline from '@/components/Timeline.vue';
-import TeamSection from '@/components/TeamSection.vue';
-import ImageInfoCard from '@/components/ImageInfoCard.vue';
+import Timeline from '@/components/aboutComponents/Timeline.vue';
+import TeamSection from '@/components/aboutComponents/TeamSection.vue';
+import ImageInfoCard from '@/components/aboutComponents/ImageInfoCard.vue';
 // Images
 import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 import FowarderImage01 from '@/assets/images/FowarderImage01.png';

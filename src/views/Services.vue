@@ -1,6 +1,6 @@
 <script setup>
 // Component
-import ServicesCard from '@/components/ServicesCard.vue';
+import ServicesCard from '@/components/servicesComponents/ServicesCard.vue';
 // Images
 import ServiceImage01 from '@/assets/images/ServicesImage01.png';
 // Document

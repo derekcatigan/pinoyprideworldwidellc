@@ -1,14 +1,10 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
-import HomeImage01 from '@/assets/images/HomeImage01.png';
+// Data
+import { testimonialData } from '@/data/testimonialData.js';
 
-// Testimonials
-const testimonials = ref([
-    { name: "Christopher Jaime Collado Bicknell", position: "Facebook", message: "Rising contributor Thank you for taking care of my parents with their move! Happy to have come across your posts and for those looking to do the same please make sure you contact! Maraming Salamat po!", avatar: "" },
-    { name: "Jun Leyva", position: "Facebook", message: "Pinoy pride Worldwide. The Best ka talaga!", avatar: "" },
-    { name: "Enpi Ty", position: "Facebook", message: "Wow. Pinoy Pride Worldwide, you made it happened. You nailed it. A job well done!", avatar: "" },
-    { name: "Mentor Bobby", position: "Facebook", message: "Congratulations Pinoy Pride Worldwide.", avatar: "" }
-]);
+// Testimonials Data
+const testimonials = ref(testimonialData);
 
 // Track window width
 const windowWidth = ref(window.innerWidth);
@@ -59,8 +55,10 @@ onBeforeUnmount(() => {
                         "{{ testimonial.message }}"
                     </p>
                     <p class="font-semibold mt-3">{{ testimonial.name }}</p>
-                    <p v-if="testimonial.position" class="text-gray-500 text-sm">
-                        {{ testimonial.position }}
+                    <p v-if="testimonial.location" class="text-gray-500 text-sm mt-1">
+                        <span v-for="(loc, idx) in testimonial.location.split(';')" :key="idx" class="block">
+                            📍 {{ loc.trim() }}
+                        </span>
                     </p>
                 </div>
             </div>

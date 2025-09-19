@@ -1,7 +1,7 @@
 <script setup>
 // Component
-import BranchesCard from '@/components/BranchesCard.vue';
-import ContactCard from '@/components/ContactCard.vue';
+import BranchesCard from '@/components/contactComponents/BranchesCard.vue';
+import ContactCard from '@/components/contactComponents/ContactCard.vue';
 
 // Images
 import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
