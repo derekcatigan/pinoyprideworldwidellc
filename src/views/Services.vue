@@ -95,7 +95,11 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
             <ServicesCard title="For Returning Residents:">
                 <ul>
                     <li>
-                        <span class="font-bold">Appliences:</span> Dishwashers, Washers, & Dryers, TV's, Refrigerators &
+                        <span class="font-bold">Vehicles:</span> Cars, Motorcycles, & Jet Skies, TV's, Speedboat &
+                        more...
+                    </li>
+                    <li>
+                        <span class="font-bold">Appliances:</span> Dishwashers, Washers, & Dryers, TV's, Refrigerators &
                         more...
                     </li>
                     <li>
@@ -127,7 +131,7 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
                         effects, tools, car parts, and more.
                     </li>
                     <li>
-                        <span class="font-bold">Flexible Rates -</span> Pay only for the space you use - oer cubic meter
+                        <span class="font-bold">Flexible Rates -</span> Pay only for the space you use - per cubic meter
                         (CBM)
                     </li>
                     <li>
