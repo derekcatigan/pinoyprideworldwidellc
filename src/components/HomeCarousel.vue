@@ -83,8 +83,8 @@ onBeforeUnmount(() => {
                             </h2>
                             <p class="text-xs sm:text-sm md:text-base text-white max-w-xs sm:max-w-md md:max-w-lg mt-2">
                                 The best place to send Your Balikbayan Boxes and Move your
-                                Household Goods by<span class="text-yellow-500 font-semibold uppercase">
-                                    Container</span>
+                                Household Goods<span class="text-yellow-400 font-semibold uppercase">
+                                    by Container</span>
                                 Anywhere in the US and Philippines!
                             </p>
                         </div>
