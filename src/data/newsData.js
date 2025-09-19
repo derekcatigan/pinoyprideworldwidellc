@@ -1,4 +1,4 @@
-import { newsImages } from '@/data/newsImageData.js';
+import { newsMedia } from '@/data/newsMediaData.js';
 export const newsList = [
     {
         id: 1,
@@ -6,7 +6,7 @@ export const newsList = [
         date: "Sep 19, 2025",
         description: "",
         pinned: true,
-        media: newsImages["2025-09-19"],
+        media: newsMedia["2025-09-19"],
     },
 ];
 

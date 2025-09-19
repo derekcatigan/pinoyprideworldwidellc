@@ -9,7 +9,7 @@ import Image06Sep192025 from '@/assets/images/newsImages/Sep19,2025/Image06Sep19
 import Image07Sep192025 from '@/assets/images/newsImages/Sep19,2025/Image07Sep192025.jpg';
 import Image08Sep192025 from '@/assets/images/newsImages/Sep19,2025/Image08Sep192025.jpg';
 
-export const newsImages = {
+export const newsMedia = {
     "2025-09-19": [
         { type: "image", src: Image01Sep192025 },
         { type: "image", src: Image02Sep192025 },
@@ -18,6 +18,7 @@ export const newsImages = {
         { type: "image", src: Image05Sep192025 },
         { type: "image", src: Image06Sep192025 },
         { type: "image", src: Image07Sep192025 },
+        { type: "image", src: Image08Sep192025 },
         { type: "image", src: Image08Sep192025 },
     ],
 };

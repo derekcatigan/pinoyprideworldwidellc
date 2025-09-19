@@ -98,7 +98,7 @@ const toggleFullscreen = () => {
                 <button @click="nextSlide"
                     class="absolute right-4 top-1/2 -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full">▶</button>
                 <button @click="toggleFullscreen"
-                    class="absolute bottom-4 right-4 bg-red-600 text-white btn btn-sm shadow">✕ Close</button>
+                    class="absolute top-4 right-4 bg-red-600 text-white btn btn-sm shadow">✕ Close</button>
             </div>
         </div>
     </div>
