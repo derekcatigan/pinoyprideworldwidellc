@@ -230,7 +230,7 @@ const latestNews = [...newsList].sort((a, b) => new Date(b.date) - new Date(a.da
             <!-- Section Heading -->
             <div class="text-center mb-10">
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800">
-                    Latest News
+                    Latest Updates
                 </h2>
                 <p class="mt-2 text-gray-600 sm:text-lg">
                     Stay updated with the latest from <span class="font-semibold text-red-700">Pinoy Pride

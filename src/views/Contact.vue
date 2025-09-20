@@ -47,9 +47,9 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 
 
             <!-- Branches Cards -->
-            <di v-fade-slide-up="100" class="mt-6">
+            <div v-fade-slide-up="100" class="mt-6">
                 <BranchesCard />
-            </di>
+            </div>
         </div>
     </section>
 

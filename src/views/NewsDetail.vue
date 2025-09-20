@@ -36,6 +36,12 @@ const toggleFullscreen = () => {
             <!-- Carousel Section -->
             <div class="relative mb-6 h-96">
                 <div v-if="newsItem.media && newsItem.media.length > 0">
+                    <!-- 🔹 Media Counter -->
+                    <div class="absolute top-2 left-2 bg-black bg-opacity-70 text-white px-3 py-1 rounded-md text-sm">
+                        {{ currentIndex + 1 }} / {{ newsItem.media.length }}
+                    </div>
+
+                    <!-- Media Loop -->
                     <div v-for="(m, i) in newsItem.media" :key="i" v-show="i === currentIndex">
                         <!-- Image -->
                         <img v-if="m.type === 'image'" :src="m.src" alt="news media"
@@ -68,6 +74,7 @@ const toggleFullscreen = () => {
                 </div>
             </div>
 
+
             <!-- Content -->
             <p class="text-gray-400 text-sm">{{ newsItem.date }}</p>
             <h1 class="text-3xl font-bold text-gray-900 mt-2">{{ newsItem.title }}</h1>
@@ -81,6 +88,13 @@ const toggleFullscreen = () => {
         <!-- Fullscreen Overlay -->
         <div v-if="isFullscreen" class="fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center z-[9999]">
             <div class="relative w-full h-full flex items-center justify-center">
+
+                <!-- 🔹 Media Counter -->
+                <div class="absolute top-4 left-4 bg-black bg-opacity-70 text-white px-3 py-1 rounded-md text-sm">
+                    {{ currentIndex + 1 }} / {{ newsItem.media.length }}
+                </div>
+
+                <!-- Media Loop -->
                 <div v-for="(m, i) in newsItem.media" :key="i" v-show="i === currentIndex"
                     class="w-full h-full flex justify-center items-center">
                     <!-- Image -->
