@@ -46,20 +46,26 @@ onBeforeUnmount(() => {
         <div class="flex transition-transform duration-500 ease-in-out"
             :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
             <div v-for="(group, index) in slides" :key="index"
-                class="flex-shrink-0 w-full flex justify-center gap-4 px-2">
+                class="flex-shrink-0 w-full flex justify-center gap-4 px-2 items-stretch">
                 <div v-for="(testimonial, i) in group" :key="i"
-                    class="w-full max-w-sm sm:max-w-md p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition flex flex-col items-center text-center">
-                    <img v-if="testimonial.avatar" :src="testimonial.avatar" alt="Customer photo"
-                        class="w-16 h-16 rounded-full mb-4 object-cover" />
-                    <p class="text-gray-700 text-sm sm:text-base italic">
-                        "{{ testimonial.message }}"
-                    </p>
-                    <p class="font-semibold mt-3">{{ testimonial.name }}</p>
-                    <p v-if="testimonial.location" class="text-gray-500 text-sm mt-1">
-                        <span v-for="(loc, idx) in testimonial.location.split(';')" :key="idx" class="block">
-                            📍 {{ loc.trim() }}
-                        </span>
-                    </p>
+                    class="w-full max-w-sm sm:max-w-md p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition flex flex-col justify-between items-center text-center h-full">
+
+                    <div class="flex flex-col items-center">
+                        <img v-if="testimonial.avatar" :src="testimonial.avatar" alt="Customer photo"
+                            class="w-16 h-16 rounded-full mb-4 object-cover" />
+                        <p class="text-gray-700 text-sm sm:text-base italic">
+                            "{{ testimonial.message }}"
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <p class="font-semibold">{{ testimonial.name }}</p>
+                        <p v-if="testimonial.location" class="text-gray-500 text-sm mt-1">
+                            <span v-for="(loc, idx) in testimonial.location.split(';')" :key="idx" class="block">
+                                📍 {{ loc.trim() }}
+                            </span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
