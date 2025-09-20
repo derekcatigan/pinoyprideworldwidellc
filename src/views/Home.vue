@@ -1,4 +1,7 @@
 <script setup>
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
 // Data
 import { newsList } from '@/data/newsData.js'
 // Components
@@ -45,6 +48,17 @@ const steps = [
 
 // Sort by date (latest first) and take the top 3
 const latestNews = [...newsList].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3)
+
+const router = useRouter()
+const trackingNumber = ref('')
+
+const goToTrack = () => {
+    if (!trackingNumber.value) return
+    router.push({
+        name: 'Track',
+        query: { number: trackingNumber.value }
+    })
+}
 </script>
 <template>
     <section>
@@ -80,13 +94,13 @@ const latestNews = [...newsList].sort((a, b) => new Date(b.date) - new Date(a.da
                     <!-- Input -->
                     <div class="w-full">
                         <label class="text-sm font-medium">Tracking Number</label>
-                        <input type="text" placeholder="Enter your Tracking/Invoice number"
+                        <input type="text" v-model="trackingNumber" placeholder="Enter your Tracking/Invoice number"
                             class="w-full input input-sm mt-1" />
                     </div>
 
                     <!-- Buttons -->
                     <div class="flex gap-2 w-full md:w-auto">
-                        <button class="btn btn-sm bg-red-800 text-white flex-1 md:flex-none">
+                        <button class="btn btn-sm bg-red-800 text-white flex-1 md:flex-none" @click="goToTrack">
                             <MagnifyingGlassIcon class="size-4.5 shrink-0" />
                             Track
                         </button>
