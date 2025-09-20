@@ -93,7 +93,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 
             <!-- Seattle Branch -->
             <ContactCard v-fade-slide-up="100" branchName="Seattle"
-                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1308.33277844007!2d-122.23011155281112!3d47.320013718448045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490594327807515%3A0xf5092547a8802535!2sSeattle%20Manila%20Oriental%20Store%2FCafe%20%26%20Travel%20Booking%20Services%20Worldwide!5e1!3m2!1sen!2sph!4v1758345863664!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Seattle Manila Oriental Store & Cafe 1257 A St. NE Auburn, WA 98002', title: 'Authorized Partner', phone: '(206)-492-9123 Ext. 531-9008', email: 'pinoyprideworldwide@gmail.com' }
                 ]" />
