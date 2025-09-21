@@ -3,6 +3,7 @@
 import ServicesCard from '@/components/servicesComponents/ServicesCard.vue';
 // Images
 import ServiceImage01 from '@/assets/images/ServicesImage01.png';
+import ProhibitedBanner from '@/assets/images/ProhibitedBanner.png';
 // Document
 import PPWProhibited from '@/assets/documents/PPW Prohibited.pdf';
 // Heroicons
@@ -188,6 +189,10 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
     </section>
 
     <section class="py-16 bg-blue-950">
+        <!-- Banner -->
+        <div class="p-10">
+            <img :src="ProhibitedBanner" alt="" class="w-full h-full object-cover rounded-lg">
+        </div>
         <!-- Headline -->
         <div class="text-center mb-8">
             <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 

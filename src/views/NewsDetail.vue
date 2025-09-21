@@ -31,7 +31,7 @@ const toggleFullscreen = () => {
 </script>
 
 <template>
-    <div class="max-w-4xl mx-auto py-10 px-5">
+    <div class="max-w-[1100px] mx-auto py-10">
         <div v-if="newsItem" class="bg-white p-6 rounded-xl shadow-xl border border-gray-300">
             <!-- Carousel Section -->
             <div class="relative mb-6 h-96">

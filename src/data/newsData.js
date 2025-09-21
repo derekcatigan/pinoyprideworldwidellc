@@ -23,9 +23,15 @@ export const newsList = [
     },
     {
         id: 4,
-        title: "Pinoy Pride Worldwide Symposium",
+        title: "President/CEO/Founder of Pinoy Pride Worldwide, Eng’r. Edgar Ocampo, attended a symposium in Seattle, Washington.",
         date: "Sep 21, 2025",
         media: newsMedia["2025-09-21"].symposium,
+    },
+    {
+        id: 5,
+        title: "Highlights from Pinoy Pride Worldwide Seattle, proud sponsor of a concert in Seattle, Washington.",
+        date: "Sep 21, 2025",
+        media: newsMedia["2025-09-21"].concert,
     },
 
 ];

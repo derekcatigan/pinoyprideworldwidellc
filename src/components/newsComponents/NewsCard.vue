@@ -26,7 +26,7 @@ defineProps({
 
         <!-- Content -->
         <p class="text-xs text-gray-400">{{ news.date }}</p>
-        <h3 class="text-lg font-semibold text-gray-900 mt-1 line-clamp-2">{{ news.title }}</h3>
+        <h3 class="text-lg font-semibold text-gray-900 mt-1 truncate">{{ news.title }}</h3>
         <p class="text-gray-600 text-sm mt-2 line-clamp-3">{{ news.description }}</p>
 
         <router-link :to="`/news/${news.id}`" class="text-blue-600 mt-3 text-sm font-medium hover:underline self-start">

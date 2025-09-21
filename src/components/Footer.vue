@@ -13,14 +13,14 @@ const year = new Date().getFullYear();
 
             <!-- Services -->
             <nav>
-                <h6 class="text-lg font-semibold mb-3">Services</h6>
+                <h6 class="text-lg font-semibold mb-3 text-yellow-500">Services</h6>
                 <RouterLink to="/services" class="block hover:underline">What we Offer</RouterLink>
                 <RouterLink to="/services" class="block hover:underline">Prohibited Items to send</RouterLink>
             </nav>
 
             <!-- Quick Links -->
             <nav>
-                <h6 class="text-lg font-semibold mb-3">Quick Links</h6>
+                <h6 class="text-lg font-semibold mb-3 text-yellow-500">Quick Links</h6>
                 <RouterLink to="/" class="block hover:underline">Home</RouterLink>
                 <RouterLink to="/about-us" class="block hover:underline">About Us</RouterLink>
                 <RouterLink to="/news" class="block hover:underline">News</RouterLink>
@@ -32,7 +32,7 @@ const year = new Date().getFullYear();
 
             <!-- Legal -->
             <nav>
-                <h6 class="text-lg font-semibold mb-3">Legal</h6>
+                <h6 class="text-lg font-semibold mb-3 text-yellow-500">Legal</h6>
                 <RouterLink to="/" class="block hover:underline">Terms of use</RouterLink>
                 <RouterLink to="/" class="block hover:underline">Privacy policy</RouterLink>
                 <RouterLink to="/" class="block hover:underline">Cookie policy</RouterLink>
@@ -40,7 +40,7 @@ const year = new Date().getFullYear();
 
             <!-- Address -->
             <nav>
-                <h6 class="text-lg font-semibold mb-3">Address</h6>
+                <h6 class="text-lg font-semibold mb-3 text-yellow-500">Address</h6>
                 <div class="space-y-3 text-sm">
                     <span class="flex items-start gap-3">
                         <MapPinIcon class="w-5 h-5 shrink-0 mt-0.5" />
