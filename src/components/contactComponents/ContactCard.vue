@@ -4,7 +4,8 @@ import { PhoneIcon, EnvelopeIcon, UserIcon } from '@heroicons/vue/24/outline';
 const props = defineProps({
     branchName: { type: String, required: false, default: null },
     contacts: { type: Array, required: true },
-    mapSrc: { type: String, required: true }
+    mapSrc: { type: String, required: true },
+    notice: { type: String, required: false, default: null }
 });
 </script>
 
@@ -13,11 +14,18 @@ const props = defineProps({
         class="flex flex-col md:flex-row bg-white border border-gray-300 rounded-lg shadow-md overflow-hidden transition relative">
 
         <!-- Map Section -->
-        <div class="md:w-1/3 w-full">
+        <div class="md:w-1/3 w-full flex flex-col">
             <div class="aspect-[4/3] w-full">
                 <iframe :src="mapSrc" class="w-full h-full border-0 md:rounded-l-lg" allowfullscreen loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
+
+            <!-- Notice under map -->
+            <p v-if="notice"
+                class="text-sm md:text-base text-yellow-700 bg-yellow-100 border-l-4 border-yellow-400 p-3 rounded-md m-2">
+                {{ notice }}
+            </p>
         </div>
 
         <!-- Info Section -->

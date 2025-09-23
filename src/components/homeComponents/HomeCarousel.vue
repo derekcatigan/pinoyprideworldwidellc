@@ -3,7 +3,7 @@ import { ref, onMounted, onBeforeUnmount, watch } from "vue";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/24/outline";
 
 // Slides
-import CargoShipStockImage from "@/assets/images/stockImages/CargoShipImageV6.png";
+import CargoShipStockImage from "@/assets/images/stockImages/CargoShipImageV7.png";
 import StockImage2 from "@/assets/images/stockImages/StockImage02.png";
 import StockImage3 from "@/assets/images/stockImages/StockImage03.png";
 

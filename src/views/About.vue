@@ -3,35 +3,25 @@
 import Timeline from '@/components/aboutComponents/Timeline.vue';
 import TeamSection from '@/components/aboutComponents/TeamSection.vue';
 import ImageInfoCard from '@/components/aboutComponents/ImageInfoCard.vue';
+import LogoHistoryCard from '@/components/aboutComponents/LogoHistoryCard.vue';
+import { infoImageData } from '../data/infoImageData';
+
 // Images
 import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
-import FowarderImage01 from '@/assets/images/FowarderImage01.png';
-import FowarderImage02 from '@/assets/images/FowarderImage02.png';
-import FowarderImage03 from '@/assets/images/FowarderImage03.png';
-import FowarderImage04 from '@/assets/images/FowarderImage04.png';
-import FowarderImage05 from '@/assets/images/FowarderImage05.png';
-import FowarderImage06 from '@/assets/images/FowarderImage06.png';
-import FowarderImage07 from '@/assets/images/FowarderImage07.png';
-import FowarderImage08 from '@/assets/images/FowarderImage08.png';
-import FowarderImage09 from '@/assets/images/FowarderImage09.png';
-import FowarderImage10 from '@/assets/images/FowarderImage10.png';
 import PPWLicensedLogo from '@/assets/logos/PPWLicensedLogo.png';
-import PenshinImage00 from '@/assets/images/PenshinImage00.jpg';
-import PenshinImage01 from '@/assets/images/PenshinImage01.jpg';
-import PenshinImage02 from '@/assets/images/PenshinImage02.PNG';
-import PenshinImage03 from '@/assets/images/PenshinImage03.PNG';
-import PenshinImage04 from '@/assets/images/PenshinImage04.PNG';
-import PenshinImage05 from '@/assets/images/PenshinImage05.PNG';
-import PenshinImage06 from '@/assets/images/PenshinImage06.PNG';
-import PenshinImage07 from '@/assets/images/PenshinImage07.PNG';
-import PenshinImage08 from '@/assets/images/PenshinImage08.PNG';
-import PenshinImage09 from '@/assets/images/PenshinImage09.PNG';
-import PenshinImage10 from '@/assets/images/PenshinImage10.PNG';
-import PenshinImage11 from '@/assets/images/PenshinImage11.PNG';
-import PenshinImage12 from '@/assets/images/PenshinImage12.PNG';
-import PenshinImage13 from '@/assets/images/PenshinImage13.PNG';
-import PenshinImage14 from '@/assets/images/PenshinImage14.PNG';
-import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
+
+// Logos Images
+import logo2019 from '@/assets/logos/logo2019.png';
+import logo2021 from '@/assets/logos/logo2021.jpg';
+import logo2022 from '@/assets/logos/logo2022.jpg';
+import presentLogo from '@/assets/logos/PinoyPrideLogo.png';
+
+const logos = [
+    { src: logo2019, year: "2020-2021" },
+    { src: logo2021, year: "2022-2023" },
+    { src: logo2022, year: "2023-2024" },
+    { src: presentLogo, year: "2024-present" },
+];
 </script>
 <template>
     <section
@@ -123,6 +113,22 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
         </div>
     </section>
 
+    <!-- Logo History -->
+    <section class="py-8">
+        <h2 class="relative block text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-gray-800 text-center
+         after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-2">
+            Pinoy Pride Worldwide Logo History
+        </h2>
+
+        <div class="flex justify-center">
+            <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
+                <LogoHistoryCard v-for="(logo, index) in logos" :key="index" :src="logo.src" :year="logo.year"
+                    :description="logo.description" />
+            </div>
+        </div>
+    </section>
+
+
     <!-- Our Journey -->
     <section class="py-16 bg-white">
         <Timeline />
@@ -138,8 +144,8 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
         <div class="max-w-6xl mx-auto">
             <!-- Headline -->
             <div class="text-center mb-10">
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
-               bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
+                <h2
+                    class="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
                     Pinoy Pride Worldwide LLC
                 </h2>
                 <p class="mt-2 text-lg text-gray-600">
@@ -148,18 +154,7 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
             </div>
 
             <!-- Image + Info -->
-            <ImageInfoCard :images="[
-                FowarderImage01,
-                FowarderImage02,
-                FowarderImage03,
-                FowarderImage04,
-                FowarderImage05,
-                FowarderImage06,
-                FowarderImage07,
-                FowarderImage08,
-                FowarderImage09,
-                FowarderImage10
-            ]" :logo="PPWLicensedLogo" logoSize="w-56 h-56">
+            <ImageInfoCard :images="infoImageData.forwarderImages" :logo="PPWLicensedLogo" logoSize="w-56 h-56">
                 Pinoy Pride Worldwide, LLC is renowned as a Balikbayan Box Cargo Consolidators for many years which
                 offers door-to-door logistic service. It is steadfast to conform the highest standard in shipping cargo
                 with Superior, Trustworthy, Reliable, Efficiency, and Safe (STRES) delivery for customers loved ones in
@@ -184,24 +179,7 @@ import PenshinImage15 from '@/assets/images/PenshinImage15.PNG';
             </div>
 
             <!-- Image + Info -->
-            <ImageInfoCard :images="[
-                PenshinImage00,
-                PenshinImage01,
-                PenshinImage02,
-                PenshinImage03,
-                PenshinImage04,
-                PenshinImage05,
-                PenshinImage06,
-                PenshinImage07,
-                PenshinImage08,
-                PenshinImage09,
-                PenshinImage10,
-                PenshinImage11,
-                PenshinImage12,
-                PenshinImage13,
-                PenshinImage14,
-                PenshinImage15,
-            ]">
+            <ImageInfoCard :images="infoImageData.penanshinImages">
                 Established in 1998 from Singapore, Penanshin has had a long and illustrious history as an integrated
                 one-stop freight forwarding services company. From our humble beginnings as a neutral NVOCC company,
                 Penanshin has grown to be a profitable major player in freight forwarding services in the Asia Pacific
