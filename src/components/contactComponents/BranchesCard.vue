@@ -3,6 +3,9 @@
 import { MapPinIcon } from '@heroicons/vue/24/outline';
 
 const branchNames = [
+    { branch: "Artesia, California" },
+    { branch: "Canada" },
+    { branch: "LA, California" },
     { branch: "New York/New Jersey" },
     { branch: "Seattle" },
     { branch: "Texas" },
@@ -11,7 +14,7 @@ const branchNames = [
 </script>
 
 <template>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="(branch, index) in branchNames" :key="index"
             class="flex items-center bg-white border border-gray-300 rounded-lg shadow-sm overflow-hidden hover:shadow-md transition">
             <!-- Highlight bar -->

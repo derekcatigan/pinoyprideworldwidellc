@@ -10,6 +10,7 @@ const navLinks = [
     { to: "/contact", name: "Contact" },
     { to: "/services", name: "Services" },
     { to: "/careers", name: "Careers" },
+    { to: "/faq", name: "FAQs" },
 ];
 
 const route = useRoute();

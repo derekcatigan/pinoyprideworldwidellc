@@ -7,6 +7,7 @@ import TrackView from '@/views/Track.vue';
 import ContactView from '@/views/Contact.vue';
 import CareersView from '@/views/Careers.vue';
 import Services from "@/views/Services.vue";
+import FAQ from "@/views/Faq.vue";
 const routes = [
     {
         path: '/', name: 'Home', component: HomeView
@@ -34,6 +35,9 @@ const routes = [
     },
     {
         path: '/careers', name: 'Careers', component: CareersView
+    },
+    {
+        path: '/faq', name: 'FAQs', component: FAQ
     },
 ]
 

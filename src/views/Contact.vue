@@ -83,9 +83,27 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                     { name: 'Leonila', title: 'Customer Service - Philippines', phone: '(0997)-541-1886' },
                 ]" />
 
+            <!-- Artesia, California -->
+            <ContactCard v-fade-slide-up="100" branchName="Artesia, California"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11006.22392026209!2d-118.08665238240854!3d33.86596302398672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2c5405cced85%3A0x9be5a22eea4f2643!2sArtesia%2C%20CA%2090701%2C%20USA!5e1!3m2!1sen!2sph!4v1758804133234!5m2!1sen!2sph"
+                :contacts="[
+                    { name: 'Cesar “Sano” Abastillas', title: 'Authorized Partner', phone: '(562) 968-9699' },]" />
+
+            <!-- Canada -->
+            <ContactCard v-fade-slide-up="100" branchName="Canada"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.872848643589!2d-113.53203082484777!3d53.609394522382665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a02463c94186a7%3A0x2bfc36a7fa8afe4b!2sEdmonton%2C%20AB%20T5X%200H2%2C%20Canada!5e1!3m2!1sen!2sph!4v1758803937426!5m2!1sen!2sph"
+                :contacts="[
+                    { name: 'Dexter Fulache', title: 'Business Partner', phone: '(780) 288-3864' },]" />
+
+            <!-- LA, California -->
+            <ContactCard v-fade-slide-up="100" branchName="LA, California"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148051.27840114536!2d-118.42102031952389!3d34.049214490239315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e1!3m2!1sen!2sph!4v1758804195709!5m2!1sen!2sph"
+                :contacts="[
+                    { name: 'Gina Razo', title: 'Authorized Partner', phone: '(323) 820-8942' },]" />
+
             <!-- New York/New Jersey Branch -->
             <ContactCard v-fade-slide-up="100" branchName="New York/New Jersey"
-                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416437.45918644255!2d-74.3098327123483!3d40.69667075103323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e1!3m2!1sen!2sph!4v1758804325921!5m2!1sen!2sph"
                 notice="Coming soon. For Returnee Resident client only." :contacts="[
                     { name: 'Jimmy Locsin', title: 'General Manager & VP of Operations', phone: '(917)-855-6757', email: 'pinoyprideny1129@gmail.com' },
                     { name: 'Lorenzo Dugangay', title: 'Authorized Partner', phone: '(929)-521-2605' },
@@ -100,7 +118,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 
             <!-- Texas -->
             <ContactCard v-fade-slide-up="100" branchName="Texas"
-                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.520757834986!2d-122.08512762390362!3d47.36330500474702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905fea15bd74cf%3A0xb26a2aa213c44bf1!2s19443%20SE%20266th%20St%2C%20Covington%2C%20WA%2098042%2C%20USA!5e1!3m2!1sen!2sph!4v1758115343472!5m2!1sen!2sph"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7528225.677066268!2d-105.3775199437629!3d31.0602791468681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas%2C%20USA!5e1!3m2!1sen!2sph!4v1758804387813!5m2!1sen!2sph"
                 notice="Coming soon. For Returnee Resident client only." :contacts="[
                     { name: 'Kyle Tentativa', title: 'Business Partner', phone: '(408)-368-4396' }
                 ]" />

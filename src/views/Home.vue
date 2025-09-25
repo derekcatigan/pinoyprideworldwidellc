@@ -8,43 +8,22 @@ import { newsList } from '@/data/newsData.js'
 import HomeCarousel from '@/components/homeComponents/HomeCarousel.vue';
 import TestimonialCard from '@/components/homeComponents/TestimonialCard.vue';
 import CounterCard from '@/components/homeComponents/CounterCard.vue';
+import StepSection from '../components/homeComponents/StepSection.vue';
+
 // Images
-import DeliveryManIcon from '@/assets/logos/DeliveryManIcon.png';
 import HomeImage01 from '@/assets/images/HomeImage01.png';
+
 // Heroicons
 import {
     ArchiveBoxIcon,
     MagnifyingGlassIcon,
     ChevronDownIcon,
-    DevicePhoneMobileIcon,
     TruckIcon,
     GlobeAsiaAustraliaIcon,
     BoltIcon,
     CurrencyDollarIcon,
     TrophyIcon,
 } from '@heroicons/vue/24/outline';
-
-// Steps Data
-const steps = [
-    {
-        title: 'Step 1',
-        text: 'Request for a Box Pick-up Online or Through Phone',
-        icon: DevicePhoneMobileIcon,
-        isImage: false,
-    },
-    {
-        title: 'Step 2',
-        text: 'Wait for our Authorized Agent to pick-up your Balikbayan Boxes',
-        icon: DeliveryManIcon,
-        isImage: true,
-    },
-    {
-        title: 'Step 3',
-        text: "We Deliver your Balikbayan Boxes to your Receiver's Doorstep",
-        icon: TruckIcon,
-        isImage: false,
-    },
-]
 
 // Sort by date (latest first) and take the top 3
 const latestNews = [...newsList].sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3)
@@ -125,23 +104,21 @@ const goToTrack = () => {
             </div>
         </div>
 
-        <!-- Steps -->
-        <div class="mt-5">
-            <h3 class="font-semibold text-2xl text-center mb-3">
-                Balikbayan Boxes Delivered Hassle-Free in 3 Steps.
-            </h3>
-
-            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
-                <article v-for="(step, index) in steps" :key="step.title" v-fade-slide-up="100 * (index + 1)"
-                    class="flex flex-col items-center text-center max-w-xs">
-                    <div class="w-28 h-28 rounded-full bg-blue-100 flex justify-center items-center">
-                        <component :is="step.isImage ? 'img' : step.icon" :src="step.isImage ? step.icon : undefined"
-                            alt="" class="size-14 shrink-0" />
-                    </div>
-                    <h4 class="mt-4 font-semibold text-lg">{{ step.title }}</h4>
-                    <p class="text-sm text-gray-600">{{ step.text }}</p>
-                </article>
+        <!-- Steps Component -->
+        <div class="mt-12">
+            <!-- Headline -->
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold text-gray-900">
+                    4 STEPS DELIVERY OF BALIKBAYAN BOX AND CONTAINERS
+                </h2>
+                <p class="mt-2 text-gray-600 text-lg">
+                    Whether you’re sending Balikbayan Boxes or moving back as a Returning Resident,
+                    our process is simple and hassle-free.
+                </p>
             </div>
+
+            <!-- Steps Section -->
+            <StepSection />
         </div>
     </section>
 
