@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from 'vue'
+
 // Component
 import ServicesCard from '@/components/servicesComponents/ServicesCard.vue';
 // Images
@@ -9,6 +11,11 @@ import PPWProhibited from '@/assets/documents/PPW Prohibited.pdf';
 // Heroicons
 import { CheckIcon } from '@heroicons/vue/24/outline';
 
+const myTerms = ref(null)
+
+const openModal = () => {
+    myTerms.value.showModal()
+}
 </script>
 
 <template>
@@ -412,8 +419,8 @@ import { CheckIcon } from '@heroicons/vue/24/outline';
                 <p class="text-gray-100 sm:text-lg mb-4">
                     For the full details of the law, you can view the official document here:
                 </p>
-                <a :href="PPWProhibited" target="_blank"
-                    class="inline-block bg-yellow-400 text-blue-950 font-semibold px-5 py-3 rounded-lg shadow-md hover:bg-yellow-500 transition">
+
+                <a :href="PPWProhibited" target="_blank" class="btn btn-warning">
                     📄 View Republic Act No. 4653 (PDF)
                 </a>
             </div>

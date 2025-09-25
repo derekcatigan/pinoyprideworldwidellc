@@ -36,14 +36,21 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                     </div>
 
                     <p class="text-gray-700 text-sm mb-3">
-                        Pinoy Pride Worldwide LLC is a bonded and insured freight forwarding company, licensed under
+                        1. Pinoy Pride Worldwide LLC is a bonded and insured freight forwarding company, licensed under
                         the <span class="font-bold">US Federal Maritime Commission (FMC-OTI-NVOCC #033592N)</span>. We
                         specialize in consolidating Balikbayan boxes and moving household goods (including cars, if any)
                         into containers, shipped and delivered directly to the consignee’s address anywhere in the
                         Philippines.
                     </p>
+                    <p class="text-gray-700 text-sm mb-3">
+                        Some companies, especially fly-by-night operators, claim to be licensed, bonded, and insured.
+                        However, they cannot provide their license number because, if customers search for it on Google,
+                        they will quickly discover whether it is valid or not.Some companies, especially fly-by-night
+                        operators, claim to be licensed, bonded, and insured. However, they cannot provide their license
+                        number because, if customers search for it on Google, they will quickly discover whether it is
+                        valid or not.
+                    </p>
                     <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
-                        <li>Some companies claim to be licensed, bonded, and insured but cannot provide proof.</li>
                         <li>Having an <span class="font-bold">NVOCC license</span> is the only way to book containers
                             directly with shipping lines.
                         </li>
@@ -61,9 +68,10 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                         <div class="flex-1 border-t-2 border-red-200 ml-3"></div>
                     </div>
                     <p class="text-gray-700 text-sm">
-                        With Pinoy Pride Worldwide LLC, you are assured of legitimacy and transparency. If you have
-                        any questions or concerns regarding your shipment, you can directly contact our Manager, VP
-                        of Operations, or even our President/CEO.
+                        2. With Pinoy Pride Worldwide LLC, you are assured of legitimacy and transparency. If you have
+                        any
+                        questions or concerns regarding your shipment, you can directly contact our Manager, VP of
+                        Operations, or even our President/CEO. We keep communication open and honest at every stage.
                     </p>
                 </FaqCard>
 
@@ -76,11 +84,11 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                         <div class="flex-1 border-t-2 border-red-200 ml-3"></div>
                     </div>
                     <p class="text-gray-700 text-sm">
-                        For every shipment, Pinoy Pride Worldwide LLC signs a <span class="font-bold">Memorandum of
+                        3. For every shipment, Pinoy Pride Worldwide LLC signs a <span class="font-bold">Memorandum of
                             Agreement (MOA)</span>
                         with the
                         shipper/sender. This ensures transparency, accountability, mutual benefits, and protection
-                        for both parties.
+                        for both parties, giving you peace of mind.
                     </p>
                 </FaqCard>
 
@@ -93,7 +101,7 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                         <div class="flex-1 border-t-2 border-red-200 ml-3"></div>
                     </div>
                     <p class="text-gray-700 text-sm">
-                        Pinoy Pride Worldwide provides documentation for each shipment to prove successful
+                        4. Pinoy Pride Worldwide provides documentation for each shipment to prove successful
                         deliveries. These records are available on our website.
                     </p>
                 </FaqCard>
@@ -112,11 +120,11 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                     class="bg-white border border-gray-300 shadow-sm rounded-xl p-6 hover:shadow-md hover:-translate-y-1 transition">
                     <h3 class="flex items-center font-semibold text-lg mb-2">
                         <span class="w-1.5 h-6 bg-blue-500 rounded mr-2"></span>
-                        Use a Legitimate Forwarding Company
+                        To ensure your shipment is SAFE
                     </h3>
                     <p class="text-gray-700 text-sm">
-                        Pinoy Pride Worldwide LLC is licensed, bonded, and insured, and fully complies with all shipment
-                        requirements to ensure safety.
+                        1. Use a legitimate forwarding company like Pinoy Pride Worldwide LLC, which is licensed,
+                        bonded, and insured, and comply with all shipment requirements.
                     </p>
                 </div>
 
@@ -128,10 +136,10 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                         Sign a Memorandum of Agreement (MOA)
                     </h3>
                     <p class="text-gray-700 text-sm mb-3">
-                        The most important step is to sign a Memorandum of Agreement (MOA). This document guarantees
-                        that, in the unlikely event we cannot secure customs clearance, all expenses of the
-                        shipper/sender will be refunded —
-                        <span class="font-medium">except in cases of mis-declaration or illegal contents.</span>
+                        2. The most important step is to sign a Memorandum of Agreement (MOA). This document states
+                        that, in the unlikely event we cannot secure customs clearance to release the container, all
+                        expenses of the shipper/sender will be refunded - except in cases where the Bureau of Customs
+                        (BOC) holds the container due to mis-declaration or illegal contents found inside.
                     </p>
                     <p class="text-gray-600 text-sm italic">
                         ⚠ Important: If a forwarding company refuses to sign an MOA, it means they are not confident in
@@ -148,7 +156,7 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                         Hassle-Free Shipping
                     </h3>
                     <p class="text-gray-700 text-sm">
-                        Shipping your used household goods (including cars, if any) is easy and stress-free when all
+                        3. Shipping your used household goods (including cars, if any) is easy and stress-free when all
                         policies and requirements are properly followed.
                     </p>
                 </div>

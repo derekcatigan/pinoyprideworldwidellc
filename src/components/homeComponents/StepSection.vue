@@ -40,7 +40,7 @@ const stepSections = [
         ],
     },
     {
-        title: 'Returning Resident Container Delivery',
+        title: 'Returning Resident/Single Consignee Container Delivery',
         steps: [
             {
                 title: 'Step 1',
