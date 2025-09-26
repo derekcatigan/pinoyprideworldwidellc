@@ -47,7 +47,7 @@ const teamMembers = [
         name: "Angelica F. Nerves",
         position: `Marketing Director/Customer Representative`,
         description:
-            `Angelica F. Nerves holds a Bachelor of Science in Information Technology, major in Programming from Southern Leyte State University. During her academic journey, she not only built a solid technical foundation but also showcased her leadership capabilities as the project manager of her capstone project, where she guided her team in delivering innovative solutions.
+            `Angelica F. Nerves holds a Bachelor of Science in Information Technology major in Programming from Southern Leyte State University. During her academic journey, she not only built a solid technical foundation but also showcased her leadership capabilities as the project manager of her capstone project, where she guided her team in delivering innovative solutions.
 
             Currently, Angelica is building her professional career as a Call Center Representative under a banking and financial account. In this role, she provides assistance to clients with their financial needs and digital banking concerns, combining her technical knowledge with excellent customer service skills. Her unique blend of IT expertise, leadership experience, and communication skills allows her to adapt in both technology and client-focused environments.
             `,
