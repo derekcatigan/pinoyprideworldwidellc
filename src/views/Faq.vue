@@ -45,10 +45,7 @@ import FaqCard from '@/components/faqComponents/FaqCard.vue';
                     <p class="text-gray-700 text-sm mb-3">
                         Some companies, especially fly-by-night operators, claim to be licensed, bonded, and insured.
                         However, they cannot provide their license number because, if customers search for it on Google,
-                        they will quickly discover whether it is valid or not.Some companies, especially fly-by-night
-                        operators, claim to be licensed, bonded, and insured. However, they cannot provide their license
-                        number because, if customers search for it on Google, they will quickly discover whether it is
-                        valid or not.
+                        they will quickly discover whether it is valid or not.
                     </p>
                     <ul class="list-disc list-inside text-gray-600 text-sm space-y-1">
                         <li>Having an <span class="font-bold">NVOCC license</span> is the only way to book containers
