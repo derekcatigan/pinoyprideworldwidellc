@@ -2,11 +2,10 @@
 // Team Images
 import TeamPicEdgar from '@/assets/images/teamPic/TeamPicEdgar.png';
 import TeamPicJimmy from '@/assets/images/teamPic/TeamPicJimmy.png';
-import TeamPicWilson from '@/assets/images/teamPic/TeamPicWilson.png';
 import TeamPicDexter from '@/assets/images/teamPic/TeamPicDexter.png';
 import TeamPicJean from '@/assets/images/teamPic/TeamPicJean.png';
 import TeamPicJoshua from '@/assets/images/teamPic/TeamPicJoshua.png';
-import TeamPicLeonila from '@/assets/images/teamPic/TeamPicLeonila.png';
+import TeamPicAngelica from '@/assets/images/teamPic/TeamPicAngelica.png';
 
 // Team data array
 const teamMembers = [
@@ -44,14 +43,13 @@ const teamMembers = [
             `,
     },
     {
-        img: TeamPicWilson,
-        name: "Wilson Reyes",
-        position: `Marketing Director 
-        (Mid-Pacific and Middle East Region)`,
+        img: TeamPicAngelica,
+        name: "Angelica F. Nerves",
+        position: `Marketing Director/Customer Representative`,
         description:
-            `Wilson O. Cinco graduated with a Bachelor of Science in Accounting. He has 35 years of experience in reputable companies such as Mid-Pacific Solutions, LLC (CEP). He is the founder of Mid-Pacific Solutions, LLC (US Consultancy Firm), and is the founder and president of Friends of Earth Foundation (FOE). He was a Board of Director at the Filipino Association in the Marshall Islands (FAMI) in 2020.
+            `Angelica F. Nerves holds a Bachelor of Science in Information Technology, major in Programming from Southern Leyte State University. During her academic journey, she not only built a solid technical foundation but also showcased her leadership capabilities as the project manager of her capstone project, where she guided her team in delivering innovative solutions.
 
-            In the Philippines, Wilson also worked at San Miguel Corporations, Faxcable Phiippines, and Asian Institute of Management International. His expertise is a win-win for Pinoy Pride Worldwide.
+            Currently, Angelica is building her professional career as a Call Center Representative under a banking and financial account. In this role, she provides assistance to clients with their financial needs and digital banking concerns, combining her technical knowledge with excellent customer service skills. Her unique blend of IT expertise, leadership experience, and communication skills allows her to adapt in both technology and client-focused environments.
             `,
     },
     {
@@ -89,15 +87,6 @@ const teamMembers = [
                 Originally from Sogod, Southern Leyte and now based in Mandaue City, Cebu, he is passionate about continuous learning, developing innovative solutions, and leveraging technology to create meaningful impact.
             `,
     },
-    {
-        img: TeamPicLeonila,
-        name: "Leonila Buenafe Dichoso",
-        position: "Customer Service Representative",
-        description:
-            `
-                Graduated Bachelor of Science in Social Work and had been connected at the Local Government Unit for 33 years. Retired as Municipal Social Welfare and Development Officer. Attended various training in the field of socio-economic development. Board of Director of Philippines Red Cross, Hilongos Chapter from 2010 to present. A lifetime member of the International Marketing Group since 2015 up to the present.
-            `,
-    },
 ];
 </script>
 
@@ -105,8 +94,8 @@ const teamMembers = [
     <div class="max-w-6xl mx-auto px-6">
         <!-- Title -->
         <div class="text-center mb-12 relative">
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-transparent 
-           bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
+            <h2
+                class="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-blue-500">
                 Our Team
             </h2>
             <div class="mt-3 w-24 h-1 bg-indigo-600 mx-auto rounded-full shadow-md"></div>

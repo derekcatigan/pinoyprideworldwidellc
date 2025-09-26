@@ -63,8 +63,7 @@ const props = defineProps({
         </div>
 
         <!-- Highlight Line -->
-        <div class="absolute bg-yellow-500
-         top-0 left-0 w-full h-1 md:w-1 md:h-full md:right-0 md:left-auto">
+        <div class="absolute bg-yellow-500 top-0 left-0 w-full h-1 md:w-1 md:h-full md:right-0 md:left-auto">
         </div>
     </div>
 </template>
