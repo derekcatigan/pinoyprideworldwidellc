@@ -5,7 +5,9 @@ import { MapPinIcon } from '@heroicons/vue/24/outline';
 const branchNames = [
     { branch: "Artesia, California" },
     { branch: "Canada" },
+    { branch: "Chicago" },
     { branch: "LA, California" },
+    { branch: "Indiana" },
     { branch: "New York/New Jersey" },
     { branch: "Seattle" },
     { branch: "Texas" },
