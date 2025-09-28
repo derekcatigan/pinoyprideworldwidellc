@@ -44,7 +44,7 @@ const goToTrack = () => {
         <HomeCarousel />
     </section>
 
-    <section class="p-4 sm:p-6 flex flex-col items-center justify-center">
+    <section class="p-4 sm:py-16 flex flex-col items-center justify-center">
         <!-- Tracking Card -->
         <div v-fade-slide-up="100"
             class="card border border-gray-300 bg-white shadow p-4 sm:p-6 w-full max-w-lg sm:max-w-2xl md:max-w-3xl">
@@ -103,23 +103,25 @@ const goToTrack = () => {
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Steps Component -->
-        <div class="mt-12">
-            <!-- Headline -->
-            <div class="text-center mb-8">
-                <h2 class="text-3xl font-bold text-gray-900">
-                    4 STEPS DELIVERY OF BALIKBAYAN BOX AND CONTAINERS
-                </h2>
-                <p class="mt-2 text-gray-600 text-lg">
-                    Whether you’re sending Balikbayan Boxes or moving back as a Returning Resident,
-                    our process is simple and hassle-free.
-                </p>
-            </div>
-
-            <!-- Steps Section -->
-            <StepSection />
+    <section class="mt-12 bg-blue-950 py-16">
+        <!-- Headline -->
+        <div class="text-center mb-8 mx-auto">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                4 STEPS DELIVERY OF
+                <span class="text-blue-400">BALIKBAYAN BOX</span>
+                AND CONTAINERS
+            </h2>
+            <p class="mt-4 text-lg md:text-xl text-blue-200">
+                Whether you’re sending Balikbayan Boxes or moving back as a Returning Resident,<br
+                    class="hidden md:block">
+                our process is simple and hassle-free.
+            </p>
         </div>
+
+        <!-- Steps Section -->
+        <StepSection />
     </section>
 
     <!-- Card Counter Section -->

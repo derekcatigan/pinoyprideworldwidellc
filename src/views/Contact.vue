@@ -85,24 +85,28 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
 
             <!-- Artesia, California -->
             <ContactCard v-fade-slide-up="100" branchName="Artesia, California"
+                notice="Coming soon. For Returnee Resident client only."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11006.22392026209!2d-118.08665238240854!3d33.86596302398672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2c5405cced85%3A0x9be5a22eea4f2643!2sArtesia%2C%20CA%2090701%2C%20USA!5e1!3m2!1sen!2sph!4v1758804133234!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Cesar “Sano” Abastillas', title: 'Authorized Partner', phone: '(562) 968-9699' },]" />
 
             <!-- Canada -->
             <ContactCard v-fade-slide-up="100" branchName="Canada"
+                notice="Coming soon. For Returnee Resident client only."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.872848643589!2d-113.53203082484777!3d53.609394522382665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a02463c94186a7%3A0x2bfc36a7fa8afe4b!2sEdmonton%2C%20AB%20T5X%200H2%2C%20Canada!5e1!3m2!1sen!2sph!4v1758803937426!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Dexter Fulache', title: 'Business Partner', phone: '(780) 288-3864' },]" />
 
             <!-- Chicago -->
             <ContactCard v-fade-slide-up="100" branchName="Chicago and Indiana"
+                notice="Coming soon. For Returnee Resident client only."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382496.4737680255!2d-88.06152172494062!3d41.833239303261166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL%2C%20USA!5e1!3m2!1sen!2sph!4v1758960021231!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Dra. Carolina Ocampo', title: 'Authorized Partner', phone: '(219) 218-3894' },]" />
 
             <!-- LA, California -->
             <ContactCard v-fade-slide-up="100" branchName="LA, California"
+                notice="Coming soon. For Returnee Resident client only."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148051.27840114536!2d-118.42102031952389!3d34.049214490239315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e1!3m2!1sen!2sph!4v1758804195709!5m2!1sen!2sph"
                 :contacts="[
                     { name: 'Gina Razo', title: 'Authorized Partner', phone: '(323) 820-8942' },]" />

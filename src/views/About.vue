@@ -4,7 +4,8 @@ import Timeline from '@/components/aboutComponents/Timeline.vue';
 import TeamSection from '@/components/aboutComponents/TeamSection.vue';
 import ImageInfoCard from '@/components/aboutComponents/ImageInfoCard.vue';
 import LogoHistoryCard from '@/components/aboutComponents/LogoHistoryCard.vue';
-import { infoImageData } from '../data/infoImageData';
+import WebsiteHistoryCard from '@/components/aboutComponents/WebsiteHistoryCard.vue';
+import { infoImageData } from '@/data/infoImageData';
 
 // Images
 import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
@@ -16,11 +17,20 @@ import logo2021 from '@/assets/logos/logo2021.jpg';
 import logo2022 from '@/assets/logos/logo2022.jpg';
 import presentLogo from '@/assets/logos/PinoyPrideLogo.png';
 
+// Website Images
+import Website01 from '@/assets/images/Website01.png';
+import Website02 from '@/assets/images/Website02.png';
+
 const logos = [
     { src: logo2019, year: "2020-2021" },
     { src: logo2021, year: "2022-2023" },
     { src: logo2022, year: "2023-2024" },
-    { src: presentLogo, year: "2024-present" },
+    { src: presentLogo, year: "2024-Present" },
+];
+
+const webs = [
+    { src: Website02, year: "2024-Sept 2025" },
+    { src: Website01, year: "October 2025-Present" },
 ];
 </script>
 <template>
@@ -113,18 +123,30 @@ const logos = [
         </div>
     </section>
 
-    <!-- Logo History -->
-    <section class="py-8">
-        <h2 class="relative block text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-gray-800 text-center
-         after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-2">
+    <!-- History Sections -->
+    <section class="py-12">
+        <h2
+            class="relative text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-gray-800 text-center after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-3">
             Pinoy Pride Worldwide Logo History
         </h2>
 
-        <div class="flex justify-center">
-            <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
-                <LogoHistoryCard v-for="(logo, index) in logos" :key="index" :src="logo.src" :year="logo.year"
-                    :description="logo.description" />
-            </div>
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center max-w-6xl mx-auto">
+            <LogoHistoryCard v-for="(logo, index) in logos" :key="index" :src="logo.src" :year="logo.year"
+                :description="logo.description" />
+        </div>
+    </section>
+
+    <section class="py-12">
+        <h2
+            class="relative text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-gray-800 text-center after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-3">
+            Pinoy Pride Worldwide Website History
+        </h2>
+
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center px-10 mx-auto">
+            <WebsiteHistoryCard v-for="(web, index) in webs" :key="index" :src="web.src" :year="web.year"
+                :description="web.description" />
         </div>
     </section>
 

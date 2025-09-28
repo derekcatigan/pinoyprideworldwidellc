@@ -72,22 +72,34 @@ const stepSections = [
 </script>
 
 <template>
-    <div class="mt-10 space-y-12">
+    <div class="mt-10 space-y-16">
         <!-- Loop through each section -->
-        <section v-for="(section, sIndex) in stepSections" :key="sIndex">
-            <h3 class="font-semibold text-2xl text-center mb-6">
+        <section v-for="(section, sIndex) in stepSections" :key="sIndex" class="text-center">
+            <!-- Section Title -->
+            <h3 class="font-bold text-3xl text-white mb-10 tracking-tight">
                 {{ section.title }}
             </h3>
 
-            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+            <!-- Steps Grid -->
+            <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
                 <article v-for="(step, index) in section.steps" :key="step.title" v-fade-slide-up="100 * (index + 1)"
-                    class="flex flex-col items-center text-center max-w-xs">
-                    <div class="w-28 h-28 rounded-full bg-blue-100 flex justify-center items-center">
+                    class="flex flex-col items-center text-center p-6 rounded-2xl bg-white/5 hover:bg-white/10 transition duration-300">
+                    <!-- Step Icon -->
+                    <div
+                        class="w-24 h-24 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 flex justify-center items-center shadow-lg">
                         <component :is="step.isImage ? 'img' : step.icon" :src="step.isImage ? step.icon : undefined"
-                            alt="" class="size-14 shrink-0" />
+                            alt="" class="size-12" />
                     </div>
-                    <h4 class="mt-4 font-semibold text-lg">{{ step.title }}</h4>
-                    <p class="text-sm text-gray-600">{{ step.text }}</p>
+
+                    <!-- Step Title -->
+                    <h4 class="mt-6 font-semibold text-xl text-white">
+                        {{ step.title }}
+                    </h4>
+
+                    <!-- Step Text -->
+                    <p class="mt-2 text-sm text-blue-200 leading-relaxed">
+                        {{ step.text }}
+                    </p>
                 </article>
             </div>
         </section>
