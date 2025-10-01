@@ -3,8 +3,19 @@ import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
 // Data
 import { testimonialData } from '@/data/testimonialData.js';
 
+
 // Testimonials Data
 const testimonials = ref(testimonialData);
+
+// Get initials helper
+function getInitials(name) {
+    if (!name) return ''
+    return name
+        .split(' ')
+        .map(n => n[0].toUpperCase())
+        .slice(0, 2)
+        .join('')
+}
 
 // Track window width
 const windowWidth = ref(window.innerWidth);
@@ -32,7 +43,7 @@ onMounted(() => {
 
     intervalId = setInterval(() => {
         currentSlide.value = (currentSlide.value + 1) % slides.value.length;
-    }, 5000);
+    }, 10000);
 });
 
 onBeforeUnmount(() => {
@@ -46,29 +57,38 @@ onBeforeUnmount(() => {
         <div class="flex transition-transform duration-500 ease-in-out"
             :style="{ transform: `translateX(-${currentSlide * 100}%)` }">
             <div v-for="(group, index) in slides" :key="index"
-                class="flex-shrink-0 w-full flex justify-center gap-4 px-2 items-stretch">
+                class="flex-shrink-0 w-full flex justify-center gap-6 px-2 items-stretch">
                 <div v-for="(testimonial, i) in group" :key="i"
-                    class="w-full max-w-sm sm:max-w-md p-6 bg-white border border-gray-200 rounded-xl shadow-lg hover:shadow-xl transition flex flex-col justify-between items-center text-center h-full">
-
-                    <div class="flex flex-col items-center">
-                        <img v-if="testimonial.avatar" :src="testimonial.avatar" alt="Customer photo"
-                            class="w-16 h-16 rounded-full mb-4 object-cover" />
-                        <p class="text-gray-700 text-sm sm:text-base italic">
-                            "{{ testimonial.message }}"
-                        </p>
+                    class="w-full max-w-xl p-4 bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition flex flex-col h-auto">
+                    <!-- Header -->
+                    <div class="flex items-center gap-3 mb-2">
+                        <div
+                            class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white font-bold text-base shadow-md">
+                            {{ getInitials(testimonial.name) }}
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-800 text-sm sm:text-base">
+                                {{ testimonial.name }}
+                            </p>
+                            <p v-if="testimonial.location" class="text-gray-500 text-xs leading-tight">
+                                <span v-for="(loc, idx) in testimonial.location.split(';')" :key="idx" class="block">
+                                    📍 {{ loc.trim() }}
+                                </span>
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="mt-4">
-                        <p class="font-semibold">{{ testimonial.name }}</p>
-                        <p v-if="testimonial.location" class="text-gray-500 text-sm mt-1">
-                            <span v-for="(loc, idx) in testimonial.location.split(';')" :key="idx" class="block">
-                                📍 {{ loc.trim() }}
-                            </span>
+                    <!-- Message -->
+                    <div class="flex-1 flex items-center">
+                        <p class="text-gray-700 text-sm sm:text-base italic leading-relaxed text-left">
+                            "{{ testimonial.message }}"
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Dots -->
         <div class="flex justify-center mt-6 gap-2">
             <button v-for="(dot, i) in slides.length" :key="i" @click="currentSlide = i"
                 class="w-3 h-3 rounded-full transition" :class="currentSlide === i ? 'bg-gray-800' : 'bg-gray-400'" />

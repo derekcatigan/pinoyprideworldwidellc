@@ -5,6 +5,8 @@ import TeamSection from '@/components/aboutComponents/TeamSection.vue';
 import ImageInfoCard from '@/components/aboutComponents/ImageInfoCard.vue';
 import LogoHistoryCard from '@/components/aboutComponents/LogoHistoryCard.vue';
 import WebsiteHistoryCard from '@/components/aboutComponents/WebsiteHistoryCard.vue';
+import BalikBayanCarousel from '@/components/aboutComponents/BalikBayanCarousel.vue';
+import DeliveryCarousel from '@/components/aboutComponents/DeliveryCarousel.vue';
 import { infoImageData } from '@/data/infoImageData';
 
 // Images
@@ -21,6 +23,26 @@ import presentLogo from '@/assets/logos/PinoyPrideLogo.png';
 import Website01 from '@/assets/images/Website01.png';
 import Website02 from '@/assets/images/Website02.png';
 
+// Balikbayan Boxes
+import BalikBayan01 from '@/assets/images/balikBayan/PPW01.png';
+import BalikBayan02 from '@/assets/images/balikBayan/PPW02.png';
+import BalikBayan03 from '@/assets/images/balikBayan/PPW03.png';
+import BalikBayan04 from '@/assets/images/balikBayan/PPW04.png';
+import BalikBayan05 from '@/assets/images/balikBayan/PPW05.png';
+import BalikBayan06 from '@/assets/images/balikBayan/PPW06.png';
+import BalikBayan07 from '@/assets/images/balikBayan/PPW07.jpg';
+import BalikBayan08 from '@/assets/images/balikBayan/PPW08.png';
+import BalikBayan09 from '@/assets/images/balikBayan/PPW09.jpg';
+import BalikBayan10 from '@/assets/images/balikBayan/PPW10.jpg';
+import BalikBayan11 from '@/assets/images/balikBayan/PPW11.jpg';
+
+// Successfull Deliveries
+import Delivery01 from '@/assets/images/deliveryImages/Delivery01.mp4';
+import Delivery02 from '@/assets/images/deliveryImages/Delivery02.mp4';
+import Delivery03 from '@/assets/images/deliveryImages/Delivery03.mp4';
+import Delivery04 from '@/assets/images/deliveryImages/Delivery04.mp4';
+import Delivery05 from '@/assets/images/deliveryImages/Delivery05.mp4';
+
 const logos = [
     { src: logo2019, year: "2020-2021" },
     { src: logo2021, year: "2022-2023" },
@@ -32,6 +54,28 @@ const webs = [
     { src: Website02, year: "2024-Sept 2025" },
     { src: Website01, year: "October 2025-Present" },
 ];
+
+const boxImages = [
+    BalikBayan01,
+    BalikBayan02,
+    BalikBayan03,
+    BalikBayan04,
+    BalikBayan05,
+    BalikBayan06,
+    BalikBayan07,
+    BalikBayan08,
+    BalikBayan09,
+    BalikBayan10,
+    BalikBayan11,
+]
+
+const deliveryVideos = [
+    Delivery01,
+    Delivery02,
+    Delivery03,
+    Delivery04,
+    Delivery05,
+]
 </script>
 <template>
     <section
@@ -154,6 +198,46 @@ const webs = [
     <!-- Our Journey -->
     <section class="py-16 bg-white">
         <Timeline />
+    </section>
+
+    <!-- Balikbayan Boxes -->
+    <section class="py-16 space-y-16">
+        <!-- Balikbayan Boxes Section -->
+        <div class="text-center space-y-6">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-800 relative inline-block">
+                    Balikbayan Boxes
+                </h2>
+                <!-- Highlight line -->
+                <div class="mt-3 h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
+
+                <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                    Experience peace of mind knowing your <span class="font-semibold text-gray-800">balikbayan
+                        boxes</span>
+                    are handled with <span class="text-blue-600 font-semibold">care, security,</span> and
+                    <span class="text-blue-600 font-semibold">timely delivery</span> — from pickup all the way to your
+                    loved ones.
+                </p>
+            </div>
+            <BalikBayanCarousel :images="boxImages" />
+        </div>
+
+        <!-- Returning Resident Successful Delivery Section -->
+        <div class="text-center space-y-6">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-800 relative inline-block">
+                    Returning Resident Deliveries
+                </h2>
+                <!-- Highlight line -->
+                <div class="mt-3 h-1 w-20 bg-yellow-500 mx-auto rounded-full"></div>
+
+                <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                    The best choice to send your household <span class="text-yellow-500 font-semibold">goods, car,
+                        speed boat, jet ski & more</span> anywhere in the Philippines.
+                </p>
+            </div>
+            <DeliveryCarousel :videos="deliveryVideos" />
+        </div>
     </section>
 
     <!-- Our Team -->
