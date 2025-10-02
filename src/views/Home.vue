@@ -316,7 +316,7 @@ const goToTrack = () => {
         <div class="text-center space-y-6">
             <div>
                 <h2 class="text-3xl font-bold text-gray-800 relative inline-block">
-                    Balikbayan Boxes
+                    Balikbayan Boxes Shipments
                 </h2>
                 <!-- Highlight line -->
                 <div class="mt-3 h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
