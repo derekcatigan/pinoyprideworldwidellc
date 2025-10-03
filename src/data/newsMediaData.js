@@ -19,6 +19,9 @@ import PPWSymposium02 from '@/assets/images/newsImages/Sep21,2025/PPWSymposium02
 import PPWSponsorConcert01 from '@/assets/images/newsImages/Sep21,2025/PPWSponsorConcert01.png';
 import PPWSponsorConcert02 from '@/assets/images/newsImages/Sep21,2025/PPWSponsorConcert02.png';
 
+// Posted on Oct 04, 2025
+import PPWVid01 from '@/assets/images/newsImages/Oct04,2025/PPWVid01.mp4';
+
 export const newsMedia = {
     "2025-09-19": [
         { type: "image", src: newsImage01 },
@@ -48,4 +51,8 @@ export const newsMedia = {
             { type: "image", src: PPWSponsorConcert02 },
         ],
     },
+    "2025-10-04": [
+        { type: "video", src: PPWVid01 },
+
+    ]
 };

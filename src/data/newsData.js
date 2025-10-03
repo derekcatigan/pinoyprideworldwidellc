@@ -33,6 +33,12 @@ export const newsList = [
         date: "Sep 21, 2025",
         media: newsMedia["2025-09-21"].concert,
     },
+    {
+        id: 6,
+        title: "Pinoy Pride LLC New York & New Jersey Video Jan 22, 2022.",
+        date: "Oct 04, 2025",
+        media: newsMedia["2025-10-04"],
+    },
 
 ];
 
