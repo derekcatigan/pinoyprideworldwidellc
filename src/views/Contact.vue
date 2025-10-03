@@ -112,6 +112,13 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                     { name: 'Gina Razo', title: 'Authorized Partner', phone: '(323) 820-8942' },]" />
 
             <!-- New York/New Jersey Branch -->
+            <ContactCard v-fade-slide-up="100" branchName="North Carolina"
+                mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6471132.801623714!2d-85.14958113536626!3d35.0555007666723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0xad3f30f5e922ae19!2sNorth%20Carolina%2C%20USA!5e1!3m2!1sen!2sph!4v1759507273986!5m2!1sen!2sph"
+                notice="Coming soon. For Returnee Resident client only." :contacts="[
+                    { name: 'Nerisa Dixon', title: 'Authorized Partner', phone: '(252)-670-6766' },
+                ]" />
+
+            <!-- New York/New Jersey Branch -->
             <ContactCard v-fade-slide-up="100" branchName="New York/New Jersey"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416437.45918644255!2d-74.3098327123483!3d40.69667075103323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e1!3m2!1sen!2sph!4v1758804325921!5m2!1sen!2sph"
                 notice="Coming soon. For Returnee Resident client only." :contacts="[

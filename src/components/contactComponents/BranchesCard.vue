@@ -8,6 +8,7 @@ const branchNames = [
     { branch: "Chicago" },
     { branch: "LA, California" },
     { branch: "Indiana" },
+    { branch: "North Carolina" },
     { branch: "New York/New Jersey" },
     { branch: "Seattle" },
     { branch: "Texas" },
