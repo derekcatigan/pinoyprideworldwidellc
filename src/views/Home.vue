@@ -27,6 +27,10 @@ import BalikBayan08 from '@/assets/images/balikBayan/PPW08.png';
 import BalikBayan09 from '@/assets/images/balikBayan/PPW09.jpg';
 import BalikBayan10 from '@/assets/images/balikBayan/PPW10.jpg';
 import BalikBayan11 from '@/assets/images/balikBayan/PPW11.jpg';
+import BalikBayan12 from '@/assets/images/balikBayan/PPW12.jpg';
+import BalikBayan13 from '@/assets/images/balikBayan/PPW13.jpg';
+import BalikBayan14 from '@/assets/images/balikBayan/PPW14.jpg';
+import BalikBayan15 from '@/assets/images/balikBayan/PPW15.jpg';
 
 // Successfull Deliveries
 import Delivery01 from '@/assets/images/deliveryImages/Delivery01.mp4';
@@ -47,6 +51,10 @@ const boxImages = [
     BalikBayan09,
     BalikBayan10,
     BalikBayan11,
+    BalikBayan12,
+    BalikBayan13,
+    BalikBayan14,
+    BalikBayan15,
 ]
 
 const deliveryVideos = [
