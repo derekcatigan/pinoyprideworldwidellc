@@ -51,4 +51,10 @@ export const testimonialData = [
         message: "Nong Edgar, miabot na ang container nga among gikargahan sa among mga gamit para sa among simbahan. SAFE kaayo ang pag-abot ug kumpleto ang tanan. Ako gyud i-rekomenda ang Pinoy Pride Worldwide sa uban pa nakong mga amigo diha sa New York nga gustong magpadala sa ilang mga gamit sa balay via container. Sslamat kaayo Nong Edgar.",
         avatar: ""
     },
+    {
+        name: "Larry Dizon",
+        location: "PPW - Virginia",
+        message: "Nakakatuwang maging tulay para sa mga kababayan nating gustong ipadama ang pagmamahal nila sa pamilya sa Pilipinas. Hindi lang kahon ang pinapadala - puso, sakripisyo, at kwento ng bawat Pilipino dito sa abroad. Simula nang maging parte kami ng Pinoy Pride Worldwide, ramdam namin ang saya sa bawat padala. Iba 'yung feeling kapag alam mong nakakatulong ka para mapalapit ang mga pamilya kahit magkalayo. Kaya sa bawat kahon na ipapadala mo, alam naming may kasamang pagmamahal, pag-asa, at ngiti sa kabila. At dito sa amin, proud kaming maging parte ng bawat kwento mo. Padala pa lang, ramdam mo na ang Pinoy Pride!",
+        avatar: ""
+    },
 ]
