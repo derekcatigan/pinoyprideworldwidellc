@@ -139,7 +139,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
             <!-- Seattle Branch -->
             <ContactCard v-fade-slide-up="100" branchName="Seattle"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1308.33277844007!2d-122.23011155281112!3d47.320013718448045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490594327807515%3A0xf5092547a8802535!2sSeattle%20Manila%20Oriental%20Store%2FCafe%20%26%20Travel%20Booking%20Services%20Worldwide!5e1!3m2!1sen!2sph!4v1758345863664!5m2!1sen!2sph"
-                notice="Coming soon. For Returnee Resident client only." :contacts="[
+                :contacts="[
                     { name: 'Seattle Manila Oriental Store & Cafe 1257 A St. NE Auburn, WA 98002', title: 'Authorized Partner', phone: '(206)-492-9123 Ext. 531-9008', email: 'pinoyprideworldwide@gmail.com' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />

@@ -8,6 +8,7 @@ const inputNumber = ref("")
 const result = ref(null)
 
 const trackShipment = async () => {
+    console.log("Track button clicked!")
     const query = inputNumber.value.trim().toUpperCase()
     if (!query) return
 
@@ -46,11 +47,10 @@ onMounted(() => {
         </p>
 
         <!-- Tracking Input -->
-        <form @submit.prevent="trackShipment"
-            class="w-full flex flex-col sm:flex-row items-center justify-center gap-3 max-w-xl">
+        <form class="w-full flex flex-col sm:flex-row items-center justify-center gap-3 max-w-xl">
             <input v-model="inputNumber" type="text" placeholder="Enter Tracking Number / Invoice #"
                 class="input input-bordered w-full sm:flex-1" />
-            <button type="submit" class="btn btn-primary w-full sm:w-auto">
+            <button type="button" @click="trackShipment" class="btn btn-primary w-full sm:w-auto">
                 Track
             </button>
         </form>
