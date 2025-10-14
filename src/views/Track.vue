@@ -1,78 +1,24 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
+import axios from "axios"
 
 const route = useRoute()
-
-// Dummy tracking data
-const trackingData = {
-    "PPW-1001": {
-        history: [
-            {
-                status: "Shipment Created",
-                message: "Order booked and tracking number generated",
-                location: "Online System",
-                time: "Sep 15, 2025 - 02:15 PM"
-            },
-            {
-                status: "Picked Up",
-                message: "Courier picked up package from sender",
-                location: "Quezon City",
-                time: "Sep 15, 2025 - 05:30 PM"
-            },
-            {
-                status: "Arrived at Warehouse",
-                message: "Package received at Manila warehouse",
-                location: "Manila",
-                time: "Sep 16, 2025 - 08:00 AM"
-            },
-            {
-                status: "Departed Warehouse",
-                message: "Package left Manila warehouse",
-                location: "Manila",
-                time: "Sep 16, 2025 - 09:30 AM"
-            },
-            {
-                status: "Arrived at Sorting Facility",
-                message: "Package arrived at LA sorting hub",
-                location: "Los Angeles, CA",
-                time: "Sep 17, 2025 - 03:00 PM"
-            },
-            {
-                status: "In Transit to Destination",
-                message: "Package is currently at sea",
-                location: "Pacific Ocean",
-                time: "Sep 18, 2025 - 11:45 PM"
-            },
-            {
-                status: "Arrived at Destination Port",
-                message: "Package unloaded at destination seaport",
-                location: "Long Beach, CA",
-                time: "Sep 21, 2025 - 09:20 AM"
-            },
-            {
-                status: "Cleared Customs",
-                message: "Shipment released by customs",
-                location: "Los Angeles, CA",
-                time: "Sep 22, 2025 - 04:00 PM"
-            },
-            {
-                status: "Out for Delivery",
-                message: "Courier is delivering your package",
-                location: "Los Angeles, CA",
-                time: "Sep 23, 2025 - 08:45 AM"
-            }
-        ]
-    }
-}
-
-
 const inputNumber = ref("")
 const result = ref(null)
 
-const trackShipment = () => {
+const trackShipment = async () => {
     const query = inputNumber.value.trim().toUpperCase()
-    result.value = trackingData[query] || null
+    if (!query) return
+
+    try {
+        const response = await axios.get(`https://panel.pinoyprideworldwidellc.com/api/tracking/${query}`)
+        result.value = response.data
+
+    } catch (error) {
+        result.value = null
+        alert("No tracking found for that invoice number.")
+    }
 }
 
 onMounted(() => {
@@ -82,6 +28,7 @@ onMounted(() => {
     }
 })
 </script>
+
 
 <template>
     <section class="min-h-[70vh] flex flex-col items-center justify-center px-4 py-16 text-center">
@@ -110,7 +57,7 @@ onMounted(() => {
 
         <!-- Tracking Result -->
         <div v-if="result" class="mt-10 w-full max-w-3xl">
-            <div class="card bg-base-100 shadow-lg border">
+            <div class="card bg-base-100 shadow-lg border border-gray-300">
                 <div class="card-body">
                     <h2 class="card-title text-lg sm:text-xl mb-6">
                         📦 Current Status:
@@ -152,7 +99,6 @@ onMounted(() => {
                                 </h3>
                                 <p class="text-gray-600 text-xs sm:text-sm">
                                     {{ event.message }}
-                                    <span v-if="event.location">({{ event.location }})</span>
                                 </p>
                             </div>
                         </div>
