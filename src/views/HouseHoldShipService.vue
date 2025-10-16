@@ -39,7 +39,7 @@
                     </div>
 
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
+                        <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
                             2. What are the Requirements for Shipping Used Household Goods to the Philippines?
                         </div>
@@ -100,7 +100,7 @@
                     </div>
 
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
+                        <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
                             3. How much is the fee for one (1) 20-foot or one (1) 40-foot container?
                         </div>
@@ -111,7 +111,7 @@
                     </div>
 
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
+                        <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
                             4. If we agree on the fee, who will load our household goods into the container, and will it
                             be delivered directly to our address in the Philippines?
@@ -146,7 +146,7 @@
                     </div>
 
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
+                        <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
                             5. How long is the estimated shipping time?
                         </div>
@@ -159,7 +159,7 @@
                     </div>
 
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
+                        <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
                             6. Can I track the status of my container?
                         </div>
@@ -178,7 +178,7 @@
                     </div>
 
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
+                        <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
                             7. Is it okay if my sister and I ship our used household goods together in one container
                             load so we can save more by dividing the fee between us?
@@ -191,7 +191,7 @@
                     </div>
 
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
+                        <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
                             8. What are the payment options?
                         </div>
