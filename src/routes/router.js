@@ -6,8 +6,12 @@ import NewsView from '@/views/News.vue';
 import TrackView from '@/views/Track.vue';
 import ContactView from '@/views/Contact.vue';
 import CareersView from '@/views/Careers.vue';
-import Services from "@/views/Services.vue";
+import ProhibitedItems from "@/views/ProhibitedItems.vue";
+import BalikbayanService from "@/views/BalikbayanService.vue";
+import VehicleShipService from "@/views/VehicleShipService.vue";
+import HouseholdShipService from "@/views/HouseHoldShipService.vue";
 import FAQ from "@/views/Faq.vue";
+
 const routes = [
     {
         path: '/', name: 'Home', component: HomeView
@@ -31,7 +35,16 @@ const routes = [
         path: '/contact', name: 'Contact', component: ContactView
     },
     {
-        path: '/services', name: 'Services', component: Services
+        path: '/services/prohibited-items', name: 'Prohibited Items', component: ProhibitedItems
+    },
+    {
+        path: '/services/balikbayan-box', name: 'Balikbayan Box Shipment', component: BalikbayanService
+    },
+    {
+        path: '/services/vehicle', name: 'Vehicle Shipment', component: VehicleShipService
+    },
+    {
+        path: '/services/household-goods', name: 'Household Goods Shipment', component: HouseholdShipService
     },
     {
         path: '/careers', name: 'Careers', component: CareersView
