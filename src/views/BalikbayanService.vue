@@ -305,7 +305,8 @@ const boxImages = [
                                 <p class="text-gray-800 font-medium">
                                     📧 Email:
                                     <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com"
-                                        target="_blank" class="text-blue-600 underline hover:text-blue-700 transition">
+                                        target="_blank"
+                                        class="text-blue-600 underline hover:text-blue-700 transition break-all">
                                         pinoyprideworldwide@gmail.com
                                     </a>
                                 </p>
@@ -374,7 +375,8 @@ const boxImages = [
                                 <p class="text-gray-800 font-medium">
                                     📧 Email:
                                     <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com"
-                                        target="_blank" class="text-blue-600 underline hover:text-blue-700 transition">
+                                        target="_blank"
+                                        class="text-blue-600 underline hover:text-blue-700 transition break-all">
                                         pinoyprideworldwide@gmail.com
                                     </a>
                                 </p>
@@ -431,7 +433,8 @@ const boxImages = [
                                 <p class="text-gray-800 font-medium">
                                     📧 Email:
                                     <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com"
-                                        target="_blank" class="text-blue-600 underline hover:text-blue-700 transition">
+                                        target="_blank"
+                                        class="text-blue-600 underline hover:text-blue-700 transition break-all">
                                         pinoyprideworldwide@gmail.com
                                     </a>
                                 </p>
@@ -500,7 +503,8 @@ const boxImages = [
                                 <p class="text-gray-800 font-medium">
                                     📧 Email:
                                     <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com"
-                                        target="_blank" class="text-blue-600 underline hover:text-blue-700 transition">
+                                        target="_blank"
+                                        class="text-blue-600 underline hover:text-blue-700 transition break-all">
                                         pinoyprideworldwide@gmail.com
                                     </a>
                                 </p>

@@ -13,6 +13,7 @@ const branchNames = [
     { branch: "Seattle" },
     { branch: "Texas" },
     { branch: "Virginia" },
+    { branch: "Pennsylvania" },
 ];
 </script>
 

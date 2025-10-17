@@ -18,7 +18,14 @@ const navLinks = [
             { to: "/services/prohibited-items", name: "Prohibited Items" },
         ],
     },
-    { to: "/careers", name: "Careers" },
+    {
+        to: "/careers",
+        name: "Careers",
+        children: [
+            { to: "/careers/be-our-partners", name: "Be our Partner" },
+            { to: "/careers/be-our-agent", name: "Be our Agent" },
+        ],
+    },
     { to: "/faq", name: "FAQs" },
 ];
 
