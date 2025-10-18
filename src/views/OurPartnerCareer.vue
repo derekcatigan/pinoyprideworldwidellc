@@ -537,7 +537,7 @@ import PartnerPoster from '@/assets/images/OurPartnerPoster.png'
                     <li>Shipping Lines Destination fees</li>
                     <li>Duties and Taxes for all used items</li>
                     <li>Professional/Broker’s fees</li>
-                    <li>Special Negotiation fees</li>
+                    <li>Special Agreed Fees (SAF)</li>
                     <li>Delivery of the container to the consignee’s address anywhere in the Philippines!</li>
                 </ol>
 

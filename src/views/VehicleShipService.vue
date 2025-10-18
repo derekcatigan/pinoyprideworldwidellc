@@ -2,13 +2,20 @@
 import DeliveryCarousel from '@/components/aboutComponents/DeliveryCarousel.vue';
 
 // Successfull Deliveries
-import Delivery01 from '@/assets/images/deliveryImages/Delivery01.mp4';
-import Delivery04 from '@/assets/images/deliveryImages/Delivery04.mp4';
-
+import Delivery08 from '@/assets/images/deliveryImages/Delivery08.mp4';
+import Delivery09 from '@/assets/images/deliveryImages/Delivery09.mp4';
+import Delivery10 from '@/assets/images/deliveryImages/Delivery10.mp4';
+import Delivery11 from '@/assets/images/deliveryImages/Delivery11.mp4';
+import Delivery12 from '@/assets/images/deliveryImages/Delivery12.mp4';
+import Delivery13 from '@/assets/images/deliveryImages/Delivery13.mp4';
 
 const deliveryVideos = [
-    Delivery01,
-    Delivery04,
+    Delivery08,
+    Delivery09,
+    Delivery10,
+    Delivery11,
+    Delivery12,
+    Delivery13,
 ]
 </script>
 
@@ -559,11 +566,14 @@ const deliveryVideos = [
 
             <!-- Right Side -->
             <div class="flex flex-col items-center justify-start lg:sticky lg:top-24">
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">
-                    Watch How Our Vehicle Shipping Works
+                <h2 class="text-lg font-bold text-gray-800 mb-4 text-center">
+                    Watch our factual and documented loading and successful deliveries of Returning Resident Speedboat
+                    and Motorcycle
                 </h2>
-                <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
-                    <DeliveryCarousel :videos="deliveryVideos" />
+                <div class="space-y-4">
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <DeliveryCarousel :videos="deliveryVideos" />
+                    </div>
                 </div>
             </div>
         </div>

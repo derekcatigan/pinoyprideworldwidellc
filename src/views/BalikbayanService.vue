@@ -1,5 +1,6 @@
 <script setup>
 import BalikBayanCarousel from '@/components/aboutComponents/BalikBayanCarousel.vue';
+import DeliveryCarousel from '@/components/aboutComponents/DeliveryCarousel.vue';
 
 // Balikbayan Boxes
 import BalikBayan01 from '@/assets/images/balikBayan/PPW01.png';
@@ -13,10 +14,10 @@ import BalikBayan08 from '@/assets/images/balikBayan/PPW08.png';
 import BalikBayan09 from '@/assets/images/balikBayan/PPW09.jpg';
 import BalikBayan10 from '@/assets/images/balikBayan/PPW10.jpg';
 import BalikBayan11 from '@/assets/images/balikBayan/PPW11.jpg';
-import BalikBayan12 from '@/assets/images/balikBayan/PPW12.jpg';
-import BalikBayan13 from '@/assets/images/balikBayan/PPW13.jpg';
-import BalikBayan14 from '@/assets/images/balikBayan/PPW14.jpg';
-import BalikBayan15 from '@/assets/images/balikBayan/PPW15.jpg';
+
+// Delivery
+import Delivery06 from '@/assets/images/deliveryImages/Delivery06.mp4';
+import Delivery07 from '@/assets/images/deliveryImages/Delivery07.mp4';
 
 const boxImages = [
     BalikBayan01,
@@ -30,10 +31,11 @@ const boxImages = [
     BalikBayan09,
     BalikBayan10,
     BalikBayan11,
-    BalikBayan12,
-    BalikBayan13,
-    BalikBayan14,
-    BalikBayan15,
+]
+
+const deliveryVideos = [
+    Delivery06,
+    Delivery07,
 ]
 
 </script>
@@ -516,11 +518,16 @@ const boxImages = [
 
             <!-- Right Side -->
             <div class="flex flex-col items-center justify-start lg:sticky lg:top-24">
-                <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">
-                    Watch How Our Balikbayan Box Shipping Works
+                <h2 class="text-lg font-bold text-gray-800 mb-4 text-center">
+                    Watch our factual and documented loading and successful deliveries of Balikbayan boxes!
                 </h2>
-                <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
-                    <BalikBayanCarousel :images="boxImages" />
+                <div class="space-y-4">
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <BalikBayanCarousel :images="boxImages" />
+                    </div>
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <DeliveryCarousel :videos="deliveryVideos" />
+                    </div>
                 </div>
             </div>
         </div>

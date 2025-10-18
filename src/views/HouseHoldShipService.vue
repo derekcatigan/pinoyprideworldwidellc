@@ -1,3 +1,31 @@
+<script setup>
+import BalikBayanCarousel from '@/components/aboutComponents/BalikBayanCarousel.vue';
+import DeliveryCarousel from '@/components/aboutComponents/DeliveryCarousel.vue';
+
+// Balikbayan Boxes
+import BalikBayan16 from '@/assets/images/balikBayan/PPW16.jpg';
+import BalikBayan17 from '@/assets/images/balikBayan/PPW17.jpg';
+import BalikBayan18 from '@/assets/images/balikBayan/PPW18.jpg';
+
+
+// Delivery
+import Delivery02 from '@/assets/images/deliveryImages/Delivery02.mp4';
+import Delivery14 from '@/assets/images/deliveryImages/Delivery14.mp4';
+import Delivery15 from '@/assets/images/deliveryImages/Delivery15.mp4';
+
+const boxImages = [
+    BalikBayan16,
+    BalikBayan17,
+    BalikBayan18,
+]
+
+const deliveryVideos = [
+    Delivery02,
+    Delivery14,
+    Delivery15
+]
+</script>
+
 <template>
     <section class="py-16 px-4">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[80%_30%] gap-10">
@@ -131,7 +159,7 @@
                                 <li>Shipping line destination fees.</li>
                                 <li>Duties and taxes for all used items.</li>
                                 <li>Professional broker’s fees.</li>
-                                <li>Special arrangement fees (if required).</li>
+                                <li>Special Agreed Fees (SAF) (if required).</li>
                                 <li>Final delivery of the container directly to your address anywhere in the
                                     Philippines.</li>
                             </ul>
@@ -226,6 +254,22 @@
 
                 <div class="flex justify-center items-center">
                     <button class="btn btn-primary">Get a Container Quote</button>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="flex flex-col items-center justify-start lg:sticky lg:top-24">
+                <h2 class="text-lg font-bold text-gray-800 mb-4 text-center">
+                    Watch our factual and documented loading and successful deliveries of Returning Resident Household
+                    Goods!
+                </h2>
+                <div class="space-y-4">
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <BalikBayanCarousel :images="boxImages" />
+                    </div>
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <DeliveryCarousel :videos="deliveryVideos" />
+                    </div>
                 </div>
             </div>
         </div>
