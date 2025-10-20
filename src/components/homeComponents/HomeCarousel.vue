@@ -58,56 +58,61 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <div class="relative w-full overflow-hidden">
-        <!-- Slides wrapper -->
-        <div class="carousel-h overflow-hidden rounded-none">
-            <div v-for="(slide, index) in slides" :key="index" class="absolute inset-0 transition-opacity duration-700"
-                :class="{ 'opacity-100': currentSlide === index, 'opacity-0': currentSlide !== index }">
-                <!-- Background blur -->
-                <img :src="slide.image" alt="" class="absolute inset-0 w-full h-full object-cover blur-xs scale-110" />
-                <!-- Main image -->
-                <img :src="slide.image" alt="Slide" class="relative w-full h-full object-cover scale-95" />
+    <section class="relative w-full overflow-hidden bg-white py-10 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
 
-                <!-- Overlay + Text (only main slide) -->
-                <template v-if="slide.isMain">
-                    <div class="absolute inset-0 bg-gradient-to-r from-blue-800/40 to-transparent" />
-                    <div class="absolute inset-6 sm:inset-12 md:inset-20 flex items-center p-3 sm:p-4 md:p-6">
-                        <div class="flex-col">
-                            <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-white flex gap-2">
-                                Your Partner in
-                                <transition name="slide-up" mode="out-in">
-                                    <span :key="currentPhrase" class="text-yellow-300">
-                                        {{ currentPhrase }}
-                                    </span>
-                                </transition>
-                            </h2>
-                            <p class="text-xs sm:text-sm md:text-base text-white max-w-xs sm:max-w-md md:max-w-lg mt-2">
-                                Your best choice for sending balikbayan boxes, household goods, furniture, cars,
-                                speedboats, and more — <span class="text-yellow-400 font-semibold uppercase">all in one
-                                    shipping container</span> to any destination in the
-                                Philippines!
-                            </p>
-                        </div>
+            <!-- LEFT TEXT SECTION -->
+            <div class="space-y-4">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 flex flex-wrap items-center gap-2">
+                    <span class="relative inline-block">
+                        <span class="relative z-10">Your Partner in</span>
+                        <span class="absolute inset-x-0 bottom-1 h-3 bg-yellow-200 z-0"></span>
+                    </span>
+                    <transition name="slide-up" mode="out-in">
+                        <span :key="currentPhrase" class="text-yellow-500">
+                            {{ currentPhrase }}
+                        </span>
+                    </transition>
+                </h2>
+
+                <p class="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed max-w-lg">
+                    Your best choice for sending balikbayan boxes, household goods, furniture, cars,
+                    speedboats, and more —
+                    <span class="text-yellow-500 font-semibold uppercase">all in one shipping container</span>
+                    to any destination in the Philippines!
+                </p>
+            </div>
+
+            <!-- RIGHT CAROUSEL -->
+            <div class="relative w-full overflow-hidden rounded-2xl shadow-lg">
+                <div class="carousel-h overflow-hidden rounded-2xl">
+                    <div v-for="(slide, index) in slides" :key="index"
+                        class="absolute inset-0 transition-opacity duration-700"
+                        :class="{ 'opacity-100': currentSlide === index, 'opacity-0': currentSlide !== index }">
+                        <img :src="slide.image" alt="Slide" class="w-full h-full object-cover" />
                     </div>
-                </template>
+                </div>
+
+                <!-- Controls -->
+                <button @click="prevSlide"
+                    class="absolute top-1/2 left-3 -translate-y-1/2 bg-white text-gray-800 hover:bg-gray-100 shadow-md p-2 rounded-full transition">
+                    <ChevronLeftIcon class="size-5 shrink-0" />
+                </button>
+
+                <button @click="nextSlide"
+                    class="absolute top-1/2 right-3 -translate-y-1/2 bg-white text-gray-800 hover:bg-gray-100 shadow-md p-2 rounded-full transition">
+                    <ChevronRightIcon class="size-5 shrink-0" />
+                </button>
+
             </div>
         </div>
-
-        <!-- Controls -->
-        <button @click="prevSlide"
-            class="absolute top-1/2 left-4 -translate-y-1/2 bg-black/40 text-white p-2 rounded-full">
-            <ChevronLeftIcon class="size-5 shrink-0" />
-        </button>
-        <button @click="nextSlide"
-            class="absolute top-1/2 right-4 -translate-y-1/2 bg-black/40 text-white p-2 rounded-full">
-            <ChevronRightIcon class="size-5 shrink-0" />
-        </button>
-    </div>
+    </section>
 </template>
+
 
 <style scoped>
 .carousel-h {
-    height: 200px;
+    height: 250px;
 }
 
 @media (min-width: 640px) {
@@ -118,11 +123,10 @@ onBeforeUnmount(() => {
 
 @media (min-width: 768px) {
     .carousel-h {
-        height: 550px;
+        height: 500px;
     }
 }
 
-/* Phrase slide-up animation */
 .slide-up-enter-active,
 .slide-up-leave-active {
     transition: all 0.5s ease;
