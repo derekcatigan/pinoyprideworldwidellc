@@ -1,6 +1,16 @@
 <script setup>
+import BalikBayanCarousel from '@/components/aboutComponents/BalikBayanCarousel.vue';
+
 import PartnerPoster from '@/assets/images/OurPartnerPoster.png'
 import PartnerVAPoster from '@/assets/images/PPWPOSTER.jpg'
+import PartnerVAPoster02 from '@/assets/images/PPWPOSTERVA.jpg'
+import PartnerVAPosterGroup from '@/assets/images/PPWVAGROUP.jpg'
+
+const posterImages = [
+    PartnerVAPoster,
+    PartnerVAPoster02,
+    PartnerVAPosterGroup
+]
 </script>
 
 <template>
@@ -628,7 +638,7 @@ import PartnerVAPoster from '@/assets/images/PPWPOSTER.jpg'
             <!-- Right Side -->
             <div class="flex flex-col items-center justify-start lg:sticky lg:top-24 space-y-4">
                 <img :src="PartnerPoster" alt="Our Partner Poster" class="w-80 rounded-xl shadow-md object-cover" />
-                <img :src="PartnerVAPoster" alt="Our Partner Poster" class="w-80 rounded-xl shadow-md object-cover" />
+                <BalikBayanCarousel :images="posterImages" />
             </div>
         </div>
     </section>
