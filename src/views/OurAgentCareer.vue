@@ -55,14 +55,12 @@ import AgentImage from '@/assets/images/AgentImage.png'
                 </ul>
 
                 <div class="mt-8 text-center">
-                    <p>
-                        Interested?<br>
+                    <p>Interested?</p>
                     <div class="text-center mt-8">
                         <a href="https://forms.gle/CY4TvSWqFg5sPAuj7" target="_blank" class="btn btn-primary">
                             Apply Now
                         </a>
                     </div>
-                    </p>
                 </div>
             </div>
         </div>
