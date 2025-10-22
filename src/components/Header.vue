@@ -7,13 +7,14 @@ const navLinks = [
     { to: "/", name: "Home" },
     { to: "/about-us", name: "About Us" },
     { to: "/news", name: "News" },
-    { to: "/track", name: "Track" },
+    { to: "/track", name: "Tracking" },
     { to: "/contact", name: "Contact" },
     {
         name: "Services",
         children: [
             { to: "/services/balikbayan-box", name: "Balikbayan Box Shipment" },
             { to: "/services/vehicle", name: "Vehicle Shipment" },
+            { to: "/services/commercial-shipment", name: "Commercial Shipment" },
             { to: "/services/household-goods", name: "Household Goods Shipment" },
             { to: "/services/prohibited-items", name: "Prohibited Items" },
         ],

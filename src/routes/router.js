@@ -9,6 +9,7 @@ import OurPartnerCareer from "@/views/OurPartnerCareer.vue";
 import OurAgentCareer from "@/views/OurAgentCareer.vue";
 import ProhibitedItems from "@/views/ProhibitedItems.vue";
 import BalikbayanService from "@/views/BalikbayanService.vue";
+import CommercialShipService from "@/views/CommercialShipService.vue";
 import VehicleShipService from "@/views/VehicleShipService.vue";
 import HouseholdShipService from "@/views/HouseHoldShipService.vue";
 import FAQ from "@/views/Faq.vue";
@@ -40,6 +41,9 @@ const routes = [
     },
     {
         path: '/services/balikbayan-box', name: 'Balikbayan Box Shipment', component: BalikbayanService
+    },
+    {
+        path: '/services/commercial-shipment', name: 'Commercial Shipment', component: CommercialShipService
     },
     {
         path: '/services/vehicle', name: 'Vehicle Shipment', component: VehicleShipService
