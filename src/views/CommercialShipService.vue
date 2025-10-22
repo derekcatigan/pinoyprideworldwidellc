@@ -3,65 +3,13 @@
         <!-- Unified Card Style -->
         <div class="space-y-16 mt-16">
 
-            <!-- SOC Card -->
-            <div
-                class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                <div class="h-2 bg-gradient-to-r from-blue-600 to-blue-400"></div>
-                <div class="p-8 md:p-10 space-y-5">
-                    <h1 class="text-2xl md:text-3xl font-bold text-gray-800 flex items-center gap-2">
-                        🚢 (SOC) - Shipper Own Container
-                    </h1>
-
-                    <p class="text-gray-700 leading-relaxed">
-                        Do you have your own container ready for shipment?
-                    </p>
-
-                    <p class="text-gray-700 leading-relaxed">
-                        No problem! <span class="font-semibold text-gray-900">Pinoy Pride Worldwide LLC</span>
-                        proudly offers <span class="font-semibold">Shipper-Owned Container (SOC)</span>
-                        services for customers who already have their own loaded containers and want to ship
-                        them
-                        to the Philippines.
-                    </p>
-
-                    <p class="text-gray-700 leading-relaxed">
-                        At <span class="font-semibold text-gray-900">Pinoy Pride Worldwide LLC</span>, we make
-                        it
-                        easy, secure, and hassle-free to ship your own container loaded with your used household
-                        goods and personal effects anywhere in the Philippines!
-                    </p>
-
-                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-md">
-                        <p class="text-gray-700 leading-relaxed">
-                            <strong>Important:</strong> Your container must be
-                            <em>“Approved for Transport Under Customs Seal”</em> as part of our requirements.
-                            Provide both sender and consignee addresses for an accurate quote.
-                        </p>
-                    </div>
-
-                    <div class="pt-5 border-t border-gray-200">
-                        <p class="text-gray-800 font-medium">
-                            📞 Contact: <span class="text-blue-600 font-semibold">(253) 282-9628</span>
-                        </p>
-                        <p class="text-gray-800 font-medium">
-                            📧 Email:
-                            <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com"
-                                target="_blank"
-                                class="text-blue-600 underline hover:text-blue-700 transition break-all">
-                                pinoyprideworldwide@gmail.com
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
             <!-- FCL Card -->
             <div
                 class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                 <div class="h-2 bg-gradient-to-r from-indigo-600 to-indigo-400"></div>
                 <div class="p-8 md:p-10 space-y-5">
                     <h1 class="text-2xl md:text-3xl font-bold text-gray-800 flex items-center gap-2">
-                        📦 (FCL) - Full Container Load
+                        📦 Commercial - Full Container Load (FCL)
                     </h1>
 
                     <p class="text-gray-700 text-center leading-relaxed font-medium">
@@ -261,6 +209,58 @@
                     <div class="bg-teal-50 border-l-4 border-teal-500 p-4 rounded-r-md">
                         <p class="text-gray-700 leading-relaxed">
                             Note: Sensitive commodities are subject to premium applicable rates.
+                        </p>
+                    </div>
+
+                    <div class="pt-5 border-t border-gray-200">
+                        <p class="text-gray-800 font-medium">
+                            📞 Contact: <span class="text-blue-600 font-semibold">(253) 282-9628</span>
+                        </p>
+                        <p class="text-gray-800 font-medium">
+                            📧 Email:
+                            <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com"
+                                target="_blank"
+                                class="text-blue-600 underline hover:text-blue-700 transition break-all">
+                                pinoyprideworldwide@gmail.com
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SOC Card -->
+            <div
+                class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                <div class="h-2 bg-gradient-to-r from-blue-600 to-blue-400"></div>
+                <div class="p-8 md:p-10 space-y-5">
+                    <h1 class="text-2xl md:text-3xl font-bold text-gray-800 flex items-center gap-2">
+                        🚢 (SOC) - Shipper Own Container
+                    </h1>
+
+                    <p class="text-gray-700 leading-relaxed">
+                        Do you have your own container ready for shipment?
+                    </p>
+
+                    <p class="text-gray-700 leading-relaxed">
+                        No problem! <span class="font-semibold text-gray-900">Pinoy Pride Worldwide LLC</span>
+                        proudly offers <span class="font-semibold">Shipper-Owned Container (SOC)</span>
+                        services for customers who already have their own loaded containers and want to ship
+                        them
+                        to the Philippines.
+                    </p>
+
+                    <p class="text-gray-700 leading-relaxed">
+                        At <span class="font-semibold text-gray-900">Pinoy Pride Worldwide LLC</span>, we make
+                        it
+                        easy, secure, and hassle-free to ship your own container loaded with your used household
+                        goods and personal effects anywhere in the Philippines!
+                    </p>
+
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-md">
+                        <p class="text-gray-700 leading-relaxed">
+                            <strong>Important:</strong> Your container must be
+                            <em>“Approved for Transport Under Customs Seal”</em> as part of our requirements.
+                            Provide both sender and consignee addresses for an accurate quote.
                         </p>
                     </div>
 
