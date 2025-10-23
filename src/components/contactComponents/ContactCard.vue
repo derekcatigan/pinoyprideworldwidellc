@@ -5,7 +5,8 @@ const props = defineProps({
     branchName: { type: String, required: false, default: null },
     contacts: { type: Array, required: true },
     mapSrc: { type: String, required: false, default: null },
-    notice: { type: String, required: false, default: null }
+    notice: { type: String, required: false, default: null },
+    subNotice: { type: String, required: false, default: null }
 });
 </script>
 
@@ -24,11 +25,19 @@ const props = defineProps({
 
         <!-- Info Section -->
         <div class="md:w-full w-full p-6 flex flex-col gap-4">
-            <!-- Notice under map -->
-            <p v-if="notice"
-                class="text-sm md:text-base text-yellow-700 bg-yellow-100 border-l-4 border-yellow-400 p-3 rounded-md m-2">
-                {{ notice }}
-            </p>
+            <div class="space-y-2">
+                <!-- Notice under map -->
+                <p v-if="notice"
+                    class="text-sm md:text-base text-blue-700 bg-blue-100 border-l-4 border-blue-400 p-3 rounded-md m-1">
+                    {{ notice }}
+                </p>
+
+                <!-- Sub Notice under map -->
+                <p v-if="subNotice"
+                    class="text-sm md:text-base text-yellow-700 bg-yellow-100 border-l-4 border-yellow-400 p-3 rounded-md m-1">
+                    {{ subNotice }}
+                </p>
+            </div>
 
             <!-- Branch Name -->
             <h3 v-if="branchName" class="text-xl md:text-2xl font-bold text-gray-900">

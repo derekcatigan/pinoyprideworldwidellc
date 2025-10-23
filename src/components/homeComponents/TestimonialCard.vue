@@ -43,7 +43,7 @@ onMounted(() => {
 
     intervalId = setInterval(() => {
         currentSlide.value = (currentSlide.value + 1) % slides.value.length;
-    }, 10000);
+    }, 15000);
 });
 
 onBeforeUnmount(() => {
