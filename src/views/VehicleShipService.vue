@@ -74,7 +74,7 @@ const deliveryVideos = [
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
                         <input type="radio" name="accordion" checked />
                         <div class="collapse-title font-semibold">
-                            1. Can anyone ship a vehicle to the Philippines, and what are the requirements?
+                            1. Can anyone ship a vehicle to the Philippines?
                         </div>
                         <div class="collapse-content text-sm">
                             <p>Yes, you can ship a vehicle to the Philippines if it is used.</p>
@@ -84,7 +84,7 @@ const deliveryVideos = [
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
                         <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
-                            2. Who Can Import Used Vehicles?
+                            2. Who can import used Vehicles, and what are the requirements?
                         </div>
                         <div class="collapse-content text-sm">
                             <ul class="list-disc list-inside space-y-1 text-gray-700">

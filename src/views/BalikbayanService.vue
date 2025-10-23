@@ -115,7 +115,8 @@ const deliveryVideos = [
                         </div>
                         <div class="collapse-content text-sm">
                             For more information regarding
-                            <RouterLink class="underline text-blue-500">Prohibited Items</RouterLink>
+                            <RouterLink to="/services/prohibited-items" class="underline text-blue-500">Prohibited Items
+                            </RouterLink>
                             click the “Services” at the upper right-hand corner.
                         </div>
                     </div>
