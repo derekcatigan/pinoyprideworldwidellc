@@ -81,6 +81,9 @@ const deliveryVideos = [
                                 documents and conditions are required:</p>
                             <ul class="list-disc list-inside space-y-1 text-gray-700">
                                 <li>
+                                    Affidavit of Undertaking duly signed by the shipper.
+                                </li>
+                                <li>
                                     Copy of a valid US & Philippine passport of the shipper/sender, showing proof of
                                     at least one (1) year of accumulated residence in the last three (3) years from the
                                     date of filing the application.
