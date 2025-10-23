@@ -6,6 +6,8 @@ import DeliveryCarousel from '@/components/aboutComponents/DeliveryCarousel.vue'
 import BalikBayan16 from '@/assets/images/balikBayan/PPW16.jpg';
 import BalikBayan17 from '@/assets/images/balikBayan/PPW17.jpg';
 import BalikBayan18 from '@/assets/images/balikBayan/PPW18.jpg';
+import BalikBayan19 from '@/assets/images/balikBayan/PPW19.jpg';
+import BalikBayan20 from '@/assets/images/balikBayan/PPW20.jpg';
 
 
 // Delivery
@@ -17,6 +19,8 @@ const boxImages = [
     BalikBayan16,
     BalikBayan17,
     BalikBayan18,
+    BalikBayan19,
+    BalikBayan20
 ]
 
 const deliveryVideos = [
