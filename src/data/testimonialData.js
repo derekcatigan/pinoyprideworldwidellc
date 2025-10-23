@@ -53,8 +53,14 @@ export const testimonialData = [
     },
     {
         name: "Larry Dizon",
-        location: "PPW - Virginia",
+        location: "PPW - Virginia | Business Partner",
         message: "Nakakatuwang maging tulay para sa mga kababayan nating gustong ipadama ang pagmamahal nila sa pamilya sa Pilipinas. Hindi lang kahon ang pinapadala - puso, sakripisyo, at kwento ng bawat Pilipino dito sa abroad. Simula nang maging parte kami ng Pinoy Pride Worldwide, ramdam namin ang saya sa bawat padala. Iba 'yung feeling kapag alam mong nakakatulong ka para mapalapit ang mga pamilya kahit magkalayo. Kaya sa bawat kahon na ipapadala mo, alam naming may kasamang pagmamahal, pag-asa, at ngiti sa kabila. At dito sa amin, proud kaming maging parte ng bawat kwento mo. Padala pa lang, ramdam mo na ang Pinoy Pride!",
+        avatar: ""
+    },
+    {
+        name: "Greg Bicknell",
+        location: "",
+        message: "Another successful delivery by Pinoy Pride Worldwide here in the Philippines. Delivery right here in the doorstep. No issues, deliver on time. Everything that we put in the container, still there. Thank you so much Pinoy Pride Worldwide!",
         avatar: ""
     },
 ]

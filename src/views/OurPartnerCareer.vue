@@ -115,10 +115,9 @@ const posterImages = [
 
                     <ul class="list-disc list-inside space-y-3 ml-8">
                         <p>
-                            <strong>FORWARDER – (Pinoy Pride Worldwide LLC)</strong> is a company with more than 10
-                            years of
-                            combined experience in the freight forwarding industry. It is duly state
-                            licensed, registered & accredited by:
+                            <strong>FORWARDER – (Pinoy Pride Worldwide LLC)</strong> is a U.S. based freight forwarding
+                            company with more than 10 years of combined experience in box consolidation. It is duly
+                            state licensed, registered & accredited by:
                         </p>
                         <li>
                             SOC – Secretary of State (Washington State, USA)
@@ -137,6 +136,12 @@ const posterImages = [
                         </li>
                         <li>
                             BONDED – Hudson Insurance Company
+                        </li>
+                        <li>
+                            TARIFFS – Atlantic Pacific Tariffs, Inc.
+                        </li>
+                        <li>
+                            FinCEN – Financial Crimes Enforcement Network
                         </li>
                         <p>
                             <strong>LOGISTIC</strong>– is a company with more than
