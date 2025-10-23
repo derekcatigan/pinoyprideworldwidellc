@@ -224,7 +224,7 @@ const deliveryVideos = [
                                 <li>
                                     <strong>1. Used Engines, Parts, and Components Importation (SP):</strong>
                                     <ul class="list-[upper-alpha] ml-8 mt-1 space-y-1 text-gray-700">
-                                        <li>Duly accomplished application form with affidavit of undertaking</li>
+                                        <li>Duly accomplished application form with "Affidavit of Undertaking"</li>
                                         <li>
                                             Original and photocopy of Proforma Invoice
                                         </li>
