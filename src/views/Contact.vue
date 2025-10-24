@@ -88,7 +88,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 subNotice="Looking For Independent Business Partner."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11006.22392026209!2d-118.08665238240854!3d33.86596302398672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2c5405cced85%3A0x9be5a22eea4f2643!2sArtesia%2C%20CA%2090701%2C%20USA!5e1!3m2!1sen!2sph!4v1758804133234!5m2!1sen!2sph"
                 :contacts="[
-                    { name: 'Cesar “Sano” Abastillas', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(562) 968-9699' },
+                    { name: 'Cesar “Sano” Abastillas', title: `Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!`, phone: '(562) 968-9699' },
                     { name: 'Customer Service', phone: '(253)-238-8864' },
                 ]" />
 
@@ -96,7 +96,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
             <ContactCard v-fade-slide-up="100" branchName="Canada" subNotice="Looking For Independent Business Partner."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.872848643589!2d-113.53203082484777!3d53.609394522382665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a02463c94186a7%3A0x2bfc36a7fa8afe4b!2sEdmonton%2C%20AB%20T5X%200H2%2C%20Canada!5e1!3m2!1sen!2sph!4v1758803937426!5m2!1sen!2sph"
                 :contacts="[
-                    { name: 'Dexter Fulache', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(780) 288-3864' },
+                    { name: 'Dexter Fulache', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(780) 288-3864' },
                     { name: 'Customer Service', phone: '(253)-238-8864' },
                 ]" />
 
@@ -105,7 +105,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 subNotice="Looking For Independent Business Partner."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382496.4737680255!2d-88.06152172494062!3d41.833239303261166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL%2C%20USA!5e1!3m2!1sen!2sph!4v1758960021231!5m2!1sen!2sph"
                 :contacts="[
-                    { name: 'Dra. Carolina Ocampo', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(219) 218-3894' },
+                    { name: 'Dra. Carolina Ocampo', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(219) 218-3894' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />
 
@@ -114,7 +114,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 subNotice="Looking For Independent Business Partner."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d148051.27840114536!2d-118.42102031952389!3d34.049214490239315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e1!3m2!1sen!2sph!4v1758804195709!5m2!1sen!2sph"
                 :contacts="[
-                    { name: 'Gina Razo', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(323) 820-8942' },
+                    { name: 'Gina Razo', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(323) 820-8942' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />
 
@@ -122,7 +122,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
             <ContactCard v-fade-slide-up="100" branchName="North Carolina"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6471132.801623714!2d-85.14958113536626!3d35.0555007666723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0xad3f30f5e922ae19!2sNorth%20Carolina%2C%20USA!5e1!3m2!1sen!2sph!4v1759507273986!5m2!1sen!2sph"
                 subNotice="Looking For Independent Business Partner." :contacts="[
-                    { name: 'Nerisa Dixon', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(252)-670-6766' },
+                    { name: 'Nerisa Dixon', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(252)-670-6766' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />
 
@@ -131,7 +131,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416437.45918644255!2d-74.3098327123483!3d40.69667075103323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e1!3m2!1sen!2sph!4v1758804325921!5m2!1sen!2sph"
                 subNotice="Looking For Independent Business Partner." :contacts="[
                     { name: 'Jimmy Locsin', title: 'General Manager & VP of Operations', phone: '(917)-855-6757', email: 'pinoyprideny1129@gmail.com' },
-                    { name: 'Lorenzo Dugangay', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(929)-521-2605' },
+                    { name: 'Lorenzo Dugangay', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(929)-521-2605' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />
 
@@ -139,7 +139,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
             <ContactCard v-fade-slide-up="100" branchName="Pennsylvania"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416437.45918644255!2d-74.3098327123483!3d40.69667075103323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e1!3m2!1sen!2sph!4v1758804325921!5m2!1sen!2sph"
                 subNotice="Looking For Independent Business Partner." :contacts="[
-                    { name: 'Jean Suarez', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(718) 905-0018' },
+                    { name: 'Jean Suarez', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(718) 905-0018' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />
 
@@ -148,7 +148,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
                 subNotice="Looking For Independent Business Partner."
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1308.33277844007!2d-122.23011155281112!3d47.320013718448045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490594327807515%3A0xf5092547a8802535!2sSeattle%20Manila%20Oriental%20Store%2FCafe%20%26%20Travel%20Booking%20Services%20Worldwide!5e1!3m2!1sen!2sph!4v1758345863664!5m2!1sen!2sph"
                 :contacts="[
-                    { name: 'Seattle Manila Oriental Store & Cafe 1257 A St. NE Auburn, WA 98002', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(206)-492-9123 Ext. 531-9008', email: 'pinoyprideworldwide@gmail.com' },
+                    { name: 'Seattle Manila Oriental Store & Cafe 1257 A St. NE Auburn, WA 98002', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(206)-492-9123 Ext. 531-9008', email: 'pinoyprideworldwide@gmail.com' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />
 
@@ -156,7 +156,7 @@ import CargoShipOverlay from '@/assets/images/stockImages/CargoShipOverlay.png';
             <ContactCard v-fade-slide-up="100" branchName="Texas"
                 mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7528225.677066268!2d-105.3775199437629!3d31.0602791468681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas%2C%20USA!5e1!3m2!1sen!2sph!4v1758804387813!5m2!1sen!2sph"
                 subNotice="Looking For Independent Business Partner." :contacts="[
-                    { name: 'Kyle Tentativa', title: 'Authorized Partner - For Returning Resident Clients Only.', phone: '(408)-368-4396' },
+                    { name: 'Kyle Tentativa', title: 'Authorized Partner - Now ready to accept household goods such as furniture, appliances, and more in one (1) shipping container for delivery anywhere in the Philippines!', phone: '(408)-368-4396' },
                     { name: 'Customer Service', phone: '(253)-238-8864' }
                 ]" />
 
