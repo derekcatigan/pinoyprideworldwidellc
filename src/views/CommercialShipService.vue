@@ -1,174 +1,219 @@
 <template>
     <section class="py-14 px-4">
-        <!-- Unified Card Style -->
-        <div class="space-y-16 mt-16">
-
-            <!-- FCL Card -->
-            <div
-                class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                <div class="h-2 bg-gradient-to-r from-indigo-600 to-indigo-400"></div>
-                <div class="p-8 md:p-10 space-y-5">
-                    <h1 class="text-2xl md:text-3xl font-bold text-gray-800 flex items-center gap-2">
-                        📦 Commercial - Full Container Load (FCL)
+        <div class="max-w-7xl mx-auto">
+            <div class="p-6 bg-white rounded-2xl shadow-sm">
+                <!-- Header -->
+                <div class="text-center space-y-2 mb-10">
+                    <h1 class="font-extrabold text-3xl md:text-4xl text-gray-800">
+                        COMMERCIAL/BUSINESS (Import/Export) - USA ⇄ PHILIPPINES
                     </h1>
+                    <h3 class="font-medium text-lg md:text-xl text-gray-600">
+                        (Direct Factory Purchasing Program for Grocery Store Owners)
+                    </h3>
+                </div>
 
-                    <p class="text-gray-700 text-center leading-relaxed font-medium">
-                        🌏 Expand Your Business Across Borders — USA ⇄ PHILIPPINES
-                    </p>
-                    <p class="text-gray-700 text-center leading-relaxed">
-                        💼 For Businesses & Commercial Goods (Import/Export)
-                    </p>
-                    <p class="text-gray-700 text-center leading-relaxed">
-                        Ship your brand-new, used, or food products safely and efficiently through Pinoy Pride Worldwide
-                        LLC — your trusted logistics and business expansion partner!
+                <!-- Description -->
+                <div class="space-y-6 text-gray-700 leading-relaxed text-justify mb-10">
+                    <p>
+                        It is well known globally that one of the most stable and profitable ways to earn a sustainable
+                        income is through business—especially when it aligns with one’s passion.
                     </p>
 
                     <p>
-                        ✨ <strong>Single Owner Shipping (SOS):</strong>
+                        Among the most recognized and essential types of businesses worldwide are grocery stores, as
+                        people rely on their products every single day.
                     </p>
-                    <p>
-                        📦 <strong>Your Own Dedicated Container</strong> — exclusively for your products!
-                    </p>
-
-                    <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <p><strong>Perfect for:</strong></p>
-                        <li>✅ Entrepreneurs 👨‍💼</li>
-                        <li>✅ Store Owners 🏪</li>
-                        <li>✅ Importers & Exporters 💰</li>
-                    </ul>
 
                     <p>
-                        Turn your business dream into a global opportunity.
-                        Whether you’re importing or exporting, we make it <strong>smooth, compliant, and
-                            stress-free!</strong>
+                        We also understand that most, if not all, grocery store owners strive to offer lower prices than
+                        their competitors. However, many are unaware of how to <strong>purchase directly from
+                            factories</strong>, which forces them to buy from importers, even those located in distant
+                        states.
                     </p>
-
-                    <div class="divider"></div>
 
                     <p>
-                        <strong>💎 WHY CHOOSE US?</strong>
+                        This is where <strong>Pinoy Pride Worldwide LLC comes in</strong>. Our mission is to
+                        <strong>assist and guide business owners like you</strong> in purchasing directly from
+                        <strong>factories
+                            and manufacturers,</strong> helping you <strong>eliminate middlemen or importers</strong>.
+                        By doing so, you
+                        <strong>become your
+                            own importer-distributor,</strong> significantly reducing costs while opening opportunities
+                        to <strong>supply
+                            other grocery stores</strong> in your area as a <strong>wholesaler or retailer</strong>.
                     </p>
-
-                    <ul class="list-disc list-inside space-y-1 text-gray-700">
-                        <li>✅ Hassle-free documentation</li>
-                        <li>✅ Safe and secure shipment</li>
-                        <li>✅ Door-to-door coordination</li>
-                        <li>✅ Ideal for business expansion</li>
-                        <li>✅ Trusted by Satisfied Clients Worldwide</li>
-                    </ul>
-
-                    <div class="divider"></div>
 
                     <p>
-                        <strong>For Philippines Products (to the USA)</strong>
+                        As your <strong>Freight Forwarding Partner, Pinoy Pride Worldwide LLC</strong> provides only the
+                        <strong>shipping and
+                            delivery services</strong>—ensuring your purchased products are safely transported from the
+                        factory to
+                        your designated warehouse.
                     </p>
 
-                    <div class="space-y-4">
-                        <p class="text-gray-700 leading-relaxed">
-                            Do you own or plan to open a Filipino store in the USA?
-                        </p>
-                        <p class="text-gray-700 leading-relaxed">
-                            👉 Buy directly from factories in the Philippines and become a sole distributor in your
-                            area!
-                        </p>
-                        <p class="text-gray-700 leading-relaxed">
-                            You’ll not only save on costs but can also supply nearby stores and become their wholesaler,
-                            increasing your profit and brand reach.
-                        </p>
+                    <p>
+                        Below are the most common questions and answers to help you understand how to start purchasing
+                        directly from factories through our program:
+                    </p>
+                </div>
 
-                        <ul class="list-disc list-inside space-y-1 text-gray-700">
-                            <p>
-                                🧾 <strong>Pinoy Pride Worldwide LLC</strong> will assist you in every step of the way.
-                                We’ll Handle
-                                Everything:
+                <div class="space-y-4 mb-12">
+                    <div class="collapse collapse-arrow bg-white border border-gray-200">
+                        <input type="radio" name="accordion" checked />
+                        <div class="collapse-title font-semibold">
+                            1. How can we order directly from factories and have the items delivered to our warehouse?
+                        </div>
+                        <div class="collapse-content text-sm">
+                            <p class="text-gray-700 leading-relaxed">
+                                First, you will need to contact the factories and request quotations for the products
+                                you wish to purchase. This allows you to compare prices and see the potential savings of
+                                buying directly.
                             </p>
-                            <li>Container loading and shipping</li>
-                            <li>Customs documentation</li>
-                            <li>Warehouse delivery in the USA</li>
-                        </ul>
-                    </div>
-
-                    <div class="divider"></div>
-
-                    <div class="space-y-4">
-                        <p>
-                            <strong>For US Products (to the Philippines)</strong>
-                        </p>
-
-                        <div>
-                            <p>
-                                Planning to ship US products to your customers in the Philippines?
+                            <br></br>
+                            <p class="text-gray-700 leading-relaxed">
+                                (If you encounter difficulty in finding or communicating with factories, Pinoy Pride
+                                Worldwide LLC can assist you. Simply provide us with a list of the products you wish to
+                                purchase. Please ensure that these products are already marketed in the USA, which means
+                                they have passed Quality Control and are FDA-approved (Food and Drug
+                                Administration)—making them legal for sale in the U.S. market.)
                             </p>
-                            <p>
-                                Don’t let the process stop you — we’ll guide you every step of the way!
-                            </p>
-
-                            <ul class="list-disc list-inside space-y-1 text-gray-700">
-                                <p>
-                                    <strong>🚛 We’ll Take Care Of:</strong>
-                                </p>
-                                <li>Full container coordination</li>
-                                <li>Documentation and customs clearance</li>
-                                <li>Door-to-door delivery to your customer’s address in the Philippines</li>
-                            </ul>
                         </div>
                     </div>
 
-                    <div class="divider"></div>
-
-                    <div>
-                        <ul class="list-disc list-inside space-y-1 text-gray-700">
-                            <p>
-                                <strong>✅ With Pinoy Pride Worldwide, You’ll Experience:</strong>
+                    <div class="collapse collapse-arrow bg-white border border-gray-200">
+                        <input type="radio" name="accordion" />
+                        <div class="collapse-title font-semibold">
+                            2. What are the requirements for shipping from the Philippines to the USA?
+                        </div>
+                        <div class="collapse-content text-sm">
+                            <p class="text-gray-700 leading-relaxed">
+                                <strong>A. Export License</strong>
                             </p>
-                            <li>Transparent and reliable process</li>
-                            <li>Professional logistics coordination</li>
-                            <li>Affordable international rates</li>
-                            <li>Dedicated customer service support</li>
-                        </ul>
+                            <p class="text-gray-700 leading-relaxed">
+                                All factories or manufacturers that already market their products in the USA typically
+                                have an Export License, which is one of the key requirements to export their goods.
+                                (If the factory does not have one, we can use the Export License of our Logistics or
+                                Licensed Broker Partner in the Philippines.)
+                            </p>
+                            <br>
+                            <p class="text-gray-700 leading-relaxed">
+                                <strong>B. Import License</strong>
+                            </p>
+                            <p class="text-gray-700 leading-relaxed">
+                                This is a requirement for the business owner or recipient who will receive the container
+                                of grocery products in the USA. Applying for an Import License in the USA is generally
+                                straightforward.
+                            </p>
+                            <br>
+                            <p class="text-gray-700 leading-relaxed">
+                                <strong>C. FDA Certificate</strong>
+                            </p>
+                            <p class="text-gray-700 leading-relaxed">
+                                Since grocery items include food products, an FDA Certificate or License is also
+                                required for the recipient/importer.
+                                Fortunately, applying for an FDA Certificate in the USA is also a simple and manageable
+                                process.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="divider"></div>
-
-                    <div>
-                        <p>
-                            <strong>🗂️ Requirements:</strong>
-                        </p>
-                        <p class="text-gray-700 leading-relaxed">
-                            Simply prepare the necessary documents and follow Bureau of Customs (BOC) regulations — and
-                            we’ll handle the rest!
-                        </p>
+                    <div class="collapse collapse-arrow bg-white border border-gray-200">
+                        <input type="radio" name="accordion" />
+                        <div class="collapse-title font-semibold">
+                            3. Once we have all the requirements and agree on the factory price, how can we determine
+                            our total product cost?
+                        </div>
+                        <div class="collapse-content text-sm">
+                            <p class="text-gray-700 leading-relaxed">
+                                After knowing the factory price of your selected products, simply add the Ocean Freight
+                                (shipping) and trucking delivery cost from the U.S. port to your warehouse. This will
+                                allow you to compute your total landed cost per product, giving you a clear picture of
+                                your profit margin and savings compared to buying from importers.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="divider"></div>
-
-                    <div>
-                        <p>
-                            <strong>🌟 Pinoy Pride Worldwide LLC</strong>
-                        </p>
-                        <p class="text-gray-700 leading-relaxed">
-                            <strong>Your Partner in Global Shipping & Business Growth</strong>
-                        </p>
-                        <p class="text-gray-700 leading-relaxed">
-                            Let us handle your logistics while you focus on growing your business!
-                        </p>
+                    <div class="collapse collapse-arrow bg-white border border-gray-200">
+                        <input type="radio" name="accordion" />
+                        <div class="collapse-title font-semibold">
+                            4. Once the products are ready for shipment, what are the shipping procedures?
+                        </div>
+                        <div class="collapse-content text-sm">
+                            <p class="text-gray-700 leading-relaxed">
+                                It’s simple — just contact Pinoy Pride Worldwide LLC to book a container.
+                                We will then coordinate the dispatch of an empty container directly to the factory you
+                                ordered from. Your products will be loaded there, and once loading is completed, the
+                                container will be delivered to the port and prepared for shipment.
+                            </p>
+                            <br>
+                            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-md">
+                                <p class="text-gray-700 leading-relaxed">
+                                    <strong>Note:</strong>
+                                    A Packing List is required.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="pt-5 border-t border-gray-200">
-                        <p class="text-gray-800 font-medium">
-                            📞 Contact: <span class="text-blue-600 font-semibold">(253) 282-9628</span>
-                        </p>
-                        <p class="text-gray-800 font-medium">
-                            📧 Email:
-                            <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com"
-                                target="_blank"
-                                class="text-blue-600 underline hover:text-blue-700 transition break-all">
-                                pinoyprideworldwide@gmail.com
-                            </a>
-                        </p>
+                    <div class="collapse collapse-arrow bg-white border border-gray-200">
+                        <input type="radio" name="accordion" />
+                        <div class="collapse-title font-semibold">
+                            5. What if I only want to order from a few factories with a small number of items each?
+                        </div>
+                        <div class="collapse-content text-sm">
+                            <p class="text-gray-700 leading-relaxed">
+                                For example, if you only wish to purchase 3–5 items from each of four different
+                                factories, and together those orders can fill one (1) 40-foot container, the arrangement
+                                is still possible.
+                            </p>
+                            <br>
+                            <p class="text-gray-700 leading-relaxed">
+                                However, please note that sending one container to multiple factories can be costly.
+                                A more practical option is for each factory to deliver the ordered items to our
+                                warehouse in the Philippines, where we will consolidate and load all your products into
+                                a single container. Once ready, Pinoy Pride Worldwide LLC will handle the shipment and
+                                delivery to your designated warehouse in the USA.
+                            </p>
+                        </div>
                     </div>
+
+                    <div class="collapse collapse-arrow bg-white border border-gray-200">
+                        <input type="radio" name="accordion" />
+                        <div class="collapse-title font-semibold">
+                            6. For example, we are also interested in starting a business where we ship products from
+                            the USA to our customers in the Philippines. Is that also allowed?
+                        </div>
+                        <div class="collapse-content text-sm">
+                            <p class="text-gray-700 leading-relaxed">
+                                Yes, absolutely — that still falls under the Commercial/Business category. The
+                                requirements, policies, and procedures you’ve read under the Business/Commercial section
+                                for shipments from the Philippines to the USA are the same policies and procedures that
+                                apply.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pt-5 border-t border-gray-200">
+                    <p class="text-gray-800 font-medium">
+                        📞 Contact: <span class="text-blue-600 font-semibold">(253) 282-9628</span>
+                    </p>
+                    <p class="text-gray-800 font-medium">
+                        📧 Email:
+                        <a href="https://mail.google.com/mail/?view=cm&to=pinoyprideworldwide@gmail.com" target="_blank"
+                            class="text-blue-600 underline hover:text-blue-700 transition break-all">
+                            pinoyprideworldwide@gmail.com
+                        </a>
+                    </p>
                 </div>
             </div>
+
+        </div>
+
+
+        <!-- Unified Card Style -->
+        <div class="space-y-16 mt-16">
 
             <!-- LCL Card -->
             <div
