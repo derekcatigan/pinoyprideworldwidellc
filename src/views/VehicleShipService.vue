@@ -560,7 +560,9 @@ const deliveryVideos = [
                 </div>
 
                 <div class="flex justify-center items-center">
-                    <button class="btn btn-primary">Get a Container Quote</button>
+                    <a href="https://forms.gle/AGpNAN6fagkeLuSYA" target="_blank" class="btn btn-primary">
+                        Vehicle Shipment Quote
+                    </a>
                 </div>
             </div>
 
