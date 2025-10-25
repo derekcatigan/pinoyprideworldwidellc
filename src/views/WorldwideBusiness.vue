@@ -5,7 +5,7 @@
                 <!-- Header -->
                 <div class="text-center space-y-2 mb-10">
                     <h1 class="font-extrabold text-3xl md:text-4xl text-gray-800">
-                        COMMERCIAL/BUSINESS (Import/Export) - USA ⇄ PHILIPPINES
+                        COMMERCIAL/BUSINESS (Import/Export) - USA ⇄ Other country
                     </h1>
                     <h3 class="font-medium text-lg md:text-xl text-gray-600">
                         (Direct Factory Purchasing Program for Grocery Store Owners)
@@ -65,17 +65,15 @@
                         </div>
                         <div class="collapse-content text-sm">
                             <p class="text-gray-700 leading-relaxed">
-                                First, you will need to contact the factories and request quotations for the products
-                                you wish to purchase. This allows you to compare prices and see the potential savings of
-                                buying directly.
+                                First, you will need to contact the factories in your country or any other country where
+                                you wish to purchase products and request quotations for the items you are interested
+                                in. This allows you to compare prices and see the potential savings of buying directly.
                             </p>
                             <br></br>
                             <p class="text-gray-700 leading-relaxed">
-                                (If you encounter difficulty in finding or communicating with factories, Pinoy Pride
-                                Worldwide LLC can assist you. Simply provide us with a list of the products you wish to
-                                purchase. Please ensure that these products are already marketed in the USA, which means
-                                they have passed Quality Control and are FDA-approved (Food and Drug
-                                Administration)—making them legal for sale in the U.S. market.)
+                                Please ensure that these products are already marketed in the USA, which means they have
+                                passed Quality Control and are FDA-approved (Food and Drug Administration)—making them
+                                legal for sale in the U.S. market.
                             </p>
                         </div>
                     </div>
@@ -83,17 +81,16 @@
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
                         <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
-                            2. What are the requirements for shipping from the Philippines to the USA?
+                            2. What are the requirements for shipping from our country to the USA?
                         </div>
                         <div class="collapse-content text-sm">
                             <p class="text-gray-700 leading-relaxed">
                                 <strong>A. Export License</strong>
                             </p>
                             <p class="text-gray-700 leading-relaxed">
-                                All factories or manufacturers that already market their products in the USA typically
-                                have an Export License, which is one of the key requirements to export their goods.
-                                (If the factory does not have one, we can use the Export License of our Logistics or
-                                Licensed Broker Partner in the Philippines.)
+                                Most of the factories or manufacturers that already market their products in the USA
+                                typically have an Export License, which is one of the key requirements to export their
+                                goods.
                             </p>
                             <br>
                             <p class="text-gray-700 leading-relaxed">
@@ -110,9 +107,8 @@
                             </p>
                             <p class="text-gray-700 leading-relaxed">
                                 Since grocery items include food products, an FDA Certificate or License is also
-                                required for the recipient/importer.
-                                Fortunately, applying for an FDA Certificate in the USA is also a simple and manageable
-                                process.
+                                required for the recipient/importer. Fortunately, applying for an FDA Certificate in the
+                                USA is also a simple and manageable process.
                             </p>
                         </div>
                     </div>
@@ -143,7 +139,7 @@
                                 It’s simple — just contact Pinoy Pride Worldwide LLC to book a container.
                                 We will then coordinate the dispatch of an empty container directly to the factory you
                                 ordered from. Your products will be loaded there, and once loading is completed, the
-                                container will be delivered to the port and prepared for shipment.
+                                container will be delivered to the port and prepared for shipment
                             </p>
                             <br>
                             <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-md">
@@ -178,10 +174,14 @@
                                 <strong>A. Consolidation Through our Logistics Partner Warehouse:</strong>
                             </p>
                             <p class="text-gray-700 leading-relaxed">
-                                A more practical option is for each factory to deliver the ordered items to our
-                                logistics partner warehouse in the Philippines, where we will consolidate and load all
-                                your products into a single container. Once ready, Pinoy Pride Worldwide LLC will handle
-                                the shipment and delivery to your designated warehouse in the USA.
+                                If you have a trusted contact or representative in the country where you plan to
+                                purchase products — someone who owns or has access to a warehouse — you can have each
+                                factory deliver their products to that location. Once all items have arrived, Pinoy
+                                Pride Worldwide LLC will consolidate everything into one (1) container, ensuring all
+                                your products are packed securely and shipped safely to your designated warehouse in the
+                                USA. This method minimizes costs, improves security, and ensures smooth and timely
+                                delivery.
+
                             </p>
 
                             <p class="text-gray-700 leading-relaxed">
@@ -198,7 +198,8 @@
                             <p class="text-gray-700 leading-relaxed">
                                 If you wish to purchase additional items later, you and your group can book another
                                 container together. The purpose of this option is to make logistics simpler and more
-                                cost-effective by assigning one container per factory.
+                                cost-effective by
+                                assigning one container per factory.
                             </p>
 
                             <p class="text-gray-700 leading-relaxed">
@@ -209,7 +210,6 @@
                                 container directly to your warehouse, where your partners can conveniently pick up their
                                 products. If preferred, we can also deliver the container to your partners’ respective
                                 warehouses — although this option may incur additional delivery costs.
-
                             </p>
                         </div>
                     </div>
@@ -217,8 +217,7 @@
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
                         <input type="radio" name="accordion" />
                         <div class="collapse-title font-semibold">
-                            6. For example, we are also interested in starting a business where we ship products from
-                            the USA to our customers in the Philippines. Is that also allowed?
+                            6. What if we also want to start a business shipping products from the USA to our country?
                         </div>
                         <div class="collapse-content text-sm space-y-4">
                             <p class="text-gray-700 leading-relaxed">
@@ -232,9 +231,9 @@
                             </p>
                             <p class="text-gray-700 leading-relaxed">
                                 This means you can confidently expand your operations both ways, whether you are
-                                importing products into the USA or exporting U.S. goods to the Philippines. Pinoy Pride
-                                Worldwide LLC is ready to assist you in setting up a smooth and compliant process for
-                                either direction of trade.
+                                importing products into the USA or exporting U.S. goods to your home country. Pinoy
+                                Pride Worldwide LLC is ready to assist you in setting up a smooth and compliant process
+                                for either direction of trade.
                             </p>
                         </div>
                     </div>

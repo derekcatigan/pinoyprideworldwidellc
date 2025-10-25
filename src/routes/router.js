@@ -12,6 +12,8 @@ import BalikbayanService from "@/views/BalikbayanService.vue";
 import CommercialShipService from "@/views/CommercialShipService.vue";
 import VehicleShipService from "@/views/VehicleShipService.vue";
 import HouseholdShipService from "@/views/HouseHoldShipService.vue";
+import WorldwideBusiness from "@/views/WorldwideBusiness.vue";
+import OtherServices from "@/views/OtherServices.vue";
 import FAQ from "@/views/Faq.vue";
 
 const routes = [
@@ -44,6 +46,12 @@ const routes = [
     },
     {
         path: '/services/commercial-shipment', name: 'Commercial Shipment', component: CommercialShipService
+    },
+    {
+        path: '/services/worldwide-business', name: 'Worldwide Business', component: WorldwideBusiness
+    },
+    {
+        path: '/services/other-services', name: 'Other Services', component: OtherServices
     },
     {
         path: '/services/vehicle', name: 'Vehicle Shipment', component: VehicleShipService

@@ -15,8 +15,10 @@ const navLinks = [
             { to: "/services/balikbayan-box", name: "Balikbayan Box Shipment" },
             { to: "/services/vehicle", name: "Vehicle Shipment" },
             { to: "/services/commercial-shipment", name: "Commercial Shipment" },
+            { to: "/services/worldwide-business", name: "Worldwide Business" },
             { to: "/services/household-goods", name: "Household Goods Shipment" },
             { to: "/services/prohibited-items", name: "Prohibited Items" },
+            { to: "/services/other-services", name: "Other Services" },
         ],
     },
     {
