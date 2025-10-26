@@ -62,7 +62,7 @@ const posterImages = [
                     <div class="collapse collapse-arrow bg-white border border-gray-200">
                         <input type="radio" name="accordion" checked />
                         <div class="collapse-title font-semibold">
-                            As a Business Owner, you’ll have:
+                            As a <span class="text-blue-800">Business Owner</span>, you’ll have:
                         </div>
                         <div class="collapse-content text-sm">
                             <ul class="list-inside list-disc">
@@ -96,8 +96,10 @@ const posterImages = [
                     </p>
 
                     <p>
-                        Our mission is to empower Filipinos — our kababayan — to become business owners, not just
-                        agents.
+                        Our mission is to empower Filipinos — our kababayan — <span
+                            class="text-blue-800 font-semibold">to become
+                            business owners, not just
+                            agents</span>.
                         We invite you to join us as an Independent Business Partner or “Franchise Owner” and start
                         building
                         your own success story today!
