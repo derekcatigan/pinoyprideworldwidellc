@@ -1,6 +1,6 @@
 <script setup>
 import AgentImage from '@/assets/images/AgentImage.png'
-import PictureJimmy from '@/assets/images/balikBayan/PPW12.jpg'
+import PictureJimmy from '@/assets/images/balikBayan/PPW22.png'
 import PictureEdgar from '@/assets/images/balikBayan/PPW21.png'
 </script>
 
@@ -72,6 +72,15 @@ import PictureEdgar from '@/assets/images/balikBayan/PPW21.png'
             </div>
 
             <div class="flex flex-col items-center justify-start lg:sticky lg:top-24 space-y-4">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 text-center">
+                    A Reflection of Humble Beginnings
+                </h2>
+                <p class="text-justify bg-white p-5 rounded shadow">
+                    <strong>Founder & CEO</strong> of Pinoy Pride Worldwide, Engr. Edgar Ocampo, together with
+                    <strong>VP of Operations</strong>, Jimmy Locsin, <strong>personally picking up boxes</strong> during
+                    their early years as agents perseverance. Their dedication and strong foundation have shapde the
+                    company's success today.
+                </p>
                 <img :src="PictureJimmy" alt="PPW Agent" class="w-80 rounded-xl shadow-md object-cover" />
                 <img :src="PictureEdgar" alt="PPW Agent" class="w-80 rounded-xl shadow-md object-cover" />
             </div>

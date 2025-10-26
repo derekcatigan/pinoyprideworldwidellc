@@ -16,6 +16,7 @@ const navLinks = [
             { to: "/services/vehicle", name: "Vehicle Shipment" },
             { to: "/services/commercial-shipment", name: "Commercial Shipment" },
             { to: "/services/worldwide-business", name: "Worldwide Business" },
+            { to: "/services/online-shopping", name: "Online Shopping" },
             { to: "/services/household-goods", name: "Household Goods Shipment" },
             { to: "/services/prohibited-items", name: "Prohibited Items" },
             { to: "/services/other-services", name: "Other Services" },

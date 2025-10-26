@@ -14,6 +14,7 @@ import VehicleShipService from "@/views/VehicleShipService.vue";
 import HouseholdShipService from "@/views/HouseHoldShipService.vue";
 import WorldwideBusiness from "@/views/WorldwideBusiness.vue";
 import OtherServices from "@/views/OtherServices.vue";
+import OnlineShopping from "@/views/OnlineShopping.vue";
 import FAQ from "@/views/Faq.vue";
 
 const routes = [
@@ -49,6 +50,9 @@ const routes = [
     },
     {
         path: '/services/worldwide-business', name: 'Worldwide Business', component: WorldwideBusiness
+    },
+    {
+        path: '/services/online-shopping', name: 'Online Shopping', component: OnlineShopping
     },
     {
         path: '/services/other-services', name: 'Other Services', component: OtherServices
