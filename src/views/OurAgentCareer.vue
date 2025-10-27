@@ -78,7 +78,7 @@ import PictureEdgar from '@/assets/images/balikBayan/PPW21.png'
                 <p class="text-justify bg-white p-5 rounded shadow">
                     <strong>Founder & CEO</strong> of Pinoy Pride Worldwide, Engr. Edgar Ocampo, together with
                     <strong>VP of Operations</strong>, Jimmy Locsin, <strong>personally picking up boxes</strong> during
-                    their early years as agents perseverance. Their dedication and strong foundation have shapde the
+                    their early years as agents perseverance. Their dedication and strong foundation have shaped the
                     company's success today.
                 </p>
                 <img :src="PictureJimmy" alt="PPW Agent" class="w-80 rounded-xl shadow-md object-cover" />

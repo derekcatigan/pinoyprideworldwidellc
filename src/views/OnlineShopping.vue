@@ -56,13 +56,6 @@
                         measurements
                         so we can provide you with an accurate shipping fee.
                     </p>
-                    <p>
-                        Before you deliver your package that you order online, whether from Amazon, Costco, Home Depot,
-                        Temu, to our Pinoy Pride Worldwide address for shipment, send first the complete information of
-                        the items if possible send the image of the box with the measurements so that we can give you
-                        the
-                        price for the shipping fee.
-                    </p>
 
                     <p><strong>STEP 4 – We Handle the Rest!</strong></p>
                     <p>
