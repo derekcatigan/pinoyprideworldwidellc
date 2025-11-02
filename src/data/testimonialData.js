@@ -48,7 +48,7 @@ export const testimonialData = [
     {
         name: "Lorenzo Dugangay",
         location: "Woodside, New York – USA; Iglesia Ni Kristo Quezon, City - Philippines",
-        message: "Nong Edgar, miabot na ang container nga among gikargahan sa among mga gamit para sa among simbahan. SAFE kaayo ang pag-abot ug kumpleto ang tanan. Ako gyud i-rekomenda ang Pinoy Pride Worldwide sa uban pa nakong mga amigo diha sa New York nga gustong magpadala sa ilang mga gamit sa balay via container. Sslamat kaayo Nong Edgar.",
+        message: "Nong Edgar, miabot na ang container nga among gikargahan sa among mga gamit para sa among simbahan. SAFE kaayo ang pag-abot ug kumpleto ang tanan. Ako gyud i-rekomenda ang Pinoy Pride Worldwide sa uban pa nakong mga amigo diha sa New York nga gustong magpadala sa ilang mga gamit sa balay via container. Salamat kaayo Nong Edgar.",
         avatar: ""
     },
     {
