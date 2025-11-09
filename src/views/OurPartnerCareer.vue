@@ -88,11 +88,28 @@ const posterImages = [
 
                 <div class="space-y-4 my-5">
                     <p>
-                        At Pinoy Pride Worldwide LLC, we’re proud to offer a one-of-a-kind business opportunity designed
+                        Some Balikbayan box companies may try to convince you to join them as an exclusive agent,
+                        business
+                        partner, or even a part-owner. However, you may later realize that they are merely using you as
+                        their
+                        company representative or agent, limiting your independence and control. You won’t have the
+                        freedom
+                        to make your own business decisions.
+                    </p>
+
+                    <p>
+                        At <strong>Pinoy Pride Worldwide LLC</strong>, we’re proud to offer a one-of-a-kind business
+                        opportunity designed
                         for
                         aspiring entrepreneurs — no experience required! We provide complete training, guidance, and
                         best of
                         all, there’s NO FRANCHISE FEE.
+                    </p>
+
+                    <p>
+                        At Pinoy Pride Worldwide LLC, we value your freedom to grow your own business. We provide full
+                        support and guidance while allowing you to make your own decisions, because your success is our
+                        shared success.
                     </p>
 
                     <p>
