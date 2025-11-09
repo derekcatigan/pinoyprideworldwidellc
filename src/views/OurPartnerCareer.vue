@@ -107,7 +107,8 @@ const posterImages = [
                     </p>
 
                     <p>
-                        At Pinoy Pride Worldwide LLC, we value your freedom to grow your own business. We provide full
+                        At <strong>Pinoy Pride Worldwide LLC</strong>, we value your freedom to grow your own business.
+                        We provide full
                         support and guidance while allowing you to make your own decisions, because your success is our
                         shared success.
                     </p>
