@@ -126,7 +126,8 @@
                         <ul class="list-disc list-inside space-y-1 text-gray-700">
                             <li>
                                 🔄 Combine of brand-new products with used <strong>household goods, personal
-                                    effects, tools, clothing, shoes, bags, electronics, vitamins, car parts, and
+                                    effects, tools, clothing, shoes, bags, electronics, vitamins, groceries, car parts,
+                                    and
                                     more</strong>.
                             </li>
                             <li>
