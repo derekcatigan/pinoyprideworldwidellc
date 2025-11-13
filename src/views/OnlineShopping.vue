@@ -1,6 +1,26 @@
+<script setup>
+import ImageCarousel from '@/components/ImageCarousel.vue';
+
+import Clothing from '@/assets/images/stockImages/Clothing.jpg'
+import Gadgets from '@/assets/images/stockImages/Gadgets.jpg'
+import Purse from '@/assets/images/stockImages/Purse.jpg'
+import Shoes from '@/assets/images/stockImages/Shoes.jpg'
+import Vitamins from '@/assets/images/stockImages/Vitamins.jpg'
+import CarParts from '@/assets/images/stockImages/Car Parts.jpg'
+
+const Images = [
+    Clothing,
+    Gadgets,
+    Purse,
+    Shoes,
+    Vitamins,
+    CarParts,
+]
+</script>
+
 <template>
     <section class="py-16 px-4">
-        <div class="max-w-7xl mx-auto">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[80%_30%] gap-10">
             <div class="p-6 bg-white rounded-2xl shadow-sm space-y-6">
 
                 <!-- Content here -->
@@ -98,6 +118,15 @@
                             pinoyprideworldwide@gmail.com
                         </a>
                     </p>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="flex flex-col items-center justify-start lg:sticky lg:top-24">
+                <div class="space-y-4">
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <ImageCarousel :images="Images" />
+                    </div>
                 </div>
             </div>
         </div>
