@@ -8,6 +8,9 @@
                     <h1 class="font-extrabold text-3xl md:text-4xl text-gray-800">
                         Donation to Foundation
                     </h1>
+                    <h3 class="font-bold text-gray-600">
+                        (TAX FREE)
+                    </h3>
                 </header>
 
                 <!-- Introduction -->
