@@ -18,6 +18,7 @@ const navLinks = [
             { to: "/services/worldwide-business", name: "Worldwide Business" },
             { to: "/services/online-shopping", name: "Online Shopping" },
             { to: "/services/household-goods", name: "Household Goods Shipment" },
+            { to: "/services/donation-to-foundation", name: "Donation to Foundation" },
             { to: "/services/prohibited-items", name: "Prohibited Items" },
             { to: "/services/other-services", name: "Other Services" },
         ],

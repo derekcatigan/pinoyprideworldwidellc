@@ -135,8 +135,10 @@ const posterImages = [
 
                     <ul class="list-disc list-inside space-y-3 ml-8">
                         <p>
-                            <strong>FORWARDER – (Pinoy Pride Worldwide LLC)</strong> is a U.S. based freight forwarding
-                            company with more than 10 years of combined experience in box consolidation. It is duly
+                            <strong>FORWARDER – (Pinoy Pride Worldwide LLC)</strong> is a
+                            Filipino-American forwarding company based in the USA with more than 10 years of combined
+                            experience in box consolidation. We are a fully bonded, insured, and licensed company under
+                            FMC-OTI-NVOCC #033592N. It is duly
                             state licensed, registered & accredited by:
                         </p>
                         <li>

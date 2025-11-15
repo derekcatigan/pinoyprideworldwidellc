@@ -15,6 +15,7 @@ import HouseholdShipService from "@/views/HouseHoldShipService.vue";
 import WorldwideBusiness from "@/views/WorldwideBusiness.vue";
 import OtherServices from "@/views/OtherServices.vue";
 import OnlineShopping from "@/views/OnlineShopping.vue";
+import DonationFoundation from "@/views/Donation.vue";
 import FAQ from "@/views/Faq.vue";
 
 const routes = [
@@ -62,6 +63,9 @@ const routes = [
     },
     {
         path: '/services/household-goods', name: 'Household Goods Shipment', component: HouseholdShipService
+    },
+    {
+        path: '/services/donation-to-foundation', name: 'Donation to Foundation', component: DonationFoundation
     },
     {
         path: '/careers/be-our-partners', name: 'Be our Partner', component: OurPartnerCareer

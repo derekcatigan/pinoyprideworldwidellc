@@ -57,6 +57,12 @@ const webs = [
         ABOUT US
     </h2>
 
+    <!-- Our Team -->
+    <section class="py-16 bg-gray-100">
+        <TeamSection />
+    </section>
+
+    <!-- Our Story -->
     <section class="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <!-- Headline -->
@@ -123,42 +129,9 @@ const webs = [
         </div>
     </section>
 
-    <!-- History Sections -->
-    <section class="py-12">
-        <h2
-            class="relative text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-gray-800 text-center after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-3">
-            Pinoy Pride Worldwide Logo History
-        </h2>
-
-        <div
-            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center max-w-6xl mx-auto">
-            <LogoHistoryCard v-for="(logo, index) in logos" :key="index" :src="logo.src" :year="logo.year"
-                :description="logo.description" />
-        </div>
-    </section>
-
-    <section class="py-12">
-        <h2
-            class="relative text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-gray-800 text-center after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-3">
-            Pinoy Pride Worldwide Website History
-        </h2>
-
-        <div
-            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center px-10 mx-auto">
-            <WebsiteHistoryCard v-for="(web, index) in webs" :key="index" :src="web.src" :year="web.year"
-                :description="web.description" />
-        </div>
-    </section>
-
-
     <!-- Our Journey -->
     <section class="py-16 bg-white">
         <Timeline />
-    </section>
-
-    <!-- Our Team -->
-    <section class="py-16 bg-gray-100">
-        <TeamSection />
     </section>
 
     <!-- Our Partners -->
@@ -213,4 +186,30 @@ const webs = [
         </div>
     </section>
 
+    <!-- History Sections -->
+    <section class="py-12">
+        <h2
+            class="relative text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-gray-800 text-center after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-3">
+            Pinoy Pride Worldwide Logo History
+        </h2>
+
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center max-w-6xl mx-auto">
+            <LogoHistoryCard v-for="(logo, index) in logos" :key="index" :src="logo.src" :year="logo.year"
+                :description="logo.description" />
+        </div>
+    </section>
+
+    <section class="py-12">
+        <h2
+            class="relative text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-gray-800 text-center after:content-[''] after:block after:w-20 after:h-1 after:bg-yellow-400 after:mx-auto after:mt-3">
+            Pinoy Pride Worldwide Website History
+        </h2>
+
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center px-10 mx-auto">
+            <WebsiteHistoryCard v-for="(web, index) in webs" :key="index" :src="web.src" :year="web.year"
+                :description="web.description" />
+        </div>
+    </section>
 </template>
