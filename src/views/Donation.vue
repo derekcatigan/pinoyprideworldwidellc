@@ -8,20 +8,177 @@
                     <h1 class="font-extrabold text-3xl md:text-4xl text-gray-800">
                         Donation to Foundation
                     </h1>
-                    <h3 class="font-bold text-gray-600">
-                        (TAX FREE)
-                    </h3>
                 </header>
 
                 <!-- Introduction -->
                 <section class="space-y-4 text-gray-800 leading-relaxed">
-                    <p>Pinoy Pride Worldwide LLC is also willing to assist our fellow Filipinos who wish to donate goods
-                        to any foundation or organization in the Philippines for tax-free entry.</p>
-                    <p>Here’s a step-by-step guide to importing donated goods into the Philippines (for either
+                    <p>
+                        Pinoy Pride Worldwide LLC is also willing to assist our fellow Filipinos who wish to donate
+                        goods to any foundation or organization in the Philippines.
+                    </p>
+                    <p>
+                        For donations, we cannot immediately determine if they are 100% tax-free or not.
+                        We need to process the documents first to confirm whether the donation qualifies for tax
+                        exemption. Based on the type and nature of the goods, this donation does not qualify. Please
+                        refer to the following:
+                    </p>
+                </section>
+
+                <!-- FAQS -->
+                <section class="space-y-4">
+
+                    <!-- SECTION 800 -->
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="accordion" checked />
+                        <div class="collapse-title font-semibold">
+                            Section 800 – Conditionally Duty-Free Importations
+                        </div>
+                        <div class="collapse-content text-sm space-y-3">
+
+                            <p>This section lists categories of goods that may be exempt from duties and taxes,
+                                including:</p>
+
+                            <ul class="list-disc list-inside">
+                                <li>Importations for relief consigned to government agencies or accredited NGOs</li>
+                                <li>Donations to government institutions</li>
+                                <li>Donations to hospitals, foundations, educational institutions, etc., subject to
+                                    specific rules</li>
+                            </ul>
+
+                            <hr>
+
+                            <p class="font-semibold">Other references:</p>
+
+                            <p class="font-semibold">CAO 03-2007 / CMO 04-2007 – Accreditation of NGOs for Duty-Free
+                                Importation</p>
+                            <ul class="list-disc list-inside">
+                                <li>For organizations receiving foreign donations</li>
+                            </ul>
+
+                            <p class="font-semibold">CMO 35-2014 – Processing of Government and NGO Importations</p>
+                            <p>Used when the consignee is:</p>
+                            <ul class="list-disc list-inside">
+                                <li>DSWD</li>
+                                <li>Red Cross</li>
+                                <li>LGUs</li>
+                                <li>Foundations / NGOs / Schools</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <!-- RELIEF & CALAMITY-RELATED LAWS -->
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="accordion" />
+                        <div class="collapse-title font-semibold">Relief & Calamity-Related Laws</div>
+
+                        <div class="collapse-content text-sm space-y-3">
+
+                            <p class="font-semibold">📌 RA 10121 – Philippine Disaster Risk Reduction and Management Act
+                            </p>
+                            <p>Provides the framework for the quick entry of humanitarian assistance.</p>
+
+                            <p class="font-semibold">📌 RA 10848 – Tax Exemption for Relief Operations</p>
+                            <p>Used during calamities; grants special exemptions for goods donated for disaster victims.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- TAX EXEMPTION LAWS -->
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="accordion" />
+
+                        <div class="collapse-title font-semibold">
+                            Tax Exemption Laws (BIR / DOF)
+                        </div>
+
+                        <div class="collapse-content text-sm space-y-3">
+
+                            <p class="font-semibold">📌 DOF Department Order 36-2016</p>
+                            <p>Requirements for tax- and duty-free importation of donations, especially when:</p>
+
+                            <ul class="list-disc list-inside">
+                                <li>Donated to a government agency</li>
+                                <li>Donated to non-profit, non-stock organizations</li>
+                                <li>Used for charitable or educational purposes</li>
+                            </ul>
+
+                            <p class="font-semibold">📌 BIR Revenue Regulations 1-2015</p>
+                            <p>Donations to accredited NGOs can be tax-deductible.</p>
+
+                        </div>
+                    </div>
+
+                    <!-- AGENCY-SPECIFIC LAWS -->
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="accordion" />
+
+                        <div class="collapse-title font-semibold">
+                            Agency-Specific Laws (Depending on the Consignee)
+                        </div>
+
+                        <div class="collapse-content text-sm space-y-3">
+
+                            <p class="font-semibold">📍 DSWD Guidelines</p>
+                            <p>For importation of:</p>
+                            <ul class="list-disc list-inside">
+                                <li>Relief goods</li>
+                                <li>Used clothing (special clearance)</li>
+                                <li>Supplies intended for charitable distribution</li>
+                            </ul>
+
+                            <p class="font-semibold">📍 DepEd / CHED Regulations</p>
+                            <p>If the donation is intended for schools or universities.</p>
+
+                            <p class="font-semibold">📍 DOH / FDA Rules</p>
+                            <p>If the goods include:</p>
+
+                            <ul class="list-disc list-inside">
+                                <li>Medical devices</li>
+                                <li>Medicines</li>
+                                <li>Food supplements</li>
+                                <li>PPE</li>
+                            </ul>
+
+                            <p>These require FDA clearance.</p>
+
+                        </div>
+                    </div>
+
+                    <!-- SUMMARY -->
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="accordion" />
+
+                        <div class="collapse-title font-semibold">
+                            📦 SUMMARY: Main Laws to Refer To
+                        </div>
+
+                        <div class="collapse-content text-sm space-y-3">
+
+                            <ol class="list-decimal list-inside space-y-1">
+                                <li>CMTA (RA 10863) – Sections on duty-free donations</li>
+                                <li>CAO 06-2016 – Clearance of relief consignments</li>
+                                <li>CAO 03-2007 & CMO 04-2007 – NGO accreditation</li>
+                                <li>DOF DO 36-2016 – Tax exemption rules for donations</li>
+                                <li>RA 10121 – Disaster relief importation</li>
+                                <li>FDA Regulations – For health-related donated goods</li>
+                                <li>DSWD Special Rules – For relief goods and used clothing</li>
+                            </ol>
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="space-y-4 text-gray-800 leading-relaxed">
+                    <p>
+                        Here’s a step-by-step guide to importing donated goods into the Philippines (for either
                         humanitarian, charitable, or non-profit purposes). Because you are active in importation (via
                         your customs brokerage company), I’ll also highlight practical points you’ll want to watch out
                         for. The rules are based on the Bureau of Customs (BOC) guidelines and other relevant Philippine
-                        agencies.</p>
+                        agencies.
+                    </p>
                 </section>
 
                 <!-- Step 1 -->
