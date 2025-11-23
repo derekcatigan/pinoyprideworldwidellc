@@ -141,14 +141,6 @@ function toggleLanguage(lang) {
 
 <template>
     <section class="py-14 px-4">
-        <div class="flex justify-end mb-4 max-w-7xl mx-auto">
-            <select @change="toggleLanguage($event.target.value)" class="select w-40">
-                <option value="en">English</option>
-                <option value="tl">Tagalog</option>
-            </select>
-        </div>
-
-
         <div class="max-w-7xl mx-auto">
             <div class="p-6 bg-white rounded-2xl shadow-sm">
 
