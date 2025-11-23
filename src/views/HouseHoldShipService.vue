@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from 'vue';
 import BalikBayanCarousel from '@/components/aboutComponents/BalikBayanCarousel.vue';
 import DeliveryCarousel from '@/components/aboutComponents/DeliveryCarousel.vue';
 
@@ -9,8 +10,7 @@ import BalikBayan18 from '@/assets/images/balikBayan/PPW18.jpg';
 import BalikBayan19 from '@/assets/images/balikBayan/PPW19.jpg';
 import BalikBayan20 from '@/assets/images/balikBayan/PPW20.jpg';
 
-
-// Delivery
+// Delivery Videos
 import Delivery02 from '@/assets/images/deliveryImages/Delivery02.mp4';
 import Delivery14 from '@/assets/images/deliveryImages/Delivery14.mp4';
 import Delivery15 from '@/assets/images/deliveryImages/Delivery15.mp4';
@@ -21,258 +21,165 @@ const boxImages = [
     BalikBayan18,
     BalikBayan19,
     BalikBayan20
-]
+];
 
 const deliveryVideos = [
     Delivery02,
     Delivery14,
     Delivery15
-]
+];
+
+const language = ref('en'); // default language
+
+const texts = {
+    en: {
+        headerTitle: "Used Household Goods Shipment",
+        headerSubtitle: "Retiring in the Philippines as Returning Resident?",
+        description: "Pinoy Pride Worldwide LLC is your best choice for shipping all your used household goods and personal effects in one (1) container load—safely delivered anywhere in the Philippines!",
+        rightTitle: "Watch our factual and documented loading and successful deliveries of Returning Resident Household Goods!",
+        faqs: [
+            {
+                question: "1. Is it safe to send my Balikbayan Box to your company?",
+                answer: "Yes, it is safe to ship your household goods with us. Pinoy Pride Worldwide LLC is a legitimate, bonded, and insured freight forwarding company. We are fully licensed under the US Federal Maritime Commission (FMC-OTI-NVOCC #033592N) and are willing to sign a Memorandum of Agreement (MOA) to protect the interests of both parties, ensuring your shipment is handled securely from start to finish."
+            },
+            {
+                question: "2. What are the Requirements for Shipping Used Household Goods to the Philippines?",
+                answer: "To qualify for shipment, you need: Affidavit of Undertaking, valid US & Philippine passports, US ID, Dual Citizenship Certificate (if applicable), Green Card (if applicable), TIN, packing list with photos and videos, and the presence of the consignee in the Philippines."
+            },
+            {
+                question: "3. How much is the fee for one (1) 20-foot or one (1) 40-foot container?",
+                answer: "To provide an accurate quotation, please send your exact U.S. loading address and Philippine destination address."
+            },
+            {
+                question: "4. Who loads the goods and will it be delivered directly to my address?",
+                answer: "The quotation includes trucking, loading, packaging, port charges, ocean freight, customs clearance, shipping line fees, duties & taxes, broker fees, and final delivery. Note: unloading beyond 6 hours may incur Php 30,000/day as Truck Detention."
+            },
+            {
+                question: "5. How long is the estimated shipping time?",
+                answer: "Estimated shipping time is 2–3 months. Real-time tracking is available, but delivery may vary due to weather, holidays, port congestion, or customs."
+            },
+            {
+                question: "6. Can I track the status of my container?",
+                answer: "Yes. Use the Track page or Contact page to inquire using your invoice/tracking number."
+            },
+            {
+                question: "7. Can my sister and I share one container to save costs?",
+                answer: "Yes, with approval from Pinoy Pride Worldwide management. Contact us first for requirements and guidelines."
+            },
+            {
+                question: "8. What are the payment options?",
+                answer: "50% down payment upon booking, non-refundable if canceled. Remaining 50% after container pick-up. Payments via bank transfer, Zelle, or personal check."
+            }
+        ],
+        contactPhone: "(253) 282-9628",
+        contactEmail: "pinoyprideworldwide@gmail.com"
+    },
+
+    tl: {
+        headerTitle: "Pagpapadala ng Ginamit na Kagamitang Pantahanan",
+        headerSubtitle: "Nagreretiro sa Pilipinas bilang Returning Resident?",
+        description: "Pinoy Pride Worldwide LLC ang pinakamahusay na pagpipilian para sa pagpapadala ng lahat ng iyong ginamit na gamit sa bahay at personal na kagamitan sa isang (1) container load—ligtas na maihahatid saan man sa Pilipinas!",
+        rightTitle: "Panoorin ang aming mga dokumentadong loading at matagumpay na delivery ng Ginamit na Kagamitang Pantahanan ng Returning Resident!",
+        faqs: [
+            {
+                question: "1. Ligtas ba na ipadala ang aking Balikbayan Box sa inyong kumpanya?",
+                answer: "Oo, ligtas ang pagpapadala ng iyong gamit sa bahay kasama ang Pinoy Pride Worldwide LLC. Kami ay lehitimo, bonded, at insured na freight forwarding company, lisensyado sa US Federal Maritime Commission (FMC-OTI-NVOCC #033592N) at handang pirmahan ang Memorandum of Agreement (MOA) upang protektahan ang interes ng parehong partido."
+            },
+            {
+                question: "2. Ano ang mga Kinakailangan para sa Pagpapadala ng Ginamit na Kagamitang Pantahanan sa Pilipinas?",
+                answer: "Kinakailangan: Affidavit of Undertaking, valid US & Philippine passports, US ID, Dual Citizenship Certificate (kung naaangkop), Green Card (kung naaangkop), TIN, packing list na may photos at videos, at presensya ng consignee sa Pilipinas."
+            },
+            {
+                question: "3. Magkano ang bayad para sa 20-foot o 40-foot container?",
+                answer: "Para sa tamang quotation, pakisend ang eksaktong address ng pag-load sa U.S. at destinasyon sa Pilipinas."
+            },
+            {
+                question: "4. Sino ang maglo-load ng gamit at ihahatid ba ito sa aking address?",
+                answer: "Kasama sa quotation ang trucking, pag-load, packaging, bayarin sa port, ocean freight, customs clearance, shipping line fees, duties & taxes, broker fees, at final delivery. Paalala: labas sa 6 na oras ng libreng unloading ay Php 30,000/day bilang Truck Detention."
+            },
+            {
+                question: "5. Gaano katagal ang estimated shipping time?",
+                answer: "Estimated shipping time ay 2–3 buwan. May real-time tracking, ngunit maaaring maapektuhan ng panahon, holidays, port congestion, o customs."
+            },
+            {
+                question: "6. Puwede ko bang i-track ang status ng aking container?",
+                answer: "Oo. Gamitin ang Track page o Contact page gamit ang iyong invoice/tracking number."
+            },
+            {
+                question: "7. Puwede ba naming pagsamahin ng kapatid ko ang aming gamit sa isang container para makatipid?",
+                answer: "Oo, ngunit kailangan ng aprubal mula sa Pinoy Pride Worldwide management. Makipag-ugnayan muna sa amin para sa mga requirements at guidelines."
+            },
+            {
+                question: "8. Ano ang mga payment options?",
+                answer: "50% down payment sa booking, non-refundable kung kanselahin. Natitirang 50% pagkatapos ma-pickup ang container. Bayad sa pamamagitan ng bank transfer, Zelle, o personal check."
+            }
+        ],
+        contactPhone: "(253) 282-9628",
+        contactEmail: "pinoyprideworldwide@gmail.com"
+    }
+};
+
+function toggleLanguage(lang) {
+    language.value = lang;
+}
 </script>
 
 <template>
     <section class="py-16 px-4">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[80%_30%] gap-10">
-            <div class="p-6 lg:p-8 bg-white rounded-2xl shadow-sm">
+
+            <!-- Left Column -->
+            <div class="p-6 bg-white rounded-2xl shadow-sm space-y-6">
+
+                <!-- LANGUAGE SELECT -->
+                <div class="w-full flex justify-end mb-2">
+                    <select @change="toggleLanguage($event.target.value)" class="select w-40" :value="language">
+                        <option value="en">English</option>
+                        <option value="tl">Tagalog</option>
+                    </select>
+                </div>
+
                 <!-- Header -->
-                <div class="text-center space-y-2 mb-10">
-                    <h1 class="font-extrabold text-3xl md:text-4xl text-gray-800">
-                        Used Household Goods Shipment
-                    </h1>
-                    <h3 class="font-medium text-lg md:text-xl text-gray-600">
-                        Retiring in the Philippines as Returning Resident?
-                    </h3>
+                <div class="text-center mb-4 space-y-2">
+                    <h1 class="text-3xl font-extrabold text-gray-800">{{ texts[language].headerTitle }}</h1>
+                    <p v-if="texts[language].headerSubtitle" class="text-gray-600">{{ texts[language].headerSubtitle }}
+                    </p>
                 </div>
 
                 <!-- Description -->
-                <div class="space-y-6 text-gray-700 leading-relaxed text-justify mb-10">
-                    Pinoy Pride Worldwide LLC is your best choice for shipping all your used household goods and
-                    personal effects in one (1) container load—safely delivered anywhere in the Philippines!
-                </div>
+                <p class="text-gray-700 mb-6 text-justify">{{ texts[language].description }}</p>
 
-                <!-- FAQ Accordion Section -->
-                <div class="space-y-4 mb-12">
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" checked />
-                        <div class="collapse-title font-semibold">
-                            1. Is it safe to send my Balikbayan Box to your company?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            Yes, it is safe to ship your household goods with us. <strong>Pinoy Pride Worldwide
-                                LLC</strong>
-                            is a legitimate, bonded, and insured freight forwarding company. We are fully licensed under
-                            the
-                            <strong>US Federal Maritime Commission (FMC-OTI-NVOCC #033592N)</strong> and are willing to
-                            sign a <strong>Memorandum
-                                of Agreement (MOA)</strong> to protect the interests of both parties, ensuring your
-                            shipment is
-                            handled securely from start to finish.
-                        </div>
-                    </div>
-
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" />
-                        <div class="collapse-title font-semibold">
-                            2. What are the Requirements for Shipping Used Household Goods to the Philippines?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            <p class="mb-3">To qualify for shipment of your used household goods and personal effects,
-                                the following
-                                documents and conditions are required:</p>
-                            <ul class="list-disc list-inside space-y-1 text-gray-700">
-                                <li>
-                                    Affidavit of Undertaking duly signed by the shipper.
-                                </li>
-                                <li>
-                                    Copy of a valid US & Philippine passport of the shipper/sender, showing proof of
-                                    at least one (1) year of accumulated residence in the last three (3) years from the
-                                    date of filing the application.
-                                </li>
-                                <li>
-                                    Valid U.S. ID (e.g., driver’s license).
-                                </li>
-                                <li>
-                                    Dual Citizenship Certificate (Oath of Allegiance), if applicable.
-                                </li>
-                                <li>
-                                    Green Card/Permanent Resident Card, if applicable.
-                                </li>
-                                <li>
-                                    Tax Identification Number (TIN)
-                                </li>
-                                <li>
-                                    Shipper and consignee must be the same individual (one person only).
-                                </li>
-                                <li>
-                                    Detailed packing list with item values, ensuring all items loaded in the container
-                                    match the quantities listed.S
-                                </li>
-                                <li>
-                                    Photos of the items, confirming that everything being shipped is used.
-                                </li>
-                                <li>
-                                    Videos of the loading process for verification purposes.
-                                </li>
-                                <li>
-                                    Consignee’s presence in the Philippines:
-                                    <ul class="list-disc ml-8 mt-1 space-y-1 text-gray-700">
-                                        <li>
-                                            The consignee must arrive in the Philippines 2–3 weeks prior to the
-                                            vessel’s arrival.
-                                        </li>
-                                        <li>
-                                            It is preferable for the consignee to be in the country when the container
-                                            arrives, to personally oversee unloading and customs clearance.
-                                        </li>
-                                        <li>
-                                            If the consignee cannot be present, a designated contact person—preferably
-                                            a relative—must be available to handle matters on their behalf.
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" />
-                        <div class="collapse-title font-semibold">
-                            3. How much is the fee for one (1) 20-foot or one (1) 40-foot container?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            To provide you with an accurate quotation, please send us the exact address of your loading
-                            location in the U.S. and the exact destination address in the Philippines.
-                        </div>
-                    </div>
-
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" />
-                        <div class="collapse-title font-semibold">
-                            4. If we agree on the fee, who will load our household goods into the container, and will it
-                            be delivered directly to our address in the Philippines?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            <p class="mb-3">The quotation I will provide you—referred to as the contract price—already
-                                includes the following services:</p>
-                            <ul class="list-disc list-inside space-y-1">
-                                <li>Trucking delivery of the container from the container yard to your U.S. address
-                                    for loading, and transport to the port of origin.</li>
-                                <li>Packaging, wrapping, moving, crating (if applicable), and loading your household
-                                    goods into the container.</li>
-                                <li>U.S. documentation and port charges.</li>
-                                <li>Ocean freight from the port of origin in the U.S. to the port of destination in
-                                    Manila.</li>
-                                <li>Philippines port charges and customs clearance.</li>
-                                <li>Shipping line destination fees.</li>
-                                <li>Duties and taxes for all used items.</li>
-                                <li>Professional broker’s fees.</li>
-                                <li>Special Agreed Fees (SAF) (if required).</li>
-                                <li>Final delivery of the container directly to your address anywhere in the
-                                    Philippines.</li>
-                            </ul>
-                            <div class="bg-blue-50 border-l-4 my-3 border-blue-500 p-4 rounded-r-md">
-                                <p class="text-gray-700 leading-relaxed">
-                                    Note: The shipper/consignee may arrange manpower for unloading the items from the
-                                    container to avoid incurring a fee of Php 30,000.00 per day after the first six
-                                    hours of free unloading time, classified as Truck Detention.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" />
-                        <div class="collapse-title font-semibold">
-                            5. How long is the estimated shipping time?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            The estimated shipping time ranges from 2 to 3 months, depending on various factors.
-                            Real-time online tracking is available to keep you informed of any updates or delays. Please
-                            note that delivery times may vary due to weather conditions, local holidays, pick-up
-                            locations, port congestion, or customs clearance procedures.
-                        </div>
-                    </div>
-
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" />
-                        <div class="collapse-title font-semibold">
-                            6. Can I track the status of my container?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            <p class="text-gray-700">
-                                Yes. Click the
-                                <RouterLink to="/track" class="underline text-blue-500">Track</RouterLink>
-                                page at the upper right-hand corner and enter your complete invoice/tracking number
-                                shown on
-                                your invoice.
-                                You may also contact our customer service through the
-                                <RouterLink to="/contact" class="underline text-blue-500">Contact</RouterLink>
-                                page to inquire about the status of your shipment.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" />
-                        <div class="collapse-title font-semibold">
-                            7. Is it okay if my sister and I ship our used household goods together in one container
-                            load so we can save more by dividing the fee between us?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            Yes, that’s possible — but it requires approval from Pinoy Pride Worldwide management.
-                            Please contact us first so we can provide you with the requirements and guidelines on how to
-                            proceed.
-                        </div>
-                    </div>
-
-                    <div class="collapse collapse-arrow bg-white border border-gray-200">
-                        <input type="radio" name="accordion" />
-                        <div class="collapse-title font-semibold">
-                            8. What are the payment options?
-                        </div>
-                        <div class="collapse-content text-sm">
-                            <p class="mb-3">Payment Options:</p>
-                            <ul class="list-disc list-inside space-y-1">
-                                <li>
-                                    A 50% down payment of the contract price is required upon booking a container. No
-                                    down payment, no container delivery.
-                                </li>
-                                <li>
-                                    If the shipper/sender cancels or withdraws from the shipment for any reason, 50%
-                                    of the down payment is non-refundable.
-                                </li>
-                                <li>
-                                    The remaining 50% balance must be paid after the container has been picked up.
-                                    Failure to pay may result in the container not being loaded onto the vessel.
-                                </li>
-                                <li>
-                                    All payments must be made via bank transfer, Zelle, or personal check payable to
-                                    Pinoy Pride Worldwide LLC. (Billing details will be provided upon confirmation of
-                                    the booking.)
-                                </li>
-                                <li>
-                                    Non-compliance with these terms may result in penalties, including the
-                                    non-delivery of the shipment.
-                                </li>
-                            </ul>
-                        </div>
+                <!-- FAQ Accordion -->
+                <div class="space-y-4">
+                    <div v-for="(faq, index) in texts[language].faqs" :key="index"
+                        class="collapse collapse-arrow border border-gray-200 rounded-md">
+                        <input type="radio" name="accordion" :checked="index === 0" />
+                        <div class="collapse-title font-semibold">{{ faq.question }}</div>
+                        <div class="collapse-content text-gray-700">{{ faq.answer }}</div>
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center">
-                    <a href="https://forms.gle/qfpPCPxKkv39WrZUA" target="_blank" class="btn btn-primary">
-                        Get a Container Quote
-                    </a>
+                <!-- Contact Info -->
+                <div class="pt-5 border-t border-gray-200">
+                    <p class="text-gray-800 font-medium">
+                        📞 Contact: <span class="text-blue-600 font-semibold">{{ texts[language].contactPhone }}</span>
+                    </p>
+                    <p class="text-gray-800 font-medium">
+                        📧 Email:
+                        <a :href="`mailto:${texts[language].contactEmail}`" target="_blank"
+                            class="text-blue-600 underline hover:text-blue-700 transition break-all">
+                            {{ texts[language].contactEmail }}
+                        </a>
+                    </p>
                 </div>
             </div>
 
-            <!-- Right Side -->
-            <div class="flex flex-col items-center justify-start lg:sticky lg:top-24">
+            <!-- Right Column (Title + Carousels) -->
+            <div class="flex flex-col items-center justify-start lg:sticky lg:top-24 space-y-4 w-full">
                 <h2 class="text-lg font-bold text-gray-800 mb-4 text-center">
-                    Watch our factual and documented loading and successful deliveries of Returning Resident Household
-                    Goods!
+                    {{ texts[language].rightTitle }}
                 </h2>
-                <div class="space-y-4">
+                <div class="space-y-4 w-full">
                     <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
                         <BalikBayanCarousel :images="boxImages" />
                     </div>
@@ -281,6 +188,7 @@ const deliveryVideos = [
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 </template>
