@@ -1,5 +1,6 @@
 <script setup>
 import DeliveryCarousel from '@/components/aboutComponents/DeliveryCarousel.vue';
+import ImageCarousel from '@/components/ImageCarousel.vue';
 
 // Successfull Deliveries
 import Delivery08 from '@/assets/images/deliveryImages/Delivery08.mp4';
@@ -8,6 +9,15 @@ import Delivery10 from '@/assets/images/deliveryImages/Delivery10.mp4';
 import Delivery11 from '@/assets/images/deliveryImages/Delivery11.mp4';
 import Delivery12 from '@/assets/images/deliveryImages/Delivery12.mp4';
 import Delivery13 from '@/assets/images/deliveryImages/Delivery13.mp4';
+
+// Images for Carousel
+import VehicleImage01 from '@/assets/images/deliveryImages/VehicleImage01.jpg';
+import VehicleImage02 from '@/assets/images/deliveryImages/VehicleImage02.jpg';
+
+const imageItems = [
+    VehicleImage01,
+    VehicleImage02
+]
 
 const deliveryVideos = [
     Delivery08,
@@ -48,7 +58,7 @@ const deliveryVideos = [
                     </p>
                     <p>
                         <span class="font-semibold text-gray-800">Pinoy Pride Worldwide specializes in shipping
-                            used vehicles such as cars, speedboat, jet skis
+                            used vehicles such as cars, speedboat, jet skis, heavy equipments
                             and more to the Philippines</span>. You’ve found a trusted forwarding partner who can handle
                         and manage
                         all the details for you!
@@ -573,6 +583,9 @@ const deliveryVideos = [
                     and Motorcycle
                 </h2>
                 <div class="space-y-4">
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <ImageCarousel :images="imageItems" />
+                    </div>
                     <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
                         <DeliveryCarousel :videos="deliveryVideos" />
                     </div>

@@ -1,6 +1,15 @@
 <script setup>
 import { ref } from 'vue';
 
+import ImageCarousel from '@/components/ImageCarousel.vue';
+
+// Commercial Images
+import CommercialImage01 from '@/assets/images/balikBayan/CommercialImage01.png';
+
+const imageItems = [
+    CommercialImage01
+]
+
 const language = ref('en'); // default language
 
 // Translations
@@ -141,7 +150,7 @@ function toggleLanguage(lang) {
 
 <template>
     <section class="py-14 px-4">
-        <div class="max-w-7xl mx-auto">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[80%_30%] gap-10">
             <div class="p-6 bg-white rounded-2xl shadow-sm">
 
                 <div class="flex justify-end mb-4 max-w-7xl mx-auto">
@@ -182,6 +191,18 @@ function toggleLanguage(lang) {
                     <p class="text-gray-800 font-medium">📧 Email: <a :href="`mailto:${texts[language].contactEmail}`"
                             class="text-blue-600 underline hover:text-blue-700">{{ texts[language].contactEmail }}</a>
                     </p>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="flex flex-col items-center justify-start lg:sticky lg:top-24">
+                <h2 class="text-lg font-bold text-gray-800 mb-4 text-center">
+                    Balikbayan box mixed with commercial cargo loaded with engine and other car parts.
+                </h2>
+                <div class="space-y-4">
+                    <div class="w-full rounded-xl overflow-hidden shadow-md p-3">
+                        <ImageCarousel :images="imageItems" />
+                    </div>
                 </div>
             </div>
         </div>
