@@ -29,7 +29,6 @@ onMounted(() => {
 })
 </script>
 
-
 <template>
     <section class="min-h-[70vh] flex flex-col items-center justify-center px-4 py-16 text-center">
         <!-- Headline -->
@@ -55,6 +54,29 @@ onMounted(() => {
             </button>
         </form>
 
+        <!-- Modern Sample Format -->
+        <div class="mt-3">
+            <p class="text-sm text-gray-500">
+                <span class="font-semibold text-gray-700">Sample Format:</span>
+            </p>
+
+            <div class="flex items-center justify-center gap-2 mt-1">
+                <span
+                    class="px-3 py-1 bg-white border border-gray-300 rounded-md text-xs font-mono text-gray-700 shadow">
+                    PPW-SE-XXXX
+                </span>
+                <span
+                    class="px-3 py-1 bg-white border border-gray-300 rounded-md text-xs font-mono text-gray-700 shadow">
+                    PPW-VA-XXXX
+                </span>
+            </div>
+
+            <p class="text-xs text-gray-400 mt-1 italic">
+                Format: PPW-STATECODE-XXXX
+            </p>
+        </div>
+
+
         <!-- Tracking Result -->
         <div v-if="result" class="mt-10 w-full max-w-3xl">
             <div class="card bg-base-100 shadow-lg border border-gray-300">
@@ -69,7 +91,8 @@ onMounted(() => {
                     <!-- Timeline -->
                     <div class="h-80 overflow-y-auto pr-2 custom-scroll">
                         <div v-for="(event, idx) in [...result.history].reverse()" :key="idx" class="grid gap-3 items-start relative mb-8
-           grid-cols-[100px_30px_1fr] sm:grid-cols-[160px_40px_1fr]">
+                            grid-cols-[100px_30px_1fr] sm:grid-cols-[160px_40px_1fr]">
+
                             <!-- Time -->
                             <div class="text-right">
                                 <time class="block text-xs sm:text-sm font-medium text-gray-500">
@@ -79,11 +102,9 @@ onMounted(() => {
 
                             <!-- Timeline column -->
                             <div class="relative flex flex-col items-center">
-                                <!-- Line (except last) -->
                                 <div v-if="idx !== result.history.length - 1"
                                     class="absolute top-4 bottom-0 w-px bg-gray-300"></div>
 
-                                <!-- Dot -->
                                 <div :class="[
                                     'relative z-10 flex items-center justify-center rounded-full text-white text-[10px]',
                                     idx === 0 ? 'w-6 h-6 bg-primary' : 'w-4 h-4 bg-green-500'
@@ -101,10 +122,13 @@ onMounted(() => {
                                     {{ event.message }}
                                 </p>
                             </div>
+
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
+
     </section>
 </template>
