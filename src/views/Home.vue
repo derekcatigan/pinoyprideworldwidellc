@@ -125,7 +125,7 @@ const goToTrack = () => {
                     <!-- Input -->
                     <div class="w-full">
                         <label class="text-sm font-medium">Tracking Number</label>
-                        <input type="text" v-model="trackingNumber" placeholder="Enter your Tracking/Invoice number"
+                        <input type="text" v-model="trackingNumber" placeholder="e.g. PPW-WA-0000"
                             class="w-full input input-sm mt-1" />
                     </div>
 

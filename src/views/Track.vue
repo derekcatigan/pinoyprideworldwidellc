@@ -47,7 +47,7 @@ onMounted(() => {
         <!-- Tracking Input -->
         <form @submit.prevent="trackShipment"
             class="w-full flex flex-col sm:flex-row items-center justify-center gap-3 max-w-xl">
-            <input v-model="inputNumber" type="text" placeholder="Enter Tracking Number / Invoice #"
+            <input v-model="inputNumber" type="text" placeholder="e.g. PPW-WA-0000"
                 class="input input-bordered w-full sm:flex-1" />
             <button type="submit" @click="trackShipment" class="btn btn-primary w-full sm:w-auto">
                 Track
@@ -55,7 +55,7 @@ onMounted(() => {
         </form>
 
         <!-- Modern Sample Format -->
-        <div class="mt-3">
+        <!-- <div class="mt-3">
             <p class="text-sm text-gray-500">
                 <span class="font-semibold text-gray-700">Sample Format:</span>
             </p>
@@ -74,7 +74,7 @@ onMounted(() => {
             <p class="text-xs text-gray-400 mt-1 italic">
                 Format: PPW-STATECODE-XXXX
             </p>
-        </div>
+        </div> -->
 
 
         <!-- Tracking Result -->
