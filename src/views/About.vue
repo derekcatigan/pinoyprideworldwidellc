@@ -18,7 +18,7 @@ import logo2022 from '@/assets/logos/logo2022.jpg';
 import presentLogo from '@/assets/logos/PinoyPrideLogo.png';
 
 // Website Images
-import Website01 from '@/assets/images/Website01.png';
+import Website01 from '@/assets/images/Website03.png';
 import Website02 from '@/assets/images/Website02.png';
 
 const logos = [
